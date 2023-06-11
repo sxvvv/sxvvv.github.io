@@ -445,6 +445,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 - [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE Corporation
 - [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
 - [Ruiqi Wu](https://rq-wu.github.io)@NKU
+- [Junhua Liu](http://www.junhualiu.ml)@CUHK(SZ)
 
 
 # 💬 Academic Services
