@@ -84,6 +84,93 @@ My primary research interests include computer vision and deep learning, mainly 
 
 <tbody>
 
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing</papertitle_just>     
+  </a>
+  <br>
+SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu
+  <br>
+<em>ArXiv</em>, 2023 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p>Under review.</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Cross-scale Prototype Learning Transformer for Image Snow Removal </papertitle_just>     
+  </a>
+  <br>
+SiXiang Chen*, <strong>Tian Ye*</strong>, Tian Ye, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
+  <br>
+<em>ArXiv</em>, 2023 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p>Under review.</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23_shadowdiffusion_start() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// }
+// function submit23_shadowdiffusion_stop() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// }
+// submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Sequential Affinity Learning for Video Restoration</papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye*</strong>, SiXiang Chen*, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue
+  <br>
+<em>ArXiv</em>, 2023 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p>Under review</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
+
 
 
 <!-- ###################################################################################################-->
@@ -115,7 +202,6 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Wenqi Ren, Erka
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
 <a href="">code</a>
-<p></p>
 <p>NightHazeFormer generates non-learnable prior queries that effectively guides the model to learn abundant prior features from input nighttime hazy images.</p>
 </td>
 
@@ -147,13 +233,12 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Wenqi Ren, Erka
     <papertitle_just>Five A+ Network: You Only Need 9K Parameters for Underwater Image Enhancement</papertitle_just>     
   </a>
   <br>
-Jingxia Jiang, <strong>Tian Ye</strong>, Jinbin Bai, Sixiang Chen, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen
+Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen
   <br>
 <em>ArXiv</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.08824">PDF</a>
 |
 <a href="https://github.com/Owen718/FiveAPlus-Network">code</a>
-<p></p>
 <p>Super-light Underwater Image Enhancement network only have ~9K parameters!</p>
 </td>
 
@@ -189,13 +274,12 @@ Jingxia Jiang, <strong>Tian Ye</strong>, Jinbin Bai, Sixiang Chen, Wenhao Chai, 
     <papertitle_just>Real-time Transformer for Depth Estimation and Haze Removal from Varicolored Haze Scenes</papertitle_just>     
   </a>
   <br>
-Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen 
+Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen 
   <br>
 <em>ICASSP Poster</em>, 2022 <br>
 <a href="https://ieeexplore.ieee.org/abstract/document/10096828">PDF</a>
 |
 <a href="">code</a>
-<p></p>
 <p>First Real-time Transformer performs Depth Estimation and Haze Removal from Varicolored Haze Scenes.</p>
 </td>
 
@@ -225,7 +309,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
     <papertitle_just>MSP-former: Multi-scale projection transformer for single image desnowing</papertitle_just>     
   </a>
   <br>
-  Sixiang Chen, <strong>Tian Ye</strong>, Yun Liu, Taodong Liao, Yi Ye, Erkang Chen
+  Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Taodong Liao, Yi Ye, Erkang Chen
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
@@ -233,7 +317,6 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
 <a href="https://ieeexplore.ieee.org/abstract/document/10095605">PDF</a>
 |
 <a href="">code</a> 
-<p></p>
 <p>Efficient Multi-scale Projection Transformer for single image desnowing.</p>
 </td>
 
@@ -263,14 +346,13 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
     <papertitle_just>Towards Real-time High-Definition Image Snow Removal: Efficient Pyramid Network with Asymmetrical Encoder-decoder Architecture</papertitle_just>     
   </a>
   <br>
-  <strong>Tian Ye</strong>, Sixiang Chen, Yun Liu, Yi Ye, Erkang Chen<!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
+  <strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Yi Ye, Erkang Chen<!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
 <em>ACCV Poster</em>, 2022 <br>
 <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Ye_Towards_Real-time_High-Definition_Image_Snow_Removal_Efficient_Pyramid_Network_with_ACCV_2022_paper.pdf">PDF</a>
 |
 <a href="">code</a> 
-<p></p>
 <p>First real-time network for High-Definition image snow removal.</p>
 </td>
 
@@ -300,7 +382,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
     <papertitle_just>Perceiving and Modeling Density for Image Dehazing</papertitle_just>     
   </a>
   <br>
-  <strong>Tian Ye</strong>, Yunchen Zhang, Mingchao Jiang, Liang Chen, Yun Liu, Erkang Chen. 
+  <strong>Tian Ye*</strong>, Yunchen Zhang*, Mingchao Jiang*, Liang Chen, Yun Liu, Erkang Chen. 
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
@@ -308,7 +390,6 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
 |
 <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">code</a> 
-<p></p>
 <p>We propose to perceive and model hazy density for single image dehazing.</p>
 </td>
 
@@ -338,7 +419,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
     <papertitle_just>Underwater Light Field Retention: Neural Rendering for Underwater Imaging</papertitle_just>     
   </a>
   <br>
-  <strong>Tian Ye</strong>, Sixiang Chen, Yun Liu, Yi Ye, Erkang Chen, Yuche Li
+  <strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Yi Ye, Erkang Chen, Yuche Li
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
@@ -346,7 +427,6 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
 <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Ye_Underwater_Light_Field_Retention_Neural_Rendering_for_Underwater_Imaging_CVPRW_2022_paper.pdf">PDF</a>
 |
 <a href="https://github.com/Ephemeral182/UWNR">code</a> 
-<p></p>
 <p>A controlable Underwater Image Generation method based on Neural Rendering.</p>
 </td>
 
@@ -364,7 +444,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang 
 - [Wenhao Chai](http://rese1f.github.io)@UW&MSRA
 - [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE Corporation
 - [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
-
+- [Ruiqi Wu](https://rq-wu.github.io)@NKU
 
 
 # 💬 Academic Services
