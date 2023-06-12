@@ -85,7 +85,7 @@ author:
   bio              : "CV Researcher"
   location         : "Fujian, China"
   employer         :
-  googlescholar    : "httpss://scholar.google.com/citations?user=1sGXZ-wAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=1sGXZ-wAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "httpss://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "httpss://github.com/Owen718"
+  github           : "https://github.com/Owen718"
   google_plus      :
   keybase          :
   instagram        :
