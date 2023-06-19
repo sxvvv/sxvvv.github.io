@@ -124,7 +124,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
     <papertitle_just>Cross-scale Prototype Learning Transformer for Image Snow Removal </papertitle_just>     
   </a>
   <br>
-SiXiang Chen*, <strong>Tian Ye*</strong>, Tian Ye, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
+SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
   <br>
 <em>ArXiv</em>, 2023 <br>
 <a href="">PDF</a>
