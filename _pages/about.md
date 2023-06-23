@@ -249,6 +249,43 @@ Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Cha
 
 
 
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23_shadowdiffusion_start() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// }
+// function submit23_shadowdiffusion_stop() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// }
+// submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2302.12186">
+    <papertitle_just>RSFDM-Net: Real-time Spatial and Frequency Domains Modulation Network for Underwater Image Enhancement</papertitle_just>     
+  </a>
+  <br>
+Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</strong>, Eekang Chen
+  <br>
+<em>ICIP</em>, 2023 <br>
+<a href="https://arxiv.org/pdf/2302.12186">PDF</a>
+|
+<a href="">code</a>
+<p>we propose a Real-time Spatial and Frequency Domains Modulation Network for the efficient enhancement of colors and details in underwater images. </p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
+
+
 
 
 
