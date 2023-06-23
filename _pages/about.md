@@ -85,6 +85,46 @@ My primary research interests include computer vision and deep learning, mainly 
 
 <tbody>
 
+
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23_shadowdiffusion_start() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// }
+// function submit23_shadowdiffusion_stop() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// }
+// submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>MPM: Unified 2D-3D Human Pose Representation via Masked Pose Modeling </papertitle_just>     
+  </a>
+  <br>
+Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song, Jenq-Neng Hwang, Gaoang Wang 
+  <br>
+<em>Under Review.</em>, 2023 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
+
+
+
+
 <!-- ###################################################################################################-->
 <!-- Paper V ShadowDiffusion-->
 <!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
@@ -104,7 +144,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <a href="">PDF</a>
 |
 <a href="">code</a>
-<p>Under review.</p>
+<p>Under Review.</p>
 </td>
 
 <!-- Paper V ShadowDiffusion -->
@@ -130,7 +170,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <a href="">PDF</a>
 |
 <a href="">code</a>
-<p>Under review.</p>
+<p>Under Review.</p>
 </td>
 
 <!-- Paper V ShadowDiffusion -->
@@ -165,7 +205,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <a href="">PDF</a>
 |
 <a href="">code</a>
-<p>Under review</p>
+<p>Under Review.</p>
 </td>
 
 <!-- Paper V ShadowDiffusion -->
