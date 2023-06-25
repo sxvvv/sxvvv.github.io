@@ -523,6 +523,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 - [Leitian Tao](https://taoleitian.github.io)@WHU
 - [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE 
 - [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
+- [Wenbin Zhou](https://scholar.google.com/citations?user=dfe9NgEAAAAJ&hl=en)@SCUT
 - [Ruiqi Wu](https://rq-wu.github.io)@NKU
 - [Junhua Liu](http://www.junhualiu.ml)@CUHK(SZ)
 
