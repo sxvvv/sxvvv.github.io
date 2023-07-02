@@ -513,9 +513,10 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 </tbody>
 
 
-# 🎖 Competition Awards
+# 🎖 Competitions & Awards
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
-
+- 2022 JMU Student Star Award  (20/19000)
+  
 # 🧑‍🤝‍🧑 My Friends
 - [Sixiang Chen](https://scholar.google.com/citations?user=EtljKSgAAAAJ&hl=en) @HKUST(GZ)
 - [Jinbin Bai](https://noyii.github.io)@NUS
