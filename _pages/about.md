@@ -105,16 +105,16 @@ My primary research interests include computer vision and deep learning, mainly 
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>MPM: Unified 2D-3D Human Pose Representation via Masked Pose Modeling </papertitle_just>     
+  <a href="https://arxiv.org/abs/2306.17201">
+    <papertitle_just>MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling </papertitle_just>     
   </a>
   <br>
 Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song, Jenq-Neng Hwang, Gaoang Wang 
   <br>
 <em>Under Review.</em>, 2023 <br>
-<a href="">PDF</a>
+<a href="https://arxiv.org/abs/2306.17201">PDF</a>
 |
-<a href="">code</a>
+<a href="https://github.com/vvirgooo2/MPM">code</a>
 <p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
 </td>
 
