@@ -530,7 +530,8 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 
 # 💬 Academic Services
-- Reviewer: ACCV 2022, WACV 2022, AAAI 2023, ICCV 2023, BMVC 2023.
+- Conference Reviewer: ACCV, WACV, AAAI, ICCV, BMVC.
+- Journal Reviewer: IEEE Journal of Oceanic Engineering
 
 
 # 📖 Educations
