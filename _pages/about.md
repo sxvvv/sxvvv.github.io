@@ -242,7 +242,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Wenqi Ren, Erka
 <em>ArXiv</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
-<a href="">code</a>
+<a href="https://github.com/Owen718/NightHazeFormer">code</a>
 <p>NightHazeFormer generates non-learnable prior queries that effectively guides the model to learn abundant prior features from input nighttime hazy images.</p>
 </td>
 
