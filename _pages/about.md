@@ -13,7 +13,7 @@ I am Tian Ye, a incoming Research Assistant at the HKUST (GZ), supervised by [Pr
 Previously, I received my B.Eng degree from the Jimei University, Xiamen. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 My primary research interests include computer vision and deep learning, mainly focusing on image/video enhancement.
 
-# 📝 Publications
+# 📝 Arxiv&Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
 
 <style type="text/css">
