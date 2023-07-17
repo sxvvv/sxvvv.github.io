@@ -13,10 +13,6 @@ I am Tian Ye, a incoming Research Assistant at the HKUST (GZ), supervised by [Pr
 Previously, I received my B.Eng degree from the Jimei University, Xiamen. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 My primary research interests include computer vision and deep learning, mainly focusing on image/video enhancement.
 
-<!-- ## News!!!
--- Our paper **AWRCP: Reinventing Adverse Weather Removal with Codebook Priors** is accepted by ICCV2023.
-
--- Our paper **Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks** is accepted by ICCV2023. -->
 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
@@ -151,8 +147,8 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/abs/2306.17201">
-    <papertitle_just>AWRCP: Reinventing Adverse Weather Removal with Codebook Priors </papertitle_just>     
+  <a href="">
+    <papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
   </a>
   <br>
 <strong>Tian Ye</strong>, Sixiang Chen, Jinbin Bai, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
