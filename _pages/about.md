@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, a incoming Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). 
+I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). 
 
 Previously, I received my B.Eng degree from the Jimei University, Xiamen. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
-My primary research interests include computer vision and deep learning, mainly focusing on image/video enhancement.
+My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation.
 
 
 # 📝 Arxiv&Publications
