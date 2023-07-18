@@ -151,7 +151,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
     <papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
   </a>
   <br>
-<strong>Tian Ye</strong>, Sixiang Chen, Jinbin Bai, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
+<strong>Tian Ye*</strong>, Sixiang Chen*, Jinbin Bai*, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
   <br>
 <em>ICCV,</em> 2023 <br>
 <a href="">PDF</a>
@@ -600,7 +600,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 - 2022 JMU Student Star Award  (20/19000)
   
 # 🧑‍🤝‍🧑 My Friends
-- [Sixiang Chen](https://scholar.google.com/citations?user=EtljKSgAAAAJ&hl=en) @HKUST(GZ)
+- [Sixiang Chen](https://sixiangchen.com) @HKUST(GZ)
 - [Jinbin Bai](https://noyii.github.io)@NUS
 - [Wenhao Chai](http://rese1f.github.io)@UW&MSRA
 - [Leitian Tao](https://taoleitian.github.io)@WHU
