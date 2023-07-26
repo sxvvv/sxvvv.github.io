@@ -223,11 +223,11 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
   <br>
 SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu
   <br>
-<em>Under Review.</em> 2023 <br>
+<em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
-<p>Under Review.</p>
+<p></p>
 </td>
 
 <!-- Paper V ShadowDiffusion -->
@@ -249,7 +249,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
   <br>
 SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
   <br>
-<em>ArXiv</em>, 2023 <br>
+<em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -284,7 +284,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
   <br>
 <strong>Tian Ye*</strong>, SiXiang Chen*, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue
   <br>
-<em>Under Review.</em> 2023 <br>
+<em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -322,7 +322,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
   <br>
 Yun Liu, Zhongsheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Wenqi Ren, Erkang Chen
   <br>
-<em>ArXiv</em>, 2023 <br>
+<em>ACM Multimedia (ACM MM)</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
 <a href="https://github.com/Owen718/NightHazeFormer">code</a>
