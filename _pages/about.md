@@ -13,10 +13,11 @@ I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Z
 Previously, I received my B.Eng degree from the Jimei University, Xiamen. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation.
 
-欢迎用微信联系我，我的微信号是wxh59309063，欢迎大家多多找我交流👏👏！！我很nice的（：
+欢迎用微信联系我，我的微信号是wxh59309063，欢迎大家多多找我交流👏👏！我很nice的（：
 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
+
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -87,6 +88,42 @@ My primary research interests include computer vision and deep learning, mainly 
 
 <tbody>
 
+
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23_shadowdiffusion_start() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// }
+// function submit23_shadowdiffusion_stop() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// }
+// submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://rese1f.github.io/MovieChat/">
+    <papertitle_just>MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
+  </a>
+  <br>
+Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, <strong>Tian Ye</strong>, Yan Lu, Jenq-Neng Hwang, Gaoang Wang
+  <br>
+<em>Arxiv</em> 2023 <br>
+<a href="https://arxiv.org/pdf/2307.16449">PDF</a>
+|
+<a href="https://github.com/rese1f/MovieChat">code</a>
+<p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
 
 
 <!-- ###################################################################################################-->
@@ -253,7 +290,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <a href="">PDF</a>
 |
 <a href="">code</a>
-<p>Under Review.</p>
+<p></p>
 </td>
 
 <!-- Paper V ShadowDiffusion -->
