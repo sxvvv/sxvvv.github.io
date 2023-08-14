@@ -18,6 +18,7 @@ My primary research interests include computer vision and deep learning, mainly 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
 
+Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-2 ICASSP/ICME-2 
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -357,7 +358,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
     <papertitle_just>NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer</papertitle_just>     
   </a>
   <br>
-Yun Liu, Zhongsheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Wenqi Ren, Erkang Chen
+Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Erkang Chen
   <br>
 <em>ACM Multimedia (ACM MM)</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
