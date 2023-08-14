@@ -152,7 +152,7 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
   <br>
 Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
   <br>
-<em>ICCV</em> 2023 <br>
+<em>ICCV Poster</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -192,7 +192,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
   <br>
 <strong>Tian Ye*</strong>, Sixiang Chen*, Jinbin Bai*, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
   <br>
-<em>ICCV,</em> 2023 <br>
+<em>ICCV Poster</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -435,7 +435,7 @@ Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Cha
   <br>
 Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</strong>, Eekang Chen
   <br>
-<em>ICIP</em>, 2023 <br>
+<em>ICIP Poster</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2302.12186">PDF</a>
 |
 <a href="">code</a>
