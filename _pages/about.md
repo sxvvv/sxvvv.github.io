@@ -18,7 +18,7 @@ My primary research interests include computer vision and deep learning, mainly 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
 
-Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-2 ICASSP/ICME-2 
+Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3 ICASSP/ICME-2 
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -397,7 +397,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
   <br>
 Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen
   <br>
-<em>ArXiv</em>, 2023 <br>
+<em>BMVC</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.08824">PDF</a>
 |
 <a href="https://github.com/Owen718/FiveAPlus-Network">code</a>
