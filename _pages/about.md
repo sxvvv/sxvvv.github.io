@@ -153,9 +153,11 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
   <br>
 <em>ICCV Poster</em> 2023 <br>
-<a href="">PDF</a>
+<a href="https://arxiv.org/pdf/2308.14153.pdf">PDF</a>
 |
-<a href="">code</a>
+<a href="https://github.com/Owen718/UDR-S2Former_deraining">code</a>
+|
+<a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">Project</a>
 <p></p>
 </td>
 
