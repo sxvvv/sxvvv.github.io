@@ -152,7 +152,7 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
   <br>
 Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
   <br>
-<em>ICCV Poster</em> 2023 <br>
+<em>ICCV</em> 2023 <br>
 <a href="https://arxiv.org/pdf/2308.14153.pdf">PDF</a>
 |
 <a href="https://github.com/Owen718/UDR-S2Former_deraining">code</a>
@@ -194,7 +194,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
   <br>
 <strong>Tian Ye*</strong>, Sixiang Chen*, Jinbin Bai*, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
   <br>
-<em>ICCV Poster</em> 2023 <br>
+<em>ICCV</em> 2023 <br>
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -437,7 +437,7 @@ Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Cha
   <br>
 Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</strong>, Eekang Chen
   <br>
-<em>ICIP Poster</em>, 2023 <br>
+<em>ICIP</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2302.12186">PDF</a>
 |
 <a href="">code</a>
@@ -477,7 +477,7 @@ Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</s
   <br>
 Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen 
   <br>
-<em>ICASSP Poster</em>, 2022 <br>
+<em>ICASSP</em>, 2022 <br>
 <a href="https://ieeexplore.ieee.org/abstract/document/10096828">PDF</a>
 |
 <a href="">code</a>
@@ -514,7 +514,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
-<em>ICASSP Poster</em>, 2022 <br>
+<em>ICASSP</em>, 2022 <br>
 <a href="https://ieeexplore.ieee.org/abstract/document/10095605">PDF</a>
 |
 <a href="">code</a> 
@@ -550,7 +550,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
   <strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Yi Ye, Erkang Chen<!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
-<em>ACCV Poster</em>, 2022 <br>
+<em>ACCV</em>, 2022 <br>
 <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Ye_Towards_Real-time_High-Definition_Image_Snow_Removal_Efficient_Pyramid_Network_with_ACCV_2022_paper.pdf">PDF</a>
 |
 <a href="">code</a> 
@@ -624,7 +624,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
-<em>CVPR Workshop Poster</em>, 2022 <br>
+<em>CVPR Workshop</em>, 2022 <br>
 <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Ye_Underwater_Light_Field_Retention_Neural_Rendering_for_Underwater_Imaging_CVPRW_2022_paper.pdf">PDF</a>
 |
 <a href="https://github.com/Ephemeral182/UWNR">code</a> 
