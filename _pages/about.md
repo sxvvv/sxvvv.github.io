@@ -8,17 +8,14 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). 
+I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 
-Previously, I received my B.Eng degree from the Jimei University, Xiamen. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
-My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation.
-
-欢迎用微信联系我，我的微信号是wxh59309063，欢迎大家多多找我交流👏👏！我很nice的（：
+欢迎用微信联系我，我的微信号是wxh59309063，欢迎大家多多找我交流，我很nice的（：！！
 
 # 📝 Arxiv&Publications
-<p style='text-align: justify;'> My previous research works were dedicated to: (1) Handling visual perception problems and (2) Performing visibility enhancement, under degraded conditions, (3) Efficient neural network and its applications. </p>
+<p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
 
-Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3 ICASSP/ICME-2 
+Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3 
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
