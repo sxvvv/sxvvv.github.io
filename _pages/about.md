@@ -692,7 +692,11 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 # 💬 Academic Services
 - Conference Reviewer: ACCV, WACV, AAAI, ICCV, BMVC.
-- Journal Reviewer: IEEE Journal of Oceanic Engineering
+- Journal Reviewer: 
+  
+  IEEE Signal Processing Letter
+
+  IEEE Journal of Oceanic Engineering
 
 
 # 📖 Educations
