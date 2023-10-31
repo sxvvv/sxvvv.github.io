@@ -87,6 +87,48 @@ Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3
 <tbody>
 
 
+
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V ShadowDiffusion-->
+<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23_shadowdiffusion_start() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// }
+// function submit23_shadowdiffusion_stop() {
+// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// }
+// submit23_shadowdiffusion_stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2310.16002">
+    <papertitle_just>Integrating View Conditions for Image Synthesis</papertitle_just>     
+  </a>
+  <br>
+Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
+<br>
+<em>Arxiv</em> 2023 <br>
+<a href="https://arxiv.org/pdf/2310.16002">PDF</a>
+|
+<a href="">code</a>
+<p>This paper introduces a pioneering framework that integrates viewpoint information to enhance the control of image editing tasks.</p>
+</td>
+
+<!-- Paper V ShadowDiffusion -->
+<!-- ###################################################################################################-->
+  
+
+
+
+
 <!-- ###################################################################################################-->
 <!-- Paper V ShadowDiffusion-->
 <!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
