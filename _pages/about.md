@@ -10,7 +10,6 @@ redirect_from:
 <!-- bundle exec jekyll serve -->
 I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 
-欢迎用微信联系我，我的微信号是wxh59309063，欢迎大家多多找我交流，我很nice的（：！！
 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
