@@ -15,6 +15,7 @@ I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Z
 <p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
 
 Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3 
+Google Citation: ~300+ (2023.11)
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
