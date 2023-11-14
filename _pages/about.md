@@ -690,7 +690,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 
 # 💬 Academic Services
-- Conference Reviewer: ACCV, WACV, AAAI, ICCV, BMVC.
+- Conference Reviewer: ACCV, WACV, BMVC, AAAI, ICCV, CVPR.
 - Journal Reviewer: 
   
   IEEE Signal Processing Letter
