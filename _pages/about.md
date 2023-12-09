@@ -108,7 +108,7 @@ Google Scholar Citation: ~300+ (2023.11)
 </td>
 <td valign="top" width="80%">
   <a href="">
-    <papertitle_just>VOCNIR: ClearerNight Image Restoration with Vector-Quantized Codebook</papertitle_just>     
+    <papertitle_just>VQCNIR: ClearerNight Image Restoration with Vector-Quantized Codebook</papertitle_just>     
   </a>
   <br>
 Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Shasha Huang, Hongsheng Chen, Sixiang Chen
@@ -120,6 +120,38 @@ Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Sha
 <p></p>
 </td>
 
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://rese1f.github.io/STEVE/">
+    <papertitle_just>See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
+  </a>
+  <br>
+Zhonghan Zhao,  Wenhao Chai,  Xuan Wang,  Li Boyi,  Shengyu Hao,  Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang,  Gaoang Wang
+<br>
+<em>Arxiv</em> 2023 <br>
+<a href="https://arxiv.org/abs/2311.15209">PDF</a>
+|
+<a href="https://github.com/rese1f/STEVE">code</a>
+<p></p>
+</td>
 
 
 <!-- ###################################################################################################-->
