@@ -14,7 +14,7 @@ I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Z
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
 
-Summary: CVPR/ICCV/ECCV-3 ACMMM-4 ACCV/ICIP/BMVC-3 
+Summary: CVPR/ICCV/ECCV-3 AAAI/ACMMM-5 ACCV/ICIP/BMVC-3 
 
 Google Scholar Citation: ~300+ (2023.11)
 
@@ -88,25 +88,56 @@ Google Scholar Citation: ~300+ (2023.11)
 <tbody>
 
 
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>VOCNIR: ClearerNight Image Restoration with Vector-Quantized Codebook</papertitle_just>     
+  </a>
+  <br>
+Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Shasha Huang, Hongsheng Chen, Sixiang Chen
+<br>
+<em>AAAI</em> 2024 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p></p>
+</td>
 
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -123,29 +154,25 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 <p>This paper introduces a pioneering framework that integrates viewpoint information to enhance the control of image editing tasks.</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
-<!-- ###################################################################################################-->
-  
-
 
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -162,31 +189,31 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Sparse_Sampling_Transformer_with_Uncertainty-Driven_Ranking_for_Unified_Removal_of_ICCV_2023_paper.html">
     <papertitle_just>Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks </papertitle_just>     
   </a>
   <br>
@@ -201,7 +228,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 <p></p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
@@ -210,25 +237,25 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.html">
     <papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
   </a>
   <br>
@@ -241,7 +268,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 <p></p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
@@ -250,21 +277,21 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -281,7 +308,7 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 <p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
@@ -289,11 +316,11 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 </td>
 <td valign="top" width="80%">
@@ -310,16 +337,16 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <p></p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 </td>
 <td valign="top" width="80%">
@@ -336,25 +363,25 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <p></p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -371,28 +398,28 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <p></p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -409,27 +436,27 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <p>NightHazeFormer generates non-learnable prior queries that effectively guides the model to learn abundant prior features from input nighttime hazy images.</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -446,28 +473,28 @@ Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Cha
 <p>Super-light Underwater Image Enhancement network only have ~9K parameters!</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -484,7 +511,7 @@ Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</s
 <p>we propose a Real-time Spatial and Frequency Domains Modulation Network for the efficient enhancement of colors and details in underwater images. </p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 
@@ -493,21 +520,21 @@ Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</s
 
 
 <!-- ###################################################################################################-->
-<!-- Paper V ShadowDiffusion-->
-<!-- <tr onmouseout="submit23_shadowdiffusion_stop()" onmouseover="submit23_shadowdiffusion_start()" > -->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
 <!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23_shadowdiffusion_image'><img src='./files/submit23_after.png'></div>
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
 <!-- </div> -->
 <script type="text/javascript">
-// function submit23_shadowdiffusion_start() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "1";
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
 // }
-// function submit23_shadowdiffusion_stop() {
-// document.getElementById('submit23_shadowdiffusion_image').style.opacity = "0";
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
 // }
-// submit23_shadowdiffusion_stop()
+// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -524,7 +551,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 <p>First Real-time Transformer performs Depth Estimation and Haze Removal from Varicolored Haze Scenes.</p>
 </td>
 
-<!-- Paper V ShadowDiffusion -->
+<!-- Paper V  -->
 <!-- ###################################################################################################-->
   
 <!-- ###################################################################################################-->
