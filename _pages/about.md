@@ -761,6 +761,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 # 📖 Educations
 - Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen, China.
+- Jan'2024-Jan'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
 
 
 
