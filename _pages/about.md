@@ -221,9 +221,7 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
 </td>
 
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
+
 
 
 <!-- ###################################################################################################-->
@@ -386,7 +384,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
     <papertitle_just>Cross-scale Prototype Learning Transformer for Image Snow Removal </papertitle_just>     
   </a>
   <br>
-SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
+Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
   <br>
 <em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
@@ -421,7 +419,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
     <papertitle_just>Sequential Affinity Learning for Video Restoration</papertitle_just>     
   </a>
   <br>
-<strong>Tian Ye*</strong>, SiXiang Chen*, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue
+<strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue
   <br>
 <em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
@@ -509,48 +507,6 @@ Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Cha
 <!-- ###################################################################################################-->
   
 
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2302.12186">
-    <papertitle_just>RSFDM-Net: Real-time Spatial and Frequency Domains Modulation Network for Underwater Image Enhancement</papertitle_just>     
-  </a>
-  <br>
-Jingxia Jiang, Jinbin Bai, Yun Liu, Junjie Yin, Sixiang Chen, <strong>Tian Ye</strong>, Eekang Chen
-  <br>
-<em>ICIP</em>, 2023 <br>
-<a href="https://arxiv.org/pdf/2302.12186">PDF</a>
-|
-<a href="">code</a>
-<p>we propose a Real-time Spatial and Frequency Domains Modulation Network for the efficient enhancement of colors and details in underwater images. </p>
-</td>
-
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
-
-
-
-
-
 <!-- ###################################################################################################-->
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
@@ -618,42 +574,6 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 |
 <a href="">code</a> 
 <p>Efficient Multi-scale Projection Transformer for single image desnowing.</p>
-</td>
-
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- ###################################################################################################-->
-  
-<!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
-<img src='./files/aaai23_before.jpg'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function aaai23_reflectance_start() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "1";
-// }
-// function aaai23_reflectance_stop() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "0";
-// }
-// aaai23_reflectance_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Ye_Towards_Real-time_High-Definition_Image_Snow_Removal_Efficient_Pyramid_Network_with_ACCV_2022_paper.pdf">
-    <papertitle_just>Towards Real-time High-Definition Image Snow Removal: Efficient Pyramid Network with Asymmetrical Encoder-decoder Architecture</papertitle_just>     
-  </a>
-  <br>
-  <strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Yi Ye, Erkang Chen<!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
-   -->
-  <br>
-<em>ACCV</em>, 2022 <br>
-<a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Ye_Towards_Real-time_High-Definition_Image_Snow_Removal_Efficient_Pyramid_Network_with_ACCV_2022_paper.pdf">PDF</a>
-|
-<a href="">code</a> 
-<p>First real-time network for High-Definition image snow removal.</p>
 </td>
 
 <!-- Paper IV Reflectance, AAAI'23 -->
@@ -740,10 +660,10 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 - 2022 JMU Student Star Award  (20/19000)
   
 # 🧑‍🤝‍🧑 My Friends
-- [Sixiang Chen](https://sixiangchen.com) @HKUST(GZ)
+- [Sixiang Chen](https://ephemeral182.github.io) @HKUST(GZ)
 - [Jinbin Bai](https://noyii.github.io)@NUS
 - [Wenhao Chai](http://rese1f.github.io)@UW&MSRA
-- [Leitian Tao](https://taoleitian.github.io)@WHU
+- [Leitian Tao](https://taoleitian.github.io)@UW-Madison
 - [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE 
 - [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
 - [Wenbin Zhou](https://scholar.google.com/citations?user=dfe9NgEAAAAJ&hl=en)@SCUT
