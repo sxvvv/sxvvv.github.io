@@ -107,14 +107,14 @@ Google Scholar Citation: ~300+ (2023.11)
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://arxiv.org/pdf/2312.08606.pdf">
     <papertitle_just>VQCNIR: ClearerNight Image Restoration with Vector-Quantized Codebook</papertitle_just>     
   </a>
   <br>
 Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Shasha Huang, Hongsheng Chen, Sixiang Chen
 <br>
 <em>AAAI</em> 2024 <br>
-<a href="">PDF</a>
+<a href="https://arxiv.org/pdf/2312.08606.pdf">PDF</a>
 |
 <a href="">code</a>
 <p></p>
