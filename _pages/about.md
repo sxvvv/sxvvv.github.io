@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problem and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
+I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student@HKUST-GZ, ROAS Thrust. My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problems and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 
 
 # 📝 Arxiv&Publications
@@ -664,6 +664,8 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 - [Jinbin Bai](https://noyii.github.io)@NUS
 - [Wenhao Chai](http://rese1f.github.io)@UW&MSRA
 - [Leitian Tao](https://taoleitian.github.io)@UW-Madison
+- [Zongyu Wu](https://wzongyu.github.io)@PSU
+- [Donghao ZHou](https://correr-zhou.github.io)@CAS&CUHK
 - [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE 
 - [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
 - [Wenbin Zhou](https://scholar.google.com/citations?user=dfe9NgEAAAAJ&hl=en)@SCUT
@@ -679,10 +681,13 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
   IEEE Journal of Oceanic Engineering
 
 
-# 📖 Educations
-- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen, China.
-- Jan'2024-Jan'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
+# 📖 Educations&Experience
 
+- Sep'2024-Jul'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
+
+- Jun'2023-Now: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
+  
+- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen, China.
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
