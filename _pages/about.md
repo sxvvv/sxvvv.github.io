@@ -683,11 +683,11 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 # 📖 Educations&Experience
 
-- Sep'2024-Jul'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
+- Sep'2024-Jul'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus.
 
-- Jun'2023-Now: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus, Guanzhou, China.
+- Jun'2023-Now: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus.
   
-- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen, China.
+- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
