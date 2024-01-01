@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student@HKUST-GZ, ROAS Thrust. My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problems and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
+I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student@HKUST-GZ, [ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problems and image generation. I was honored to be supervised and collaborated with **Dr. Erkang Chen** and **Dr. Yun Liu** during my undergraduate studies.
 
 
 # 📝 Arxiv&Publications
