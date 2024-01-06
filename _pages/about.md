@@ -16,7 +16,7 @@ I am Tian Ye, a Research Assistant at the HKUST (GZ), supervised by [Prof. Lei Z
 
 Summary: CVPR/ICCV/ECCV-3 AAAI-1 ACMMM-4
 
-Google Scholar Citation: ~300+ (2023.11)
+Google Scholar Citation: ~400 (2024.01)
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
