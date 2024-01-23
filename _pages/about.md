@@ -673,7 +673,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 
 # 💬 Academic Services
-- Conference Reviewer: ACCV 2022, WACV 2022&2023, BMVC 2023, AAAI 2022&2023&2024, ICCV 2023, CVPR 2024, ECCV 2024.
+- Conference Reviewer: ACCV 2022&2024, WACV 2023&2024, BMVC 2023, AAAI 2022&2023&2024, ICCV 2023, CVPR 2024, ECCV 2024.
 - Journal Reviewer: 
   
   IEEE Signal Processing Letter
