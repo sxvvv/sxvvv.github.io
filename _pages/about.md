@@ -116,7 +116,7 @@ Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Sha
 <em>AAAI</em> 2024 <br>
 <a href="https://arxiv.org/pdf/2312.08606.pdf">PDF</a>
 |
-<a href="">code</a>
+<a href="https://github.com/AlexZou14/VQCNIR">code</a>
 <p></p>
 </td>
 
