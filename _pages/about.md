@@ -13,10 +13,10 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
+<!-- 
+Summary: CVPR/ICCV/ECCV-3 AAAI-1 ACMMM-4 -->
 
-Summary: CVPR/ICCV/ECCV-3 AAAI-1 ACMMM-4
-
-Google Scholar Citation: ~400 (2024.01)
+Google Scholar Citation: ~450 (2024.02)
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -92,10 +92,7 @@ Google Scholar Citation: ~400 (2024.01)
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -121,117 +118,13 @@ Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Sha
 </td>
 
 
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://rese1f.github.io/STEVE/">
-    <papertitle_just>See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
-  </a>
-  <br>
-Zhonghan Zhao,  Wenhao Chai,  Xuan Wang,  Li Boyi,  Shengyu Hao,  Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang,  Gaoang Wang
-<br>
-<em>Arxiv</em> 2023 <br>
-<a href="https://arxiv.org/abs/2311.15209">PDF</a>
-|
-<a href="https://github.com/rese1f/STEVE">code</a>
-<p></p>
-</td>
 
 
 <!-- ###################################################################################################-->
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2310.16002">
-    <papertitle_just>Integrating View Conditions for Image Synthesis</papertitle_just>     
-  </a>
-  <br>
-Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
-<br>
-<em>Arxiv</em> 2023 <br>
-<a href="https://arxiv.org/pdf/2310.16002">PDF</a>
-|
-<a href="">code</a>
-<p>This paper introduces a pioneering framework that integrates viewpoint information to enhance the control of image editing tasks.</p>
-</td>
 
-
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://rese1f.github.io/MovieChat/">
-    <papertitle_just>MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
-  </a>
-  <br>
-Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, <strong>Tian Ye</strong>, Yan Lu, Jenq-Neng Hwang, Gaoang Wang
-  <br>
-<em>Arxiv</em> 2023 <br>
-<a href="https://arxiv.org/pdf/2307.16449">PDF</a>
-|
-<a href="https://github.com/rese1f/MovieChat">code</a>
-<p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
-</td>
-
-
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -258,22 +151,9 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 <p></p>
 </td>
 
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
 
 
-
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -306,22 +186,9 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 
 
 
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+
+<!-- <td width="20%">
 <script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
 </script>
 </td>
 <td valign="top" width="80%">
@@ -337,10 +204,9 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 <a href="https://github.com/vvirgooo2/MPM">code</a>
 <p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
 </td>
+ -->
 
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
+
 
 
 
@@ -349,9 +215,7 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
+
 </td>
 <td valign="top" width="80%">
   <a href="">
@@ -375,9 +239,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
+
 </td>
 <td valign="top" width="80%">
   <a href="">
@@ -400,10 +262,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -438,10 +297,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -475,10 +331,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -487,57 +340,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 // document.getElementById('submit23__image').style.opacity = "0";
 // }
 // submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2305.08824">
-    <papertitle_just>Five A+ Network: You Only Need 9K Parameters for Underwater Image Enhancement</papertitle_just>     
-  </a>
-  <br>
-Jingxia Jiang*, <strong>Tian Ye*</strong>, Jinbin Bai*, Sixiang Chen, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen
-  <br>
-<em>BMVC</em>, 2023 <br>
-<a href="https://arxiv.org/pdf/2305.08824">PDF</a>
-|
-<a href="https://github.com/Owen718/FiveAPlus-Network">code</a>
-<p>Super-light Underwater Image Enhancement network only have ~9K parameters!</p>
-</td>
 
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://ieeexplore.ieee.org/abstract/document/10096828">
-    <papertitle_just>Real-time Transformer for Depth Estimation and Haze Removal from Varicolored Haze Scenes</papertitle_just>     
-  </a>
-  <br>
-Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen 
-  <br>
-<em>ICASSP</em>, 2022 <br>
-<a href="https://ieeexplore.ieee.org/abstract/document/10096828">PDF</a>
-|
-<a href="">code</a>
-<p>First Real-time Transformer performs Depth Estimation and Haze Removal from Varicolored Haze Scenes.</p>
-</td>
 
 <!-- Paper V  -->
 <!-- ###################################################################################################-->
@@ -558,23 +361,6 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 // document.getElementById('aaai23_reflectance_image').style.opacity = "0";
 // }
 // aaai23_reflectance_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://ieeexplore.ieee.org/abstract/document/10095605">
-    <papertitle_just>MSP-former: Multi-scale projection transformer for single image desnowing</papertitle_just>     
-  </a>
-  <br>
-  Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Taodong Liao, Yi Ye, Erkang Chen
-  <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
-   -->
-  <br>
-<em>ICASSP</em>, 2022 <br>
-<a href="https://ieeexplore.ieee.org/abstract/document/10095605">PDF</a>
-|
-<a href="">code</a> 
-<p>Efficient Multi-scale Projection Transformer for single image desnowing.</p>
-</td>
 
 <!-- Paper IV Reflectance, AAAI'23 -->
 <!-- ###################################################################################################-->
@@ -615,40 +401,6 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Jun Shi, Yun Liu, JingXia Jiang, Erkan
 
 <!-- Paper IV Reflectance, AAAI'23 -->
 <!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
-<img src='./files/aaai23_before.jpg'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function aaai23_reflectance_start() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "1";
-// }
-// function aaai23_reflectance_stop() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "0";
-// }
-// aaai23_reflectance_stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Ye_Underwater_Light_Field_Retention_Neural_Rendering_for_Underwater_Imaging_CVPRW_2022_paper.pdf">
-    <papertitle_just>Underwater Light Field Retention: Neural Rendering for Underwater Imaging</papertitle_just>     
-  </a>
-  <br>
-  <strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Yi Ye, Erkang Chen, Yuche Li
-  <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
-   -->
-  <br>
-<em>CVPR Workshop</em>, 2022 <br>
-<a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Ye_Underwater_Light_Field_Retention_Neural_Rendering_for_Underwater_Imaging_CVPRW_2022_paper.pdf">PDF</a>
-|
-<a href="https://github.com/Ephemeral182/UWNR">code</a> 
-<p>A controlable Underwater Image Generation method based on Neural Rendering.</p>
-</td>
 
 
 
