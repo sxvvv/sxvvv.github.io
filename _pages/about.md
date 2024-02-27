@@ -84,8 +84,88 @@ Google Scholar Citation: ~450 (2024.02)
 </style>
 <!-- ################################  CONTENT START  ##################################################-->
 <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10"> -->
-
 <tbody>
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://rese1f.github.io/MovieChat/">
+    <papertitle_just>Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
+  <br>
+<em>CVPR</em> 2024 <br>
+<a href="">PDF</a>
+|
+<a href="">code</a>
+<p></p>
+</td>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://rese1f.github.io/MovieChat/">
+    <papertitle_just>MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
+  </a>
+  <br>
+Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, <strong>Tian Ye</strong>, Yan Lu, Jenq-Neng Hwang, Gaoang Wang
+  <br>
+<em>CVPR</em> 2024 <br>
+<a href="https://arxiv.org/pdf/2307.16449">PDF</a>
+|
+<a href="https://github.com/rese1f/MovieChat">code</a>
+<p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
+</td>
+
+
+
+
+
 
 
 <!-- ###################################################################################################-->
