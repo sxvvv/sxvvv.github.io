@@ -490,18 +490,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 # 🎖 Competitions & Awards
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
 - 2022 JMU Student Star Award  (20/19000)
-  
-# 🧑‍🤝‍🧑 My Friends
-- [Sixiang Chen](https://ephemeral182.github.io) @HKUST(GZ)
-- [Jinbin Bai](https://noyii.github.io)@NUS
-- [Wenhao Chai](http://rese1f.github.io)@UW&MSRA
-- [Leitian Tao](https://taoleitian.github.io)@UW-Madison
-- [Zongyu Wu](https://wzongyu.github.io)@PSU
-- [Donghao ZHou](https://correr-zhou.github.io)@CAS&CUHK
-- [Yunchen Zhang](https://scholar.google.com/citations?user=GogMKLIAAAAJ&hl=en)@ZTE 
-- [Mingchao Jiang](https://scholar.google.com/citations?user=-Br9r7-SC6cC&hl=en)@GUT
-- [Wenbin Zhou](https://scholar.google.com/citations?user=dfe9NgEAAAAJ&hl=en)@SCUT
-- [Ruiqi Wu](https://rq-wu.github.io)@NKU
+
 
 
 # 💬 Academic Services
