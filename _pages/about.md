@@ -13,10 +13,12 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 # 📝 Arxiv&Publications
 <p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
-<!-- 
-Summary: CVPR/ICCV/ECCV-3 AAAI-1 ACMMM-4 -->
 
-Google Scholar Citation: ~450 (2024.02)
+
+
+Google Scholar Citation: ~460 (2024.02)
+
+Summary: CVPR/ICCV/ECCV-5 AAAI/ACMMM-5
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
