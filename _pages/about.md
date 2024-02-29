@@ -16,7 +16,7 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 
 
-Google Scholar Citation: ~460 (2024.02)
+Google Scholar Citation: ~400 (2024.02)
 
 Summary: CVPR/ICCV/ECCV-5 AAAI/ACMMM-5
 
