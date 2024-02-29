@@ -490,6 +490,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 
 # 🎖 Competitions & Awards
+- PG scholarship of HKUST(GZ), 2024.
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
 - 2022 JMU Student Star Award  (20/19000)
 
