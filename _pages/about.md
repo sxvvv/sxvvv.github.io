@@ -18,7 +18,6 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 Google Scholar Citation: ~400 (2024.02)
 
-Summary: CVPR/ICCV/ECCV-5 AAAI/ACMMM-5
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -108,7 +107,7 @@ Summary: CVPR/ICCV/ECCV-5 AAAI/ACMMM-5
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://rese1f.github.io/MovieChat/">
+  <a href="">
     <papertitle_just>Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
   </a>
   <br>
