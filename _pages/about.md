@@ -12,7 +12,8 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 
 # 📝 Arxiv&Publications
-<p style='text-align: justify;'> My research works are dedicated to: (1) Performing visibility/machine vision enhancement, under degraded conditions. (2) Novel neural operators and architectures for Image/Video Prcocessing. (3) Generative Models for Image Generation/Editing/Enhancement.</p>
+<p style='text-align: justify;'> My current research is focused on three main areas. Firstly, addressing the challenges of real-world image restoration and enhancement, by identifying and overcoming the limitations of existing learning-based methods. Secondly, exploring vision problems related to photography, with the goal of producing images of superior visual quality. Lastly, providing support for the art creation industry and digital assets through advancements in AIGC (Artificial Intelligence Generated Content) technology.
+</p>
 
 
 
