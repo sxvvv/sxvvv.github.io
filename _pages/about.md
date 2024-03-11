@@ -107,7 +107,7 @@ Google Scholar Citation: ~400 (2024.02)
     <papertitle_just>Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation</papertitle_just>     
   </a>
   <br>
-Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang
+Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang.
   <br>
 <em>ICLR</em> 2024@LLMAgents Workshop<br>
 <a href="https://openreview.net/forum?id=ZletkvIp8W">OpenReview</a>
@@ -183,7 +183,6 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <a href="https://github.com/rese1f/MovieChat">Code</a>
 |
 <a href="https://github.com/rese1f/MovieChat">Project</a>
-<p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
 </td>
 
 
@@ -423,7 +422,6 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
 <a href="https://github.com/Owen718/NightHazeFormer">Code</a>
-<p>NightHazeFormer generates non-learnable prior queries that effectively guides the model to learn abundant prior features from input nighttime hazy images.</p>
 </td>
 
 <!-- Paper V  -->
@@ -500,7 +498,6 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
 |
 <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">Code</a> 
-<p>We propose to perceive and model hazy density for single image dehazing.</p>
 </td>
 
 <!-- Paper IV Reflectance, AAAI'23 -->
