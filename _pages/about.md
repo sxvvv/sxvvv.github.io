@@ -11,7 +11,7 @@ redirect_from:
 I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) at HKUST,GZ, supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problems and image generation. I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
 
 
-# 📝 Arxiv&Publications
+# 📝 Selected Papers
 <p style='text-align: justify;'> My current research is focused on three main areas. <strong>(a)</strong> Addressing the challenges of real-world image restoration and enhancement, by identifying and overcoming the limitations of existing learning-based methods. <strong>(b)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(c)</strong> Providing support for the art creation industry and digital assets through advancements in AIGC (Artificial Intelligence Generated Content) technology.
 </p>
 
@@ -123,13 +123,6 @@ Google Scholar Citation: ~400 (2024.02)
 
 
 
-
-
-
-
-
-
-
 <!-- ###################################################################################################-->
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
@@ -158,7 +151,9 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <em>CVPR</em> 2024 <br>
 <a href="https://arxiv.org/pdf/2307.16449">PDF</a>
 |
-<a href="https://github.com/rese1f/MovieChat">code</a>
+<a href="https://github.com/rese1f/MovieChat">Code</a>
+|
+<a href="https://github.com/rese1f/MovieChat">Project</a>
 <p>MovieChat is the first framework that supports the understanding of videos with tens of thousands of frames. We have incorporated long short-term memory mechanisms into the visual module and connected it with LLM.</p>
 </td>
 
@@ -193,7 +188,7 @@ Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Sha
 <em>AAAI</em> 2024 <br>
 <a href="https://arxiv.org/pdf/2312.08606.pdf">PDF</a>
 |
-<a href="https://github.com/AlexZou14/VQCNIR">code</a>
+<a href="https://github.com/AlexZou14/VQCNIR">Code</a>
 <p></p>
 </td>
 
@@ -225,7 +220,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 <em>ICCV</em> 2023 <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Sparse_Sampling_Transformer_with_Uncertainty-Driven_Ranking_for_Unified_Removal_of_ICCV_2023_paper.html">PDF</a>
 |
-<a href="https://github.com/Owen718/UDR-S2Former_deraining">code</a>
+<a href="https://github.com/Owen718/UDR-S2Former_deraining">Code</a>
 |
 <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">Project</a>
 <p></p>
@@ -254,7 +249,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 <em>ICCV</em> 2023 <br>
 <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.html">PDF</a>
 |
-<a href="">code</a>
+<a href="">Code</a>
 <p></p>
 </td>
 
@@ -307,7 +302,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <em>ACM Multimedia (ACM MM),</em> 2023 <br>
 <a href="">PDF</a>
 |
-<a href="">code</a>
+<a href="">Code</a>
 <p></p>
 </td>
 
@@ -318,7 +313,7 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <!-- ###################################################################################################-->
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
+<!-- <td width="20%">
 
 </td>
 <td valign="top" width="80%">
@@ -333,7 +328,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 |
 <a href="">code</a>
 <p></p>
-</td>
+</td> -->
 
 <!-- Paper V  -->
 <!-- ###################################################################################################-->
@@ -341,7 +336,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 <!-- ###################################################################################################-->
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
+<!-- <td width="20%">
 
 <script type="text/javascript">
 // function submit23__start() {
@@ -365,7 +360,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 |
 <a href="">code</a>
 <p></p>
-</td>
+</td> -->
 
 <!-- Paper V  -->
 <!-- ###################################################################################################-->
@@ -398,7 +393,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <em>ACM Multimedia (ACM MM)</em>, 2023 <br>
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
-<a href="https://github.com/Owen718/NightHazeFormer">code</a>
+<a href="https://github.com/Owen718/NightHazeFormer">Code</a>
 <p>NightHazeFormer generates non-learnable prior queries that effectively guides the model to learn abundant prior features from input nighttime hazy images.</p>
 </td>
 
@@ -475,7 +470,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <em>ECCV Oral</em>, 2022 <br>
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
 |
-<a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">code</a> 
+<a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">Code</a> 
 <p>We propose to perceive and model hazy density for single image dehazing.</p>
 </td>
 
