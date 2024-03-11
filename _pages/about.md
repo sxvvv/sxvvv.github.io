@@ -85,8 +85,6 @@ Google Scholar Citation: ~400 (2024.02)
 </style>
 
 
-
-<tbody>
 <td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
