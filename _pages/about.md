@@ -81,15 +81,44 @@ Google Scholar Citation: ~400 (2024.02)
     span.highlight {
         background-color: #ffffd0;
     }
+
 </style>
-<!-- ################################  CONTENT START  ##################################################-->
-<!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10"> -->
+
+
+
 <tbody>
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation</papertitle_just>     
+  </a>
+  <br>
+Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang
+  <br>
+<em>ICLR</em> 2024@LLMAgents Workshop<br>
+<a href="https://openreview.net/forum?id=ZletkvIp8W">OpenReview</a>
+<p></p>
+</td>
 
 
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+
+
+
+<tbody>
 <td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
