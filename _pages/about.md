@@ -102,7 +102,7 @@ Google Scholar Citation: ~400 (2024.02)
 </td>
 <td valign="top" width="80%">
   <a href="">
-    <papertitle_just>Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation</papertitle_just>     
+    [Emboided AI&LLM]<papertitle_just> Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation</papertitle_just>     
   </a>
   <br>
 Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang.
@@ -134,7 +134,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 </td>
 <td valign="top" width="80%">
   <a href="">
-    <papertitle_just>Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
+    [Generative Model For IR]<papertitle_just> Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
   </a>
   <br>
 <strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
@@ -170,7 +170,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 </td>
 <td valign="top" width="80%">
   <a href="https://rese1f.github.io/MovieChat/">
-    <papertitle_just>MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
+    [LLM&Multi-Modal]<papertitle_just> MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
   </a>
   <br>
 Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, <strong>Tian Ye</strong>, Yan Lu, Jenq-Neng Hwang, Gaoang Wang
@@ -181,11 +181,8 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <a href="https://github.com/rese1f/MovieChat">Code</a>
 |
 <a href="https://github.com/rese1f/MovieChat">Project</a>
+<p></p>
 </td>
-
-
-
-
 
 
 
@@ -193,7 +190,10 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 <!-- Paper V -->
 <!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
 <td width="20%">
-
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
@@ -206,7 +206,7 @@ Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu,
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2312.08606.pdf">
-    <papertitle_just>VQCNIR: Clearer Night Image Restoration with Vector-Quantized Codebook</papertitle_just>     
+    [Generative Model For IR]<papertitle_just> VQCNIR: Clearer Night Image Restoration with Vector-Quantized Codebook</papertitle_just>     
   </a>
   <br>
 Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Shasha Huang, Hongsheng Chen, Sixiang Chen
@@ -238,7 +238,7 @@ Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Sha
 </td>
 <td valign="top" width="80%">
   <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Sparse_Sampling_Transformer_with_Uncertainty-Driven_Ranking_for_Unified_Removal_of_ICCV_2023_paper.html">
-    <papertitle_just>Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks </papertitle_just>     
+    [Image Restoration]<papertitle_just> Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks </papertitle_just>     
   </a>
   <br>
 Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
@@ -267,7 +267,7 @@ Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Z
 </td>
 <td valign="top" width="80%">
   <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.html">
-    <papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
+   [Generative Model For IR]<papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
   </a>
   <br>
 <strong>Tian Ye*</strong>, Sixiang Chen*, Jinbin Bai*, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
@@ -320,7 +320,7 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 </td>
 <td valign="top" width="80%">
   <a href="">
-    <papertitle_just>Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing</papertitle_just>     
+    [Image Restoration]<papertitle_just> Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing</papertitle_just>     
   </a>
   <br>
 SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu
@@ -411,7 +411,7 @@ Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlo
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2305.09533.pdf">
-    <papertitle_just>NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer</papertitle_just>     
+   [Image Restoration]  <papertitle_just>NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer</papertitle_just>     
   </a>
   <br>
 Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Erkang Chen
@@ -420,6 +420,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
 |
 <a href="https://github.com/Owen718/NightHazeFormer">Code</a>
+<p></p>
 </td>
 
 <!-- Paper V  -->
@@ -435,57 +436,12 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <script type="text/javascript">
 // function submit23__start() {
 // document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-
-
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
-<!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
-<img src='./files/aaai23_before.jpg'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function aaai23_reflectance_start() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "1";
-// }
-// function aaai23_reflectance_stop() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "0";
-// }
-// aaai23_reflectance_stop()
-
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- ###################################################################################################-->
-
-<!-- ###################################################################################################-->
-<!-- Paper IV Reflectance, AAAI'23 -->
-<!-- <tr onmouseout="aaai23_reflectance_stop()" onmouseover="aaai23_reflectance_start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'aaai23_reflectance_image'><img src='./files/aaai23_after.jpg'></div>
-<img src='./files/aaai23_before.jpg'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function aaai23_reflectance_start() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "1";
-// }
-// function aaai23_reflectance_stop() {
-// document.getElementById('aaai23_reflectance_image').style.opacity = "0";
-// }
-// aaai23_reflectance_stop()
+// 
 </script>
 </td>
 <td valign="top" width="80%">
   <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">
-    <papertitle_just>Perceiving and Modeling Density for Image Dehazing</papertitle_just>     
+    [Image Restoration]<papertitle_just> Perceiving and Modeling Density for Image Dehazing</papertitle_just>     
   </a>
   <br>
   <strong>Tian Ye*</strong>, Yunchen Zhang*, Mingchao Jiang*, Liang Chen, Yun Liu, Erkang Chen. 
@@ -496,6 +452,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
 |
 <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">Code</a> 
+<p></p>
 </td>
 
 <!-- Paper IV Reflectance, AAAI'23 -->
