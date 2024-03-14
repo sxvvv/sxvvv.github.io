@@ -12,7 +12,7 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 
 # 📝 Selected Papers
-<p style='text-align: justify;'> My current research is focused on three main areas. <strong>(a)</strong> Addressing the challenges of real-world image restoration and enhancement, by identifying and overcoming the limitations of existing learning-based methods. <strong>(b)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(c)</strong> Providing support for the art creation industry and digital assets through advancements in AIGC (Artificial Intelligence Generated Content) technology.
+<p style='text-align: justify;'> My current research focuses on three main areas: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing learning-based methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
 </p>
 
 Google Scholar Citation: ~400 (2024.02)
