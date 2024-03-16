@@ -108,7 +108,7 @@ Google Scholar Citation: ~400 (2024.02)
 Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang.
   <br>
 <em>ICLR</em> 2024@LLMAgents Workshop<br>
-<a href="https://openreview.net/forum?id=ZletkvIp8W">OpenReview</a>
+<a href="https://arxiv.org/pdf/2403.08282.pdf">Arxiv</a>
 <p></p>
 </td>
 
