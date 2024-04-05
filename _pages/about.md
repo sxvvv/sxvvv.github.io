@@ -138,8 +138,10 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
   </a>
   <br>
 <strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
-  <br>
-<em>CVPR</em> 2024 <br>
+<br>
+<em>CVPR Highlight </em> 2024. <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
+
+
 <a href="">PDF</a>
 |
 <a href="">code</a>
@@ -448,7 +450,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
   <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
    -->
   <br>
-<em>ECCV Oral</em>, 2022 <br>
+<em>ECCV Oral</em>, 2022. <span style="color:red;">Selected as a Oral presentation paper (Top 2.7%,158 of 5,803 valid submissions).</span><br>
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
 |
 <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">Code</a> 
