@@ -111,7 +111,7 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 
 
 
-<tbody>
+
 <td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
@@ -143,7 +143,6 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 
 
 
-<tbody>
 <td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
