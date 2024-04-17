@@ -85,6 +85,33 @@ Google Scholar Citation: 500+ (2024.03)
 </style>
 
 
+<tbody>
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2310.16002">
+    <papertitle_just>ViewControl:View-ConsistentImage-to-Image Editing in Interior DesignScenes</papertitle_just>     
+  </a>
+  <br>
+Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
+<br>
+<em>IJCAI </em> 2024 <span style="color:red;">Special Track on AI, the Arts and Creativity. Three reviews with "Accept" ratings!</span> <br>
+<a href="https://arxiv.org/pdf/2310.16002">PDF</a>
+|
+<a href="">code</a>
+<p> </p>
+</td>
+  
+
+
+
+
+<tbody>
 <td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
@@ -139,7 +166,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
   <br>
 <strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
 <br>
-<em>CVPR Highlight </em> 2024. <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
+<em>CVPR Highlight </em> 2024 <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
 
 
 <a href="">PDF</a>
