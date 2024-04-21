@@ -95,7 +95,7 @@ Google Scholar Citation: 500+ (2024.03)
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    <papertitle_just>ViewControl:View-ConsistentImage-to-Image Editing in Interior DesignScenes</papertitle_just>     
+    <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior DesignScenes</papertitle_just>     
   </a>
   <br>
 Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
@@ -492,7 +492,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 
 # 🎖 Competitions & Awards
-- PG scholarship of HKUST(GZ), 2023.
+- PG scholarship of HKUST(GZ), 2024.
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
 - 2022 JMU Student Star Award  (20/19000)
 
