@@ -504,7 +504,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 # 💬 Academic Services
 - Conference Reviewer: ACCV 2022&2024, WACV 2023&2024, BMVC 2023, AAAI 2022&2023&2024, ICCV 2023, CVPR 2024, ECCV 2024, ACM MM 2024.
 
-- Workshop Organizer: [LOVEU@CVPR 2024](https://sites.google.com/view/loveucvpr24/track1)
+- Workshop Competition Organizer: [LOVEU@CVPR 2024](https://sites.google.com/view/loveucvpr24/track1)
   
 - Journal Reviewer: 
 
