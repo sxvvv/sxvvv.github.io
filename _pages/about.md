@@ -11,7 +11,7 @@ redirect_from:
 I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) at HKUST,GZ, supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). My primary research interests include computer vision and deep learning, mainly focusing on reversible imaging problems and image generation. I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
 
 # 📰 News！！！
-We organize a **long video question-answering challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th.
+We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th.
 
 
 # 📝 Selected Papers
@@ -503,6 +503,9 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 # 💬 Academic Services
 - Conference Reviewer: ACCV 2022&2024, WACV 2023&2024, BMVC 2023, AAAI 2022&2023&2024, ICCV 2023, CVPR 2024, ECCV 2024, ACM MM 2024.
+
+- Workshop Organizer: [LOVEU@CVPR 2024](https://sites.google.com/view/loveucvpr24/track1)
+  
 - Journal Reviewer: 
 
   International Journal of Computer Vision
