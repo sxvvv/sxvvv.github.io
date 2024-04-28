@@ -106,7 +106,7 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 <em>IJCAI </em> 2024 <span style="color:red;">Special Track on AI, the Arts and Creativity. Three reviews with "Accept" ratings!</span> <br>
 <a href="https://arxiv.org/pdf/2310.16002">PDF</a>
 |
-<a href="">code</a>
+<a href="https://github.com/viiika/ViewControl">code</a>
 <p> </p>
 </td>
   
