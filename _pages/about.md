@@ -11,7 +11,9 @@ redirect_from:
 I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) at HKUST,GZ, supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
 
 # 📰 News！！！
-We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th.
+May 02 --- Check out our [MovieChat+ paper](https://arxiv.org/pdf/2404.17176), the upgraded version of CVPR'24 MovieChat!
+
+Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th.
 
 
 # 📝 Selected Papers
