@@ -100,7 +100,7 @@ Google Scholar Citation: 600+ (2024.05)
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior DesignScenes</papertitle_just>     
+    <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
   </a>
   <br>
 Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
