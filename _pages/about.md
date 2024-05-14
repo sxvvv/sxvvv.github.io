@@ -92,6 +92,30 @@ Google Scholar Citation: 600+ (2024.05)
 
 <tbody>
 
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2310.16002">
+    <papertitle_just>SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
+  </a>
+  <br>
+Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
+<br>
+<em>MICCAI </em> 2024 <span style="color:red;">Early Accept by MICCAI. Don't need rebuttal!</span> <br>
+<a href="https://arxiv.org/pdf/2401.13560">PDF</a>
+|
+<a href="https://github.com/ge-xing/SegMamba">code</a>
+<p> </p>
+</td>
+
+
+
 <td width="20%">
 
 <script type="text/javascript">
