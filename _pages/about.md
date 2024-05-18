@@ -141,20 +141,10 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 
 
 
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
+<!-- <td width="20%">
+
 <script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
+
 </td>
 <td valign="top" width="80%">
   <a href="">
@@ -166,7 +156,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 <em>ICLR</em> 2024@LLMAgents Workshop<br>
 <a href="https://arxiv.org/pdf/2403.08282.pdf">Arxiv</a>
 <p></p>
-</td>
+</td> -->
 
 
 
