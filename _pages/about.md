@@ -17,7 +17,7 @@ Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR
 
 
 # 📝 Selected Papers
-<p style='text-align: justify;'> My current research focuses on three main areas: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing learning-based methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
+<p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
 </p>
 
 Google Scholar Citation: 600+ (2024.05)
@@ -538,6 +538,12 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 - Jun'2023-Now: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus.
   
 - Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
+
+<div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
+    background: -webkit-linear-gradient(left, black, yellow, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">Adversity shaped me.</div>
+
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
