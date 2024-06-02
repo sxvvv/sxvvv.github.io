@@ -188,7 +188,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 
 <a href="">PDF</a>
 |
-<a href="">CVPR Poster</a>
+<a href="https://github.com/Owen718/Owen718.github.io/blob/master/files/CVPR2024_Poster_DTPM.pdf">CVPR Poster</a>
 <p></p>
 </td>
 
