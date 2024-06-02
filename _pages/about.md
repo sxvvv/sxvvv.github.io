@@ -186,10 +186,9 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 <br>
 <em>CVPR Highlight </em> 2024 <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
 
-
 <a href="">PDF</a>
 |
-<a href="">code</a>
+<a href="">CVPR Poster</a>
 <p></p>
 </td>
 
