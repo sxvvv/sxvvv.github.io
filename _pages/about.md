@@ -20,7 +20,7 @@ Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR
 <p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
 </p>
 
-Google Scholar Citation: 600+ (2024.05)
+Google Scholar Citation: 700+ (2024.05)
 
 
 <style type="text/css">
@@ -92,6 +92,24 @@ Google Scholar Citation: 600+ (2024.05)
 
 <tbody>
 
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    <papertitle_just>Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
+  </a>
+  <br>
+Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Jing Qin and Lei Zhu
+<br>
+<em>MICCAI </em> 2024  <br>
+<a href="">PDF</a>
+<p> </p>
+</td>
 
 
 <td width="20%">
