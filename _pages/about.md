@@ -10,10 +10,10 @@ redirect_from:
 <!-- bundle exec jekyll serve -->
 I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) at HKUST,GZ, supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
 
-# 📰 News！！！
+<!-- # 📰 News！！！
 May 02 --- Check out our [MovieChat+ paper](https://arxiv.org/pdf/2404.17176), the upgraded version of CVPR'24 MovieChat!
 
-Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th.
+Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th. -->
 
 
 # 📝 Selected Papers
@@ -100,7 +100,28 @@ Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR
 </td>
 <td valign="top" width="80%">
   <a href="">
-    <papertitle_just>Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
+   [Video Restoration] <papertitle_just>Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
+  </a>
+  <br>
+Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
+<br>
+<em>IJCV </em> 2024  <br>
+<a href="">PDF</a>
+<p> </p>
+</td>
+
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    [Generative Model For Medical IT] <papertitle_just>Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
   </a>
   <br>
 Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Jing Qin and Lei Zhu
@@ -119,7 +140,7 @@ Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Ji
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    <papertitle_just>SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
+    [Medical Image Seg] <papertitle_just>SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
   </a>
   <br>
 Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
@@ -141,7 +162,7 @@ Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
+    [Generative Image Editing] <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
   </a>
   <br>
 Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
@@ -196,7 +217,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 </td>
 <td valign="top" width="80%">
   <a href="">
-    [Generative Model For IR]<papertitle_just> Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
+    [Generative Model For IR] <papertitle_just> Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
   </a>
   <br>
 <strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
@@ -555,11 +576,15 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
   
 - Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
 
-<div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
+<!-- <div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
     background: -webkit-linear-gradient(left, black, yellow, cyan, blue, violet);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;">Adversity shaped me.</div>
+    -webkit-text-fill-color: transparent;">Adversity shaped me.</div> -->
 
+<div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
+    background: -webkit-linear-gradient(left, black, blue, cyan, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">Let's GO Beyond Definition!</div>
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
