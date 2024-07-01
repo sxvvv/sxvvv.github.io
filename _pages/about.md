@@ -101,7 +101,7 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 </td>
 <td valign="top" width="80%">
   <a href="">
-   [Generative Image Restoration] <papertitle_just>Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
+   [Generative Image Restoration] <papertitle_just> Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
   </a>
   <br>
 Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and Lei Zhu
@@ -121,7 +121,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and
 </td>
 <td valign="top" width="80%">
   <a href="">
-   [mboided AI&LLM] <papertitle_just>See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
+   [mboided AI&LLM] <papertitle_just> See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
   </a>
   <br>
 Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang, Gaoang Wang
@@ -141,7 +141,7 @@ Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <stron
 </td>
 <td valign="top" width="80%">
   <a href="">
-   [Video Restoration] <papertitle_just>Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
+   [Video Restoration] <papertitle_just> Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
   </a>
   <br>
 Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
@@ -162,7 +162,7 @@ Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
 </td>
 <td valign="top" width="80%">
   <a href="">
-    [Generative Model For Medical IT] <papertitle_just>Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
+    [Generative Model For Medical IT] <papertitle_just> Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
   </a>
   <br>
 Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Jing Qin and Lei Zhu
@@ -181,7 +181,7 @@ Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Ji
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    [Medical Image Seg] <papertitle_just>SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
+    [Medical Image Seg] <papertitle_just> SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
   </a>
   <br>
 Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
@@ -203,7 +203,7 @@ Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
 </td>
 <td valign="top" width="80%">
   <a href="https://arxiv.org/pdf/2310.16002">
-    [Generative Image Editing] <papertitle_just>ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
+    [Generative Image Editing] <papertitle_just> ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
   </a>
   <br>
 Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
