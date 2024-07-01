@@ -13,11 +13,6 @@ I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academi
 
 <!-- If you are an MPhil student at HKUST's Red Bird program and are interested in conducting exciting and engaging research with me, please don't hesitate to get in touch. -->
 
-<!-- # 📰 News！！！
-May 02 --- Check out our [MovieChat+ paper](https://arxiv.org/pdf/2404.17176), the upgraded version of CVPR'24 MovieChat!
-
-Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR'24 Track 1: Long-term Video Question Answering](https://sites.google.com/view/loveucvpr24/track1)), focusing on video understanding task with tens of thousands of frames! The competition is ongoing, with a submission deadline of June 9th. -->
-
 
 # 📝 Selected Papers
 <p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
@@ -93,6 +88,49 @@ Apr 22 --- We organize a **Long-Term Question Answering Challenge** ([LOVEU@CVPR
 
 
 <tbody>
+
+
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+   [Generative Image Restoration] <papertitle_just>Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
+  </a>
+  <br>
+Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and Lei Zhu
+<br>
+<em>ECCV </em> 2024  <br>
+<a href="">PDF</a>
+<p> </p>
+</td>
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+   [mboided AI&LLM] <papertitle_just>See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
+  </a>
+  <br>
+Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang, Gaoang Wang
+<br>
+<em>ECCV </em> 2024  <br>
+<a href="">PDF</a>
+<p> </p>
+</td>
+
 
 
 <td width="20%">
