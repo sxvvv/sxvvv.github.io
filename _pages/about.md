@@ -144,7 +144,7 @@ Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <stron
    [Video Restoration] <papertitle_just> Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
   </a>
   <br>
-Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
+Jingjing Ren, <strong>Tian Ye</strong>, Haoyu Chen, Hongtao Wu and Lei Zhu
 <br>
 <em>IJCV </em> 2024  <br>
 <a href="">PDF</a>
