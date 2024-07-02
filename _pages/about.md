@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, a Research Assistant in [ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) at HKUST,GZ, supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I am also an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
+I am Tian Ye, an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), mainly supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
 
 
 <!-- If you are an MPhil student at HKUST's Red Bird program and are interested in conducting exciting and engaging research with me, please don't hesitate to get in touch. -->
@@ -613,7 +613,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 - Sep'2024-Jul'2028 (expected): PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou Campus.
 
-- Jun'2023-Now: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus.
+- Jun'2023-Jul'2024: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou Campus.
   
 - Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
 
