@@ -127,7 +127,11 @@ Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and
 Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang, Gaoang Wang
 <br>
 <em>ECCV </em> 2024  <br>
-<a href="">PDF</a>
+<a href="https://arxiv.org/pdf/2311.15209">PDF</a>
+|
+<a href="https://rese1f.github.io/STEVE/">Project</a>
+|
+<a href="https://github.com/rese1f/STEVE">code</a>
 <p> </p>
 </td>
 
