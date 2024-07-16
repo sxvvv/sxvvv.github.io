@@ -137,7 +137,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and
 </td>
 <td valign="top" width="80%">
   <a href="">
-   [mboided AI&LLM] <papertitle_just> See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
+   [Emboided AI&LLM] <papertitle_just> See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
   </a>
   <br>
 Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang, Gaoang Wang
