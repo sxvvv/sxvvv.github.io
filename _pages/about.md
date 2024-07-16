@@ -89,26 +89,6 @@ I am Tian Ye, an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-g
 
 <tbody>
 
-
-<td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="">
-   [Generative Video Segmentation] <papertitle_just> Timeline and Boundary Guided Diffusion Network for Video Shadow Detection</papertitle_just>     
-  </a>
-  <br>
-Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping Li, Qiong Wang, Lei Zhu.
-<br>
-<em>ACM Multimedia (ACM MM),</em> 2023 <br>
-<a href="">PDF</a>
-<p> </p>
-</td>
-
-
 <td width="20%">
 
 <script type="text/javascript">
@@ -148,6 +128,24 @@ Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <stron
 <a href="https://rese1f.github.io/STEVE/">Project</a>
 |
 <a href="https://github.com/rese1f/STEVE">code</a>
+<p> </p>
+</td>
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+   [Generative Video Segmentation] <papertitle_just> Timeline and Boundary Guided Diffusion Network for Video Shadow Detection</papertitle_just>     
+  </a>
+  <br>
+Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping Li, Qiong Wang, Lei Zhu.
+<br>
+<em>ACM Multimedia (ACM MM),</em> 2024 <br>
+<a href="">PDF</a>
 <p> </p>
 </td>
 
