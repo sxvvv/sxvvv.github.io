@@ -116,7 +116,7 @@ Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://rese1f.github.io/STEVE/">
    [Emboided AI&LLM] <papertitle_just> See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
   </a>
   <br>
@@ -198,7 +198,7 @@ Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Ji
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2310.16002">
+  <a href="https://arxiv.org/abs/2401.13560">
     [Medical Image Seg] <papertitle_just> SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
   </a>
   <br>
@@ -275,7 +275,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Learning_Diffusion_Texture_Priors_for_Image_Restoration_CVPR_2024_paper.pdf">
     [Generative Model For IR] <papertitle_just> Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
   </a>
   <br>
@@ -283,7 +283,7 @@ Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Ya
 <br>
 <em>CVPR Highlight </em> 2024 <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
 
-<a href="">PDF</a>
+<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Learning_Diffusion_Texture_Priors_for_Image_Restoration_CVPR_2024_paper.pdf">PDF</a>
 |
 <a href="https://owen718.github.io/files/CVPR2024_Poster_DTPM.pdf">CVPR Poster</a>
 <p></p>
