@@ -18,7 +18,7 @@ I am Tian Ye, an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-g
 <p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
 </p>
 
-
+<p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI - 5 (1 Oral).</em></p>
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -144,7 +144,7 @@ Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <stron
   <br>
 Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping Li, Qiong Wang, Lei Zhu.
 <br>
-<em>ACM Multimedia (ACM MM) </em> 2024 <span style="color:red;">Selected as a Oral presentation paper (Top 3.97%, 174 of 4,385 valid submissions).</span><br>
+<em>ACM Multimedia (ACM MM) </em> 2024. <span style="color:red;">Selected as a Oral presentation paper (Top 3.97%, 174 of 4,385 valid submissions).</span><br>
 <a href="">PDF</a>
 <p> </p>
 </td>
