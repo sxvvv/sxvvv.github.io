@@ -144,7 +144,7 @@ Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <stron
   <br>
 Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping Li, Qiong Wang, Lei Zhu.
 <br>
-<em>ACM Multimedia (ACM MM) </em> 2024 <br>
+<em>ACM Multimedia (ACM MM) </em> 2024 <span style="color:red;">Selected as a Oral presentation paper (Top 3.97%, 174 of 4,385 valid submissions).</span><br>
 <a href="">PDF</a>
 <p> </p>
 </td>
