@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, an incoming PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies.
-
+I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. If you're an undergraduate interested in collaborating and aiming for a top computer vision conference publication, please don't hesitate to email me.
 
 My New Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentianye@hkust-gz.edu.cn</del>
 
@@ -187,10 +186,10 @@ Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping 
    [Video Restoration] <papertitle_just> Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
   </a>
   <br>
-Jingjing Ren, <strong>Tian Ye</strong>, Haoyu Chen, Hongtao Wu and Lei Zhu
+Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
 <br>
 <em>IJCV </em> 2024  <br>
-<a href="">PDF</a>
+<a href="https://link.springer.com/article/10.1007/s11263-024-02161-0">PDF</a>
 <p> </p>
 </td>
 
