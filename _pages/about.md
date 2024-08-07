@@ -10,13 +10,13 @@ redirect_from:
 <!-- bundle exec jekyll serve -->
 I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. If you're an undergraduate interested in collaborating and aiming for a top computer vision conference publication, please don't hesitate to email me.
 
-My New Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentianye@hkust-gz.edu.cn</del>
+Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentianye@hkust-gz.edu.cn</del>
 
 <!-- If you are an MPhil student at HKUST's Red Bird program and are interested in conducting exciting and engaging research with me, please don't hesitate to get in touch. -->
 
 
 # 📝 Selected Papers
-<p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. <strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.
+<p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.<strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. 
 </p>
 
 <p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral).</em></p>
