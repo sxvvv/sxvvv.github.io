@@ -653,7 +653,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 # 📖 Educations&Experience
 
-- Aug'2024-Present: PhD Student (Incoming), The Hong Kong University of Science and Technology, Guangzhou.
+- Aug'2024-Present: PhD Student, The Hong Kong University of Science and Technology, Guangzhou.
 
 - Jun'2023-Jul'2024: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou.
   
