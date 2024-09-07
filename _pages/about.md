@@ -19,7 +19,7 @@ Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentia
 <p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.<strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. 
 </p>
 
-<p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral).</em></p>
+<p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral, 1 Spotlight).</em></p>
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -228,7 +228,7 @@ Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Ji
   <br>
 Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
 <br>
-<em>MICCAI </em> 2024 <span style="color:red;">Early Accept by MICCAI. Don't need rebuttal!</span> <br>
+<em>MICCAI </em> 2024 <span style="color:red;"> Selected as a Spotlight presentation paper (about 20 of 2,869 valid submissions) and  Early Accepted by MICCAI. Don't need rebuttal!</span> <br>
 <a href="https://arxiv.org/pdf/2401.13560">PDF</a>
 |
 <a href="https://github.com/ge-xing/SegMamba">code</a>
