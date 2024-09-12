@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, co-founder of MeissonFlow Research, and also a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. If you are an undergraduate or Mphil student and aspire to collaborate on publishing top-tier academic work, willing to strive for it, please feel free to email me at any time.
+I am Tian Ye, Co-founder@MeissonFlow Research, and also a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. If you are an undergraduate or Mphil student and aspire to collaborate on publishing top-tier academic work, willing to strive for it, please feel free to email me at any time.
 
 Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentianye@hkust-gz.edu.cn</del>
 
