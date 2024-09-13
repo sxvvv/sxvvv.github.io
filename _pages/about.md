@@ -16,7 +16,7 @@ Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentia
 
 
 # 📝 Selected Papers
-<p style='text-align: justify;'> My current research focuses on three main directions: <strong>(I)</strong> Providing support for the art creation industry and digital asset generation through advancements in AIGC (Artificial Intelligence Generated Content) technology.<strong>(II)</strong> Exploring vision problems related to photography, with the goal of producing images of superior visual quality. <strong>(III)</strong> Addressing the challenges of real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods. 
+<p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
 </p>
 
 <p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral, 1 Spotlight).</em></p>
