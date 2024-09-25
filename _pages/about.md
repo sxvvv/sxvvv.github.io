@@ -127,7 +127,11 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and Lei Zhu
 <br>
 <em>ECCV </em> 2024  <br>
-<a href="">PDF</a>
+<a href="https://arxiv.org/pdf/2409.15739">PDF</a>
+|
+<a href="https://ephemeral182.github.io/T3-DiffWeather/">Project</a>
+|
+<a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather">code</a>
 <p> </p>
 </td>
 
