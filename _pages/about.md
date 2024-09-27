@@ -104,7 +104,7 @@ Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentia
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://aglldiff.github.io">
    [Generative Image Enhancement] <papertitle_just> AGLLDiff : Guiding Diffusion Models Towards Unsupervised Training-free Real-world Low-light Image Enhancement </papertitle_just>     
   </a>
   <br>
@@ -125,7 +125,7 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://haoyuchen.com/RestoreAgent">
    [Generative Agent] <papertitle_just> RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models </papertitle_just>     
   </a>
   <br>
@@ -146,7 +146,7 @@ Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye*</s
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="">
+  <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather">
    [Generative Image Restoration] <papertitle_just> Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
   </a>
   <br>
