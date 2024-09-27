@@ -19,7 +19,7 @@ Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentia
 <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
 </p>
 
-<p><em>Summary: CVPR/ICCV/ECCV - 7 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral, 1 Spotlight).</em></p>
+<p><em>Summary: CVPR/ICCV/ECCV/NeurIPS - 8 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral, 1 Spotlight).</em></p>
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -91,6 +91,12 @@ Email Address: tye610@connect.hkust-gz.edu.cn <del style="color: black;">owentia
 <tbody>
 
 
+
+
+
+
+
+
 <td width="20%">
 
 <script type="text/javascript">
@@ -111,6 +117,26 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 <p> </p>
 </td>
 
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+   [Generative Agent] <papertitle_just> RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models </papertitle_just>     
+  </a>
+  <br>
+Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye*</strong>, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu
+<br>
+<em>Arxiv </em> 2024  <br>
+<a href="https://arxiv.org/pdf/2407.18035">PDF</a>
+|
+<a href="https://haoyuchen.com/RestoreAgent">Project</a>
+<p> </p>
+</td>
 
 
 <td width="20%">
