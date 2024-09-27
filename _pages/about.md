@@ -131,7 +131,7 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
   <br>
 Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye*</strong>, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu
 <br>
-<em>Arxiv </em> 2024  <br>
+<em>NeurIPS </em> 2024  <br>
 <a href="https://arxiv.org/pdf/2407.18035">PDF</a>
 |
 <a href="https://haoyuchen.com/RestoreAgent">Project</a>
@@ -287,29 +287,6 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 <p> </p>
 </td>
   
-
-
-
-
-
-<!-- <td width="20%">
-
-<script type="text/javascript">
-
-</td>
-<td valign="top" width="80%">
-  <a href="">
-    [Emboided AI&LLM]<papertitle_just> Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation</papertitle_just>     
-  </a>
-  <br>
-Zhonghan Zhao, Kewei Chen, Dongxu Guo, Wenhao Chai, <strong>Tian Ye</strong>, Yanting Zhang, Gaoang Wang.
-  <br>
-<em>ICLR</em> 2024@LLMAgents Workshop<br>
-<a href="https://arxiv.org/pdf/2403.08282.pdf">Arxiv</a>
-<p></p>
-</td> -->
-
-
 
 
 
