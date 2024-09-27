@@ -639,7 +639,7 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 
 # Mentoring
 I am very lucky to work with the following talented students:
-- [Songg Fei], Mphil Student@HKUST(GZ).
+- [Song Fei], Mphil Student@HKUST(GZ).
 - [Haoxuan Feng], Mphil Student@HKUST(GZ).
 - [Chenghao Xue], Now MSc Student@UC Davis.
 - [Jingxia Jiang], Now PhD Student@NC State.
