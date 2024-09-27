@@ -641,8 +641,8 @@ Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Er
 I am very lucky to work with the following talented students:
 - [Songg Fei], Mphil Student@HKUST(GZ).
 - [Haoxuan Feng], Mphil Student@HKUST(GZ).
-- [Chenghao Xue], MSc Student@UC Davis.
-- [Jingxia Jiang], PhD Student@NC State.
+- [Chenghao Xue], Now MSc Student@UC Davis.
+- [Jingxia Jiang], Now PhD Student@NC State.
 
 # 🎖 Competitions & Awards
 - PG scholarship of HKUST(GZ), 2024.
