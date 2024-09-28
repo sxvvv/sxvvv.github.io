@@ -128,7 +128,7 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
    [Generative Agent] <papertitle_just> RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models </papertitle_just>     
   </a>
   <br>
-Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye*</strong>, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu
+Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye</strong>, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu
 <br>
 <em>NeurIPS </em> 2024  <br>
 <a href="https://arxiv.org/pdf/2407.18035">PDF</a>
