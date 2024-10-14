@@ -18,7 +18,7 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
 </p>
 
-<p><em>Summary: CVPR/ICCV/ECCV/NeurIPS - 8 (1 Oral, 1 Highlight), AAAI/ACM MM/IJCAI/MICCAI - 7 (1 Oral, 1 Spotlight).</em></p>
+
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -117,26 +117,6 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 </td>
 
 
-<td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://haoyuchen.com/RestoreAgent">
-   [Generative Agent] <papertitle_just> RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models </papertitle_just>     
-  </a>
-  <br>
-Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, Sixiang Chen, <strong>Tian Ye</strong>, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu
-<br>
-<em>NeurIPS </em> 2024  <br>
-<a href="https://arxiv.org/pdf/2407.18035">PDF</a>
-|
-<a href="https://haoyuchen.com/RestoreAgent">Project</a>
-<p> </p>
-</td>
-
 
 <td width="20%">
 
@@ -162,47 +142,6 @@ Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and
 
 
 
-<td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://rese1f.github.io/STEVE/">
-   [Emboided AI&LLM] <papertitle_just> See and Think: Embodied Agent in Virtual Environment</papertitle_just>     
-  </a>
-  <br>
-Zhonghan Zhao, Wenhao Chai, Xuan Wang, Li Boyi, Shengyu Hao, Shidong Cao, <strong>Tian Ye</strong>, Jenq-Neng Hwang, Gaoang Wang
-<br>
-<em>ECCV </em> 2024  <br>
-<a href="https://arxiv.org/pdf/2311.15209">PDF</a>
-|
-<a href="https://rese1f.github.io/STEVE/">Project</a>
-|
-<a href="https://github.com/rese1f/STEVE">code</a>
-<p> </p>
-</td>
-
-<td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="">
-   [Generative Video Segmentation] <papertitle_just> Timeline and Boundary Guided Diffusion Network for Video Shadow Detection</papertitle_just>     
-  </a>
-  <br>
-Haipeng Zhou, Hongqiu Wang, <strong>Tian Ye</strong>, Zhaohu Xing, Jun Ma, Ping Li, Qiong Wang, Lei Zhu.
-<br>
-<em>ACM Multimedia (ACM MM) </em> 2024. <span style="color:red;">Selected as a Oral presentation paper (Top 3.97%, 174 of 4,385 valid submissions).</span><br>
-<a href="">PDF</a>
-<p> </p>
-</td>
-
-
 
 <td width="20%">
 
@@ -224,26 +163,6 @@ Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
 
 
 
-
-<td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="">
-    [Generative Model For Medical IT] <papertitle_just> Cross-conditioned Diffusion Model for Medical Image to Image Translation</papertitle_just>     
-  </a>
-  <br>
-Zhaohu Xing, Sicheng Yan, Sixiang Chen, <strong>Tian Ye</strong>, Yijun Yang, Jing Qin and Lei Zhu
-<br>
-<em>MICCAI </em> 2024  <br>
-<a href="">PDF</a>
-<p> </p>
-</td>
-
-
 <td width="20%">
 
 <script type="text/javascript">
@@ -263,7 +182,6 @@ Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
 <a href="https://github.com/ge-xing/SegMamba">code</a>
 <p> </p>
 </td>
-
 
 
 <td width="20%">
@@ -319,43 +237,6 @@ Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaiche
 <p></p>
 </td>
 
-
-
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-<!-- <div class="one"> -->
-<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
-<img src='./files/submit23_before.png'> -->
-<!-- </div> -->
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://rese1f.github.io/MovieChat/">
-    [LLM&Multi-Modal]<papertitle_just> MovieChat: From Dense Token to Sparse Memory for Long Video Understanding</papertitle_just>     
-  </a>
-  <br>
-Enxin Song, Wenhao Chai, Guanhong Wang, Yucheng Zhang, Haoyang Zhou, Feiyang Wu, Xun Guo, <strong>Tian Ye</strong>, Yan Lu, Jenq-Neng Hwang, Gaoang Wang
-  <br>
-<em>CVPR</em> 2024 <br>
-<a href="https://arxiv.org/pdf/2307.16449">PDF</a>
-|
-<a href="https://github.com/rese1f/MovieChat">Code</a>
-|
-<a href="https://github.com/rese1f/MovieChat">Project</a>
-<p></p>
-</td>
 
 
 
@@ -505,96 +386,6 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 <p></p>
 </td>
 
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<!-- <td width="20%">
-
-</td>
-<td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>Cross-scale Prototype Learning Transformer for Image Snow Removal </papertitle_just>     
-  </a>
-  <br>
-Sixiang Chen*, <strong>Tian Ye*</strong>, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen
-  <br>
-<em>ACM Multimedia (ACM MM),</em> 2023 <br>
-<a href="">PDF</a>
-|
-<a href="">code</a>
-<p></p>
-</td> -->
-
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<!-- <td width="20%">
-
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="">
-    <papertitle_just>Sequential Affinity Learning for Video Restoration</papertitle_just>     
-  </a>
-  <br>
-<strong>Tian Ye*</strong>, Sixiang Chen*, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue
-  <br>
-<em>ACM Multimedia (ACM MM),</em> 2023 <br>
-<a href="">PDF</a>
-|
-<a href="">code</a>
-<p></p>
-</td> -->
-
-<!-- Paper V  -->
-<!-- ###################################################################################################-->
-  
-
-
-
-<!-- ###################################################################################################-->
-<!-- Paper V -->
-<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
-<td width="20%">
-
-<script type="text/javascript">
-// function submit23__start() {
-// document.getElementById('submit23__image').style.opacity = "1";
-// }
-// function submit23__stop() {
-// document.getElementById('submit23__image').style.opacity = "0";
-// }
-// submit23__stop()
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2305.09533.pdf">
-   [Image Restoration]  <papertitle_just>NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer</papertitle_just>     
-  </a>
-  <br>
-Yun Liu, Zhongsheng Yan, Sixiang Chen*, <strong>Tian Ye*</strong>, Wenqi Ren, Erkang Chen
-  <br>
-<em>ACM Multimedia (ACM MM)</em> 2023 <br>
-<a href="https://arxiv.org/pdf/2305.09533.pdf">PDF</a>
-|
-<a href="https://github.com/Owen718/NightHazeFormer">Code</a>
-<p></p>
-</td>
 
 <!-- Paper V  -->
 <!-- ###################################################################################################-->
