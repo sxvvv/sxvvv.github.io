@@ -108,7 +108,7 @@ Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xia
 |
 <a href="https://huggingface.co/MeissonFlow/Meissonic">HF Model</a>
 |
-<a href="https://x.com/AdinaYakup/status/1845815299611734141">AK@Twitter</a>
+<a href="https://x.com/AdinaYakup/status/1845815299611734141">Adina Yakup@Twitter</a>
 
 <p> </p>
 </td>
