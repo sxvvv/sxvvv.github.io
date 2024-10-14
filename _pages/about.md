@@ -8,11 +8,7 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow), and also a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. If you are an undergraduate or Mphil student and aspire to collaborate on publishing top-tier academic work, willing to strive for it, please feel free to email me at any time.
-
-
-<!-- If you are an MPhil student at HKUST's Red Bird program and are interested in conducting exciting and engaging research with me, please don't hesitate to get in touch. -->
-
+I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow), and also a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. 
 
 # 📝 Selected Papers
 <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
@@ -92,7 +88,27 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 
 
 
+<td width="20%">
 
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Foundational Generation Model]<papertitle_just>Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis</papertitle_just>     
+  </a>
+  <br>
+Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
+<br>
+<em>Arxiv </em> 2024  <br>
+<a href="https://arxiv.org/abs/2410.08261">PDF</a>
+|
+<a href="https://sites.google.com/view/meissonic/home?authuser=0">Project</a>
+|
+<a href="https://huggingface.co/MeissonFlow/Meissonic">HF Model</a>
+<p> </p>
+</td>
 
 
 
@@ -360,11 +376,6 @@ Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song
 <p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
 </td>
  -->
-
-
-
-
-
 
 <!-- ###################################################################################################-->
 <!-- Paper V -->
