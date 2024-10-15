@@ -204,29 +204,6 @@ Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
 
 
 <td width="20%">
-
-<script type="text/javascript">
-
-</script>
-</td>
-<td valign="top" width="80%">
-  <a href="https://arxiv.org/pdf/2310.16002">
-    [Generative Image Editing] <papertitle_just> ViewControl:View-Consistent Image-to-Image Editing in Interior Design Scenes</papertitle_just>     
-  </a>
-  <br>
-Jinbin Bai, Zhen Dong, Aosong Feng, Xiao Zhang, <strong>Tian Ye</strong>, Kaicheng Zhou, Mike Zheng Shou
-<br>
-<em>IJCAI </em> 2024 <span style="color:red;">Special Track on AI, the Arts and Creativity. Three reviews with "Accept" ratings!</span> <br>
-<a href="https://arxiv.org/pdf/2310.16002">PDF</a>
-|
-<a href="https://github.com/viiika/ViewControl">code</a>
-<p> </p>
-</td>
-  
-
-
-
-<td width="20%">
 <!-- <div class="one"> -->
 <!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
 <img src='./files/submit23_before.png'> -->
