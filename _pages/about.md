@@ -101,7 +101,7 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
   <br>
 Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
 <br>
-<em>Arxiv </em> 2024  <br>
+<em>Arxiv </em> 2024  <br><span style="color:red;">The first SDXL Level, High-Resolution Non-AR T2I Model!</span> <br>
 <a href="https://arxiv.org/abs/2410.08261">PDF</a>
 |
 <a href="https://sites.google.com/view/meissonic/home?authuser=0">Project</a>
