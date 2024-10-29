@@ -95,7 +95,7 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 </script>
 </td>
 <td valign="top" width="80%">
-  <a href="https://aglldiff.github.io">
+  <a href="https://sites.google.com/view/meissonic/home?authuser=0">
    [🔥Foundational Generation Model🔥]<papertitle_just>🔥🔥🔥Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis</papertitle_just>     
   </a>
   <br>
