@@ -426,7 +426,7 @@ I am very lucky to work with the following talented students:
 - [Jingxia Jiang], Now PhD Student@NC State.
 
 # 🎖 Competitions & Awards
-- [Outstanding Reviewer Award](https://bmvc2024.org/people/reviewers/), BMVC 2024.
+- [Outstanding Reviewer](https://bmvc2024.org/people/reviewers/), BMVC 2024.
 - PG scholarship of HKUST(GZ), 2024.
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
 - 2022 JMU Student Star Award  (20/19000)
