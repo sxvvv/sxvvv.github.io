@@ -459,10 +459,5 @@ I am very lucky to work with the following talented students:
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;">Adversity shaped me.</div> -->
 
-<div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
-    background: -webkit-linear-gradient(left, black, blue, cyan, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;">Let's GO Beyond Definition!</div>
-
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
