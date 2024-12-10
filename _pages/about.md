@@ -128,13 +128,50 @@ Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xia
   <br>
 Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang, Wenhao Chai, Zhaohu Xing, Lei Zhu and Xinghao Ding
 <br>
-<em>Arxiv </em> 2024  <br>
+<em>AAAI </em> 2025  <br>
 <a href="https://arxiv.org/pdf/2407.14900">PDF</a>
 |
 <a href="https://aglldiff.github.io">Project</a>
 <p> </p>
 </td>
 
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Real-world Restoration] <papertitle_just> PromptHaze: Prompting Real-world Dehazing via Depth Anything Model </papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye</strong>, Sixiang Chen, Haoyu Chen, Wenhao Chai, Jingjing Ren, Zhaohu Xing, Wenxue Li, Lei Zhu
+<br>
+<em>AAAI </em> 2025  <br>
+<p> </p>
+</td>
+
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Generative Image Restoration] <papertitle_just> Residual Diffusion Deblurring Model for Single Image Defocus Deblurring </papertitle_just>     
+  </a>
+  <br>
+  Haoxuan feng, Haohui Zhou, <strong>Tian Ye</strong>, Sixiang Chen, Lei Zhu
+<br>
+<em>AAAI </em> 2025  <br>
+<p> </p>
+</td>
 
 
 <td width="20%">
