@@ -13,7 +13,7 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 
 ## 🔬 Research Interests
 <div class="research-areas">
-My research focuses on three key areas:
+My research focuses on two key areas:
 
 <div class="research-item">
     <div class="research-icon">🎨</div>
@@ -29,15 +29,6 @@ My research focuses on three key areas:
         <h3>Visual Quality</h3>
         <p>Exploring visual challenges in photography to create images with superior quality.</p>
     </div>
-</div>
-
-<div class="research-item">
-    <div class="research-icon">🛠️</div>
-    <div class="research-content">
-        <h3>Image Restoration</h3>
-        <p>Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.</p>
-    </div>
-</div>
 </div>
 
 # 📝 Selected Recent Papers
