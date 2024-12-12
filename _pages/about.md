@@ -30,6 +30,7 @@ My research focuses on two key areas:
         <p>Exploring visual challenges in photography to create images with superior quality.</p>
     </div>
 </div>
+</div>
 
 # 📝 Selected Papers
 <!-- <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
@@ -519,7 +520,7 @@ I am very lucky to work with the following talented students:
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
 
 <style>
-/* Modern styling improvements */
+/* Refined styling to match your existing design */
 .research-areas {
     background: #f8f9fa;
     padding: 25px;
@@ -528,41 +529,30 @@ I am very lucky to work with the following talented students:
 }
 
 .research-item {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     display: flex;
     align-items: flex-start;
-    margin: 20px 0;
-    padding: 15px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-}
-
-.research-item:hover {
-    transform: translateX(5px);
 }
 
 .research-icon {
     font-size: 24px;
     margin-right: 15px;
-    padding: 10px;
-    background: #f8f9fa;
-    border-radius: 8px;
-}
-
-.research-content {
-    flex: 1;
 }
 
 .research-content h3 {
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
     color: #333;
-    font-size: 1.1em;
 }
 
 .research-content p {
     margin: 0;
     color: #666;
+    line-height: 1.5;
 }
 </style>
 
