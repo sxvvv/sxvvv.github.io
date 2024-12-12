@@ -13,23 +13,23 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 
 ## 🔬 Research Interests
 <div class="research-areas">
-My research focuses on two key areas:
+    My research focuses on two key areas:
 
-<div class="research-item">
-    <div class="research-icon">🎨</div>
-    <div class="research-content">
-        <h3>AIGC Technology</h3>
-        <p>Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology</p>
+    <div class="research-item">
+        <div class="research-icon">🎨</div>
+        <div class="research-content">
+            <h3>AIGC Technology</h3>
+            <p>Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology</p>
+        </div>
     </div>
-</div>
 
-<div class="research-item">
-    <div class="research-icon">📸</div>
-    <div class="research-content">
-        <h3>Visual Quality</h3>
-        <p>Exploring visual challenges in photography to create images with superior quality.</p>
+    <div class="research-item">
+        <div class="research-icon">📸</div>
+        <div class="research-content">
+            <h3>Visual Quality</h3>
+            <p>Exploring visual challenges in photography to create images with superior quality.</p>
+        </div>
     </div>
-</div>
 </div>
 
 
