@@ -19,7 +19,7 @@ My research focuses on three key areas:
     <div class="research-icon">🎨</div>
     <div class="research-content">
         <h3>AIGC Technology</h3>
-        <p>Supporting art creation and digital asset generation</p>
+        <p>Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology</p>
     </div>
 </div>
 
@@ -27,7 +27,7 @@ My research focuses on three key areas:
     <div class="research-icon">📸</div>
     <div class="research-content">
         <h3>Visual Quality</h3>
-        <p>Exploring challenges in photography for superior image quality</p>
+        <p>Exploring visual challenges in photography to create images with superior quality.</p>
     </div>
 </div>
 
@@ -35,7 +35,7 @@ My research focuses on three key areas:
     <div class="research-icon">🛠️</div>
     <div class="research-content">
         <h3>Image Restoration</h3>
-        <p>Addressing real-world enhancement challenges</p>
+        <p>Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.</p>
     </div>
 </div>
 </div>
