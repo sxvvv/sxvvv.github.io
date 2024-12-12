@@ -8,7 +8,16 @@ redirect_from:
   - /about.html
 ---
 <!-- bundle exec jekyll serve -->
-I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow), and also a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. Currently, I am closely working with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist@[Hedra](https://www.hedra.com/)). We are exploring the Avatar-centric large-scale video diffusion models.
+# 👋 About Me
+I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow) and a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin).
+
+## 🔬 Research Interests
+<div class="research-areas">
+My research focuses on three key areas:
+- 🎨 **AIGC Technology**: Supporting art creation and digital asset generation
+- 📸 **Visual Quality**: Exploring challenges in photography for superior image quality  
+- 🛠️ **Image Restoration**: Addressing real-world enhancement challenges
+</div>
 
 # 📝 Selected Papers
 <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
@@ -498,3 +507,68 @@ I am very lucky to work with the following talented students:
 
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
+
+<style>
+/* Modern styling improvements */
+.research-areas {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.publication-item {
+    border-left: 4px solid #1772d0;
+    padding-left: 15px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+    transform: translateX(5px);
+    border-left-color: #f09228;
+}
+
+/* Improve link styling */
+a {
+    color: #1772d0;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #f09228;
+    text-decoration: none;
+}
+
+/* Add smooth transitions */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Improve section headers */
+h1, h2 {
+    border-bottom: 2px solid #eaecef;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+}
+
+/* Add card-like styling to major sections */
+.section-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+</style>
+
+<!-- Add animation for page load -->
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.body.style.opacity = '0';
+    setTimeout(() => {
+        document.body.style.opacity = '1';
+    }, 100);
+});
+</script>
