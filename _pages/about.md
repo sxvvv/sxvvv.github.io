@@ -13,10 +13,31 @@ I am Tian Ye, Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFl
 
 ## 🔬 Research Interests
 <div class="research-areas">
-My research focuses on two key areas:
-- 🎨 **AIGC Models**: Supporting art creation and digital asset generation
-- 📸 **Visual Quality**: Exploring challenges in photography for superior image quality  
+My research focuses on three key areas:
 
+<div class="research-item">
+    <div class="research-icon">🎨</div>
+    <div class="research-content">
+        <h3>AIGC Technology</h3>
+        <p>Supporting art creation and digital asset generation</p>
+    </div>
+</div>
+
+<div class="research-item">
+    <div class="research-icon">📸</div>
+    <div class="research-content">
+        <h3>Visual Quality</h3>
+        <p>Exploring challenges in photography for superior image quality</p>
+    </div>
+</div>
+
+<div class="research-item">
+    <div class="research-icon">🛠️</div>
+    <div class="research-content">
+        <h3>Image Restoration</h3>
+        <p>Addressing real-world enhancement challenges</p>
+    </div>
+</div>
 </div>
 
 # 📝 Selected Papers
@@ -512,54 +533,47 @@ I am very lucky to work with the following talented students:
 /* Modern styling improvements */
 .research-areas {
     background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 12px;
     margin: 20px 0;
 }
 
-.publication-item {
-    border-left: 4px solid #1772d0;
-    padding-left: 15px;
+.research-item {
+    display: flex;
+    align-items: flex-start;
     margin: 20px 0;
-    transition: all 0.3s ease;
-}
-
-.publication-item:hover {
-    transform: translateX(5px);
-    border-left-color: #f09228;
-}
-
-/* Improve link styling */
-a {
-    color: #1772d0;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    color: #f09228;
-    text-decoration: none;
-}
-
-/* Add smooth transitions */
-* {
-    transition: all 0.3s ease;
-}
-
-/* Improve section headers */
-h1, h2 {
-    border-bottom: 2px solid #eaecef;
-    padding-bottom: 0.3em;
-    margin-top: 1.5em;
-}
-
-/* Add card-like styling to major sections */
-.section-card {
+    padding: 15px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.research-item:hover {
+    transform: translateX(5px);
+}
+
+.research-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.research-content {
+    flex: 1;
+}
+
+.research-content h3 {
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.research-content p {
+    margin: 0;
+    color: #666;
 }
 </style>
 
