@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 <div class="research-areas">
     My research focuses on two key areas:
 
-    <div class="research-item">
+    <div class="research-item" data-tooltip="Working on AIGC models like Meissonic and exploring new frontiers in AI-generated content">
         <div class="research-icon">🎨</div>
         <div class="research-content">
             <h3>AIGC Technology</h3>
@@ -24,7 +24,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
         </div>
     </div>
 
-    <div class="research-item">
+    <div class="research-item" data-tooltip="Developing cutting-edge solutions for image enhancement and restoration">
         <div class="research-icon">📸</div>
         <div class="research-content">
             <h3>Visual Quality</h3>
@@ -172,6 +172,57 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
       color: #333;
   }
 
+
+
+
+  /* 添加tooltip样式 */
+  .research-item {
+      position: relative;
+  }
+
+  .research-item::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 8px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 6px;
+      font-size: 14px;
+      white-space: nowrap;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 1000;
+  }
+
+  .research-item:hover::after {
+    opacity: 1;
+    visibility: visible;
+    bottom: calc(100% + 10px);
+}
+
+  /* 添加箭头 */
+  .research-item::before {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+  }
+
+  .research-item:hover::before {
+      opacity: 1;
+      visibility: visible;
+      bottom: calc(100% + 4px);
+  }
 
 
 </style>
