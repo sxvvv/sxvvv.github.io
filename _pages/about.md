@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 <div class="research-areas">
     My research focuses on two key areas:
 
-    <div class="research-item" data-tooltip="Working on AIGC models like Meissonic and exploring new frontiers in AI-generated content">
+    <div class="research-item" data-tooltip="Arxiv'24 Meissonic, IJCAI'24">
         <div class="research-icon">🎨</div>
         <div class="research-content">
             <h3>AIGC Technology</h3>
@@ -24,7 +24,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
         </div>
     </div>
 
-    <div class="research-item" data-tooltip="Developing cutting-edge solutions for image enhancement and restoration">
+    <div class="research-item" data-tooltip="ECCV'22&24,CVPR'24,AAAI'25&23,ICCV'23">
         <div class="research-icon">📸</div>
         <div class="research-content">
             <h3>Visual Quality</h3>
