@@ -41,6 +41,10 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
     a {
+        color: #1772d0;
+        text-decoration:none !important;
+    }
+    a {
     color: #1772d0;
     text-decoration:none !important;
     }
@@ -101,6 +105,74 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
     span.highlight {
         background-color: #ffffd0;
     }
+
+
+  .research-areas {
+      background: #f8f9fa;
+      padding: 25px;
+      border-radius: 12px;
+      margin: 20px 0;
+  }
+
+  .research-item {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.3s ease;
+      transform-origin: center;
+  }
+
+  /* 鼠标悬停效果 */
+  .research-item:hover {
+      transform: scale(1.03);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      background: #fafafa;
+  }
+
+  .research-icon {
+      font-size: 24px;
+      margin-right: 15px;
+      transition: transform 0.3s ease;
+  }
+
+  /* 图标动画效果 */
+  .research-item:hover .research-icon {
+      transform: scale(1.2) rotate(5deg);
+  }
+
+  .research-content {
+      flex: 1;
+  }
+
+  .research-content h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.2em;
+      color: #333;
+      transition: color 0.3s ease;
+  }
+
+  /* 标题颜色变化效果 */
+  .research-item:hover .research-content h3 {
+      color: #1772d0;
+  }
+
+  .research-content p {
+      margin: 0;
+      color: #666;
+      line-height: 1.5;
+      transition: color 0.3s ease;
+  }
+
+  /* 文字颜色变化效果 */
+  .research-item:hover .research-content p {
+      color: #333;
+  }
+
+
 
 </style>
 
