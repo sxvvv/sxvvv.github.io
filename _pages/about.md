@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 <div class="research-areas">
     My research focuses on two key areas:
 
-    <div class="research-item" data-tooltip="Arxiv'24 Meissonic, IJCAI'24">
+    <div class="research-item" data-tooltip="ICLR'25 Meissonic, IJCAI'24">
         <div class="research-icon">🎨</div>
         <div class="research-content">
             <h3>AIGC Technology</h3>
@@ -246,7 +246,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
   <br>
 Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
 <br>
-<em>Arxiv </em> 2024 <span style="color:red;">The first SDXL Level, High-Resolution Non-AR T2I Model!</span> <br>
+<em>ICLR </em> 2025 <span style="color:red;">The first SDXL Level, High-Resolution Non-AR T2I Model!</span> <br>
 <a href="https://arxiv.org/abs/2410.08261">PDF</a>
 |
 <a href="https://sites.google.com/view/meissonic/home?authuser=0">Project</a>
