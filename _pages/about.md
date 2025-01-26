@@ -34,6 +34,15 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 </div>
 
 
+# 📰 News
+- [2025-01] Meissonic is accepted by ICLR 2025🎉.
+- [2024-12] 4 Papers are accepted by AAAI 2025.
+- [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
+- [2024-11] We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!
+- [2024-09] 2 Papers are accepted by ECCV 2024.
+- [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
+
+
 # 📝 Selected Papers
 <!-- <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
 </p> -->
@@ -301,7 +310,7 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 
 
 
-<td width="20%">
+<!-- <td width="20%">
 
 <script type="text/javascript">
 
@@ -316,7 +325,7 @@ Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang
 <br>
 <em>AAAI </em> 2025  <br>
 <p> </p>
-</td>
+</td> -->
 
 
 <td width="20%">
