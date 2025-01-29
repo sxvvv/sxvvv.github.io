@@ -617,7 +617,8 @@ I am very lucky to work with the following talented students:
 - [Chenghao Xue], Now MSc Student@UC Davis.
 - [Jingxia Jiang], Now PhD Student@NC State.
 
-# 🎖 Competitions & Awards
+# 🎖 Competitions & Awards & Presentations
+- [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)
 - [Outstanding Reviewer](https://bmvc2024.org/people/reviewers/), BMVC 2024.
 - PG scholarship of HKUST(GZ), 2024.
 - 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
