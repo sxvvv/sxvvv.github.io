@@ -35,7 +35,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 
 
 # 📰 News
-- [2025-01] I am honored to be selected to attend [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
+- [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
 - [2025-01] Meissonic is accepted by ICLR 2025🎉.
 - [2024-12] 4 Papers are accepted by AAAI 2025.
 - [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
