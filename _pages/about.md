@@ -9,7 +9,7 @@ redirect_from:
 ---
 <!-- bundle exec jekyll serve -->
 # 👋 About Me
-I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin).  I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. Currently, I am closely working with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist@[Hedra](https://www.hedra.com/)). 
+I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin).  I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. Currently,I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist@[Hedra](https://www.hedra.com/)) to explore and develop Human-centric Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/)).
 
 
 ## 🔬 Research Interests
