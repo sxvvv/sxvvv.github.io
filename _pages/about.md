@@ -9,7 +9,8 @@ redirect_from:
 ---
 <!-- bundle exec jekyll serve -->
 # 👋 About Me
-I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin).  I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. Currently,I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist@[Hedra](https://www.hedra.com/)) to explore and develop Human-centric Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/)).
+I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder@[MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin).  I was honored to be supervised and collaborated with **Prof. Erkang Chen** and **Prof. Yun Liu** during my undergraduate studies. Currently,I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist@[Hedra](https://www.hedra.com/)) to explore and develop Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/)).
+
 
 
 ## 🔬 Research Interests
@@ -35,6 +36,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 
 
 # 📰 News
+- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/) with technical report and the 4-step model, Magic 1-For-1 is a SOTA 4-steps Image-to-Video model!!
 - [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
 - [2025-01] Meissonic is accepted by ICLR 2025🎉.
 - [2024-12] 4 Papers are accepted by AAAI 2025.
