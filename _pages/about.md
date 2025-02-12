@@ -36,7 +36,7 @@ I am Tian Ye, a PhD student at HKUST@[ROAS Thrust](https://www.hkust-gz.edu.cn/a
 
 
 # 📰 News
-- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/) with technical report and the 4-step model, Magic 1-For-1 is a SOTA 4-steps Image-to-Video model!!
+- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a state-of-the-art, four-step image-to-video model, along with its technical report.
 - [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
 - [2025-01] Meissonic is accepted by ICLR 2025🎉.
 - [2024-12] 4 Papers are accepted by AAAI 2025.
