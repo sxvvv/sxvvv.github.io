@@ -36,6 +36,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 
 # 📰 News
+- [2025-02] 3 Papers are accepted by CVPR 2025.
 - [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
 - [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
 - [2025-01] [Meissonic](https://sites.google.com/view/meissonic/home?authuser=0) is accepted by ICLR 2025🎉.
