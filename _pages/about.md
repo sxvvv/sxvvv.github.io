@@ -257,13 +257,15 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
    [Talking Avatar Model] <papertitle_just> MagicInfinite: Generating Infinite Talking Videos with Your Words and Voice </papertitle_just>     
   </a>
   <br>
-Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang, Jiantong Zhao, Hanzhong Guo, Terrance Wang, Qingyu Yin, Zeke Xie, Lei Zhu, Wei Li, Michael Lingelbach, Daquan Zhou
+Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong Zhao*, Hanzhong Guo*, Terrance Wang, Qingyu Yin, Zeke Xie, Lei Zhu, Wei Li, Michael Lingelbach, Daquan Zhou
 
 <br>
-<em>Arxiv </em> 2025  <br>
+<em>Arxiv </em> 2025<br>
 <a href="https://arxiv.org/abs/2503.05978">PDF</a>
 |
 <a href="https://magicinfinite.github.io/">Project</a>
+|
+<a href="">Foundational Core Model of Hedra Inc.</a>
 <p> </p>
 </td>
 
