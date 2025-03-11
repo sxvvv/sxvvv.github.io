@@ -17,7 +17,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 <div class="research-areas">
     My research focuses on two key areas:
 
-    <div class="research-item" data-tooltip="ICLR'25 Meissonic, IJCAI'24, Magic 1-For-1">
+    <div class="research-item" data-tooltip="ICLR'25 Meissonic, IJCAI'24, Magic 1-For-1, MagicInfinite">
         <div class="research-icon">🎨</div>
         <div class="research-content">
             <h3>AIGC Technology</h3>
@@ -245,6 +245,27 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 <tbody>
 
 
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://www.hedra.com/">
+   [Talking Avatar Model] <papertitle_just> MagicInfinite: Generating Infinite Talking Videos with Your Words and Voice </papertitle_just>     
+  </a>
+  <br>
+Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang, Jiantong Zhao, Hanzhong Guo, Terrance Wang, Qingyu Yin, Zeke Xie, Lei Zhu, Wei Li, Michael Lingelbach, Daquan Zhou
+
+<br>
+<em>Arxiv </em> 2025  <br>
+<a href="https://arxiv.org/abs/2503.05978">PDF</a>
+|
+<a href="https://magicinfinite.github.io/">Project</a>
+<p> </p>
+</td>
 
 
 <td width="20%">
