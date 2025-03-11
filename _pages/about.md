@@ -265,7 +265,7 @@ Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong
 |
 <a href="https://magicinfinite.github.io/">Project</a>
 |
-<a href="">Foundational Core Model of Hedra Inc.</a>
+<a href=""> Character-3 Model of Hedra Inc.</a>
 <p> </p>
 </td>
 
