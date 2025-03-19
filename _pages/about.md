@@ -639,10 +639,12 @@ SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erk
 
 # Mentoring
 I am very lucky to work with the following talented students:
+- [Heming Li], RA@HKUST(GZ), B.S.@CUHK
 - [Song Fei], Mphil Student@HKUST(GZ).
 - [Haoxuan Feng], Mphil Student@HKUST(GZ).
 - [Chenghao Xue], Now MSc Student@UC Davis.
 - [Jingxia Jiang], Now PhD Student@NC State.
+
 
 # 🎖 Competitions & Awards & Presentations
 - [KAUST AI Rising Star, 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)
