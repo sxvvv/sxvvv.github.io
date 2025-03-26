@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     script.onload = function() {
       new Typed('#motto', {
         strings: ['Pain is the filter. Few pass it.'],
-        typeSpeed: 20,
+        typeSpeed: 50,
         backSpeed: 30,
         loop: true,
         startDelay: 1000,
