@@ -36,47 +36,16 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 
 # 📰 News
-<div class="news-container">
-    <div class="news-item" data-date="2025-03">
-        <div class="news-icon">🎉</div>
-        <div class="news-content">
-            <h3>MagicInfinite Release</h3>
-            <p>We are pleased to announce the release of <a href="https://magicinfinite.github.io">MagicInfinite</a> (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!</p>
-        </div>
-    </div>
-
-    <div class="news-item" data-date="2025-02">
-        <div class="news-icon">📝</div>
-        <div class="news-content">
-            <h3>CVPR 2025 Acceptance</h3>
-            <p>3 Papers are accepted by CVPR 2025.</p>
-        </div>
-    </div>
-
-    <div class="news-item" data-date="2025-02">
-        <div class="news-icon">🚀</div>
-        <div class="news-content">
-            <h3>Magic 1-For-1 Release</h3>
-            <p>We are pleased to announce the release <a href="https://magic-141.github.io/Magic-141/">Magic 1-For-1</a>, a SOTA, <em>4-step image-to-video diffusion model</em>, along with our technical report.</p>
-        </div>
-    </div>
-
-    <div class="news-item" data-date="2025-01">
-        <div class="news-icon">⭐</div>
-        <div class="news-content">
-            <h3>KAUST Rising Stars Speaker</h3>
-            <p>I am honored to be selected as a speaker at <a href="https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025">KAUST Rising Stars in AI Symposium 2025</a>!! Thank you KAUST for the opportunity!</p>
-        </div>
-    </div>
-
-    <div class="news-item" data-date="2025-01">
-        <div class="news-icon">🏆</div>
-        <div class="news-content">
-            <h3>ICLR 2025 Acceptance</h3>
-            <p><a href="https://sites.google.com/view/meissonic/home?authuser=0">Meissonic</a> is accepted by ICLR 2025🎉.</p>
-        </div>
-    </div>
-</div>
+- [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
+- [2025-02] 3 Papers are accepted by CVPR 2025.
+- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
+- [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
+- [2025-01] [Meissonic](https://sites.google.com/view/meissonic/home?authuser=0) is accepted by ICLR 2025🎉.
+- [2024-12] 4 Papers are accepted by AAAI 2025.
+- [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
+- [2024-11] We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!
+- [2024-09] 2 Papers are accepted by ECCV 2024.
+- [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
 
 
 # 📝 Selected Papers
