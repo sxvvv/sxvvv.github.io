@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
       strings: ['Pain is the filter. Few pass it.'],
       typeSpeed: 50,
       backSpeed: 30,
-      loop: false,
+      loop: true,
       startDelay: 1000,
       showCursor: true,
       cursorChar: '|'
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         strings: ['Pain is the filter. Few pass it.'],
         typeSpeed: 50,
         backSpeed: 30,
-        loop: false,
+        loop: true,
         startDelay: 1000,
         showCursor: true,
         cursorChar: '|'
