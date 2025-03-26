@@ -36,16 +36,18 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 
 # 📰 News
-- [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
-- [2025-02] 3 Papers are accepted by CVPR 2025.
-- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
-- [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
-- [2025-01] [Meissonic](https://sites.google.com/view/meissonic/home?authuser=0) is accepted by ICLR 2025🎉.
-- [2024-12] 4 Papers are accepted by AAAI 2025.
-- [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
-- [2024-11] We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!
-- [2024-09] 2 Papers are accepted by ECCV 2024.
-- [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
+<div class="news-container">
+    - [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
+    - [2025-02] 3 Papers are accepted by CVPR 2025.
+    - [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
+    - [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
+    - [2025-01] [Meissonic](https://sites.google.com/view/meissonic/home?authuser=0) is accepted by ICLR 2025🎉.
+    - [2024-12] 4 Papers are accepted by AAAI 2025.
+    - [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
+    - [2024-11] We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!
+    - [2024-09] 2 Papers are accepted by ECCV 2024.
+    - [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
+</div>
 
 
 # 📝 Selected Papers
@@ -967,3 +969,69 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+
+<style>
+/* 添加 News 容器样式 */
+.news-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 添加悬停效果 */
+.news-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* 保持原有的列表样式 */
+.news-container ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* 为新闻项添加动画效果 */
+.news-container li {
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.news-container li:last-child {
+    border-bottom: none;
+}
+
+.news-container li:hover {
+    transform: translateX(5px);
+    color: #1772d0;
+}
+
+/* 添加渐变边框效果 */
+.news-container::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    z-index: -1;
+    border-radius: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.news-container:hover::before {
+    opacity: 1;
+}
+</style>
