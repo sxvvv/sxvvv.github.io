@@ -806,20 +806,164 @@ h1 { animation-delay: 0.2s; }
                                transparent 50%);
     pointer-events: none;
 }
+
+/* 添加粒子背景的容器 */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #f3f4f6 0%, #fff 100%);
+}
+
+/* 确保内容在粒子之上 */
+.wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+/* 为内容添加玻璃态效果 */
+.research-areas,
+.news-section,
+.papers-section {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+/* 添加炫酷的渐变边框效果 */
+.research-item {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.research-item::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    z-index: -1;
+    border-radius: 12px;
+    animation: borderGradient 4s ease infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.research-item:hover::before {
+    opacity: 1;
+}
+
+@keyframes borderGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 添加霓虹光效果 */
+.research-icon {
+    text-shadow: 0 0 10px rgba(23, 114, 208, 0.5);
+    animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+    0% { filter: drop-shadow(0 0 2px rgba(23, 114, 208, 0.5)); }
+    50% { filter: drop-shadow(0 0 8px rgba(23, 114, 208, 0.8)); }
+    100% { filter: drop-shadow(0 0 2px rgba(23, 114, 208, 0.5)); }
+}
+
+/* 优化标题动画效果 */
+.research-content h3 {
+    background: linear-gradient(120deg, #1772d0, #6c5ce7, #1772d0);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 3s linear infinite;
+}
+
+@keyframes gradientText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 </style>
 
+<!-- 添加粒子背景容器 -->
+<div id="particles-js"></div>
+
+<!-- 添加粒子效果的脚本 -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    // 添加鼠标跟随效果
-    const items = document.querySelectorAll('.research-item');
-    items.forEach(item => {
-        item.addEventListener('mousemove', (e) => {
-            const rect = item.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            item.style.setProperty('--x', x + 'px');
-            item.style.setProperty('--y', y + 'px');
-        });
+    particlesJS('particles-js', {
+        particles: {
+            number: {
+                value: 80,
+                density: {
+                    enable: true,
+                    value_area: 800
+                }
+            },
+            color: {
+                value: '#1772d0'
+            },
+            shape: {
+                type: 'circle'
+            },
+            opacity: {
+                value: 0.5,
+                random: false
+            },
+            size: {
+                value: 3,
+                random: true
+            },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: '#1772d0',
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 2,
+                direction: 'none',
+                random: false,
+                straight: false,
+                out_mode: 'out',
+                bounce: false
+            }
+        },
+        interactivity: {
+            detect_on: 'canvas',
+            events: {
+                onhover: {
+                    enable: true,
+                    mode: 'repulse'
+                },
+                onclick: {
+                    enable: true,
+                    mode: 'push'
+                },
+                resize: true
+            }
+        },
+        retina_detect: true
     });
 });
 </script>
