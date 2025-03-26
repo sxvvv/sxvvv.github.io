@@ -36,8 +36,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 
 # 📰 News
-<div class="news-container">
-
+<!-- <div class="news-container"> -->
 - [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
 - [2025-02] 3 Papers are accepted by CVPR 2025.
 - [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
@@ -49,7 +48,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 - [2024-09] 2 Papers are accepted by ECCV 2024.
 - [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
 
-</div>
+<!-- </div> -->
 
 
 # 📝 Selected Papers
