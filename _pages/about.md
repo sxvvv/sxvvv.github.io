@@ -10,10 +10,6 @@ redirect_from:
 <!-- bundle exec jekyll serve -->
 <div id="particles-js" style="position: absolute; width: 100%; height: 100%; z-index: -1;"></div>
 
-<button class="theme-toggle" id="theme-toggle">
-  <i class="fas fa-moon"></i>
-</button>
-
 <div class="typewriter">
   <h1>👋 About Me</h1>
 </div>
@@ -392,6 +388,89 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
     transform: scaleX(1);
   }
 
+  /* 导航菜单动画 */
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item a {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .nav-item a:hover {
+    color: #1772d0;
+  }
+
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #1772d0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+
+  .nav-item:hover::after,
+  .nav-item.active::after {
+    transform: scaleX(1);
+  }
+
+  .nav-indicator {
+    position: absolute;
+    bottom: -3px;
+    height: 3px;
+    background-color: #1772d0;
+    transition: all 0.3s ease;
+  }
+
+  /* 页面过渡动画 */
+  body {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  body.loaded {
+    opacity: 1;
+  }
+
+  .page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    pointer-events: none;
+    transform: translateY(100%);
+  }
+
+  .page-transition.active {
+    animation: page-reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  }
+
+  @keyframes page-reveal {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0%); }
+  }
 </style>
 
 
@@ -830,60 +909,7 @@ I am very lucky to work with the following talented students:
   
 - Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
 
-<!-- <div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
-    background: -webkit-linear-gradient(left, black, yellow, cyan, blue, violet);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;">Adversity shaped me.</div> -->
-
-
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
-
-<style>
-/* Refined styling to match your existing design */
-.research-areas {
-    background: #f8f9fa;
-    padding: 25px;
-    border-radius: 12px;
-    margin: 20px 0;
-}
-
-.research-item {
-    background: white;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: flex-start;
-}
-
-.research-icon {
-    font-size: 24px;
-    margin-right: 15px;
-}
-
-.research-content h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.2em;
-    color: #333;
-}
-
-.research-content p {
-    margin: 0;
-    color: #666;
-    line-height: 1.5;
-}
-</style>
-
-<!-- Add animation for page load -->
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    document.body.style.opacity = '0';
-    setTimeout(() => {
-        document.body.style.opacity = '1';
-    }, 100);
-});
-</script>
 
 <script>
 // 滚动触发动画
@@ -915,127 +941,6 @@ document.addEventListener('DOMContentLoaded', () => {
   scrollFadeElements.forEach(el => observer.observe(el));
   staggeredItems.forEach(el => observer.observe(el));
 });
-</script>
-
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  particlesJS('particles-js', {
-    "particles": {
-      "number": {
-        "value": 50,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": "#1772d0"
-      },
-      "opacity": {
-        "value": 0.3,
-        "random": true
-      },
-      "size": {
-        "value": 3,
-        "random": true
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "color": "#1772d0",
-        "opacity": 0.2,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 1,
-        "direction": "none",
-        "random": true,
-        "out_mode": "out"
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "grab"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 140,
-          "line_linked": {
-            "opacity": 0.5
-          }
-        }
-      }
-    }
-  });
-});
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  // 3D卡片倾斜效果
-  const cards = document.querySelectorAll('.tilt-card');
-  
-  cards.forEach(card => {
-    const inner = card.querySelector('.tilt-card-inner');
-    
-    card.addEventListener('mousemove', e => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      
-      const angleX = (y - centerY) / 20;
-      const angleY = (centerX - x) / 20;
-      
-      inner.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`;
-    });
-    
-    card.addEventListener('mouseleave', () => {
-      inner.style.transform = 'rotateX(0) rotateY(0)';
-    });
-  });
-});
-</script>
-
-<!-- 页面过渡动画 -->
-body {
-  opacity: 0;
-  transition: opacity 0.8s ease;
-}
-
-body.loaded {
-  opacity: 1;
-}
-
-.page-transition {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  z-index: 9999;
-  pointer-events: none;
-  transform: translateY(100%);
-}
-
-.page-transition.active {
-  animation: page-reveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
-}
-
-@keyframes page-reveal {
-  0% { transform: translateY(100%); }
-  100% { transform: translateY(0%); }
-}
 
 // 页面加载动画
 document.addEventListener('DOMContentLoaded', () => {
@@ -1067,63 +972,33 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 10);
     });
   });
-});
-
-/* 导航菜单动画 */
-.nav-menu {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 30px 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.nav-item a {
-  display: inline-block;
-  padding: 8px 15px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav-item a:hover {
-  color: #1772d0;
-}
-
-.nav-item::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: #1772d0;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
-}
-
-.nav-item:hover::after,
-.nav-item.active::after {
-  transform: scaleX(1);
-}
-
-.nav-indicator {
-  position: absolute;
-  bottom: -3px;
-  height: 3px;
-  background-color: #1772d0;
-  transition: all 0.3s ease;
-}
-
-// 添加导航菜单动画
-document.addEventListener('DOMContentLoaded', () => {
+  
+  // 3D卡片倾斜效果
+  const cards = document.querySelectorAll('.tilt-card');
+  
+  cards.forEach(card => {
+    const inner = card.querySelector('.tilt-card-inner');
+    
+    card.addEventListener('mousemove', e => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const angleX = (y - centerY) / 20;
+      const angleY = (centerX - x) / 20;
+      
+      inner.style.transform = `rotateX(${angleX}deg) rotateY(${angleY}deg)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      inner.style.transform = 'rotateX(0) rotateY(0)';
+    });
+  });
+  
+  // 导航菜单动画
   const navItems = document.querySelectorAll('.nav-item');
   const navIndicator = document.querySelector('.nav-indicator');
   
@@ -1143,95 +1018,78 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
-  document.querySelector('.nav-menu').addEventListener('mouseleave', () => {
-    const activeItem = document.querySelector('.nav-item.active') || navItems[0];
-    const rect = activeItem.getBoundingClientRect();
-    navIndicator.style.width = `${rect.width}px`;
-    navIndicator.style.left = `${rect.left}px`;
-  });
-});
-
-/* 主题切换 */
-:root {
-  --primary-color: #1772d0;
-  --secondary-color: #f09228;
-  --text-color: #333;
-  --background-color: #fff;
-  --card-color: #fff;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-[data-theme="dark"] {
-  --primary-color: #64b5f6;
-  --secondary-color: #ffa726;
-  --text-color: #e0e0e0;
-  --background-color: #121212;
-  --card-color: #1e1e1e;
-  --shadow-color: rgba(0, 0, 0, 0.5);
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-
-.theme-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color: var(--card-color);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 2px 10px var(--shadow-color);
-  z-index: 1000;
-  border: none;
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-.theme-toggle:hover {
-  transform: scale(1.1);
-}
-
-.theme-toggle i {
-  font-size: 18px;
-  color: var(--text-color);
-}
-
-// 主题切换功能
-document.addEventListener('DOMContentLoaded', () => {
-  const themeToggle = document.getElementById('theme-toggle');
-  const themeIcon = themeToggle.querySelector('i');
-  
-  // 检查用户之前的偏好
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme === 'dark') {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    themeIcon.classList.replace('fa-moon', 'fa-sun');
+  if (document.querySelector('.nav-menu')) {
+    document.querySelector('.nav-menu').addEventListener('mouseleave', () => {
+      const activeItem = document.querySelector('.nav-item.active') || navItems[0];
+      const rect = activeItem.getBoundingClientRect();
+      navIndicator.style.width = `${rect.width}px`;
+      navIndicator.style.left = `${rect.left}px`;
+    });
   }
-  
-  themeToggle.addEventListener('click', () => {
-    // 切换主题
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    
-    // 切换图标
-    if (newTheme === 'dark') {
-      themeIcon.classList.replace('fa-moon', 'fa-sun');
-    } else {
-      themeIcon.classList.replace('fa-sun', 'fa-moon');
-    }
-  });
 });
 
+// 粒子效果
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof particlesJS !== 'undefined') {
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 50,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#1772d0"
+        },
+        "opacity": {
+          "value": 0.3,
+          "random": true
+        },
+        "size": {
+          "value": 3,
+          "random": true
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#1772d0",
+          "opacity": 0.2,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "none",
+          "random": true,
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 0.5
+            }
+          }
+        }
+      }
+    });
+  }
+});
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </body>
 </html>
