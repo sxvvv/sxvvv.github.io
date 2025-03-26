@@ -324,7 +324,7 @@ Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong
     <summary class="video-button">▶️ Watch Demo</summary>
     <div class="video-container">
       <video controls width="100%">
-        <source src="/assets/videos/magic-141-demo.mp4" type="video/mp4">
+        <source src="images/magicinfinite_main.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
