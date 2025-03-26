@@ -41,18 +41,28 @@
 <!-- Initialize typewriter effect -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var options = {
-    strings: ['👋 About Me'],
-    typeSpeed: 50,
-    backSpeed: 30,
-    loop: false,
-    showCursor: true,
-    cursorChar: '|'
-  };
-  
-  // Only initialize if the element exists
-  if (document.getElementById('typewriter')) {
-    var typed = new Typed('#typewriter', options);
+  // 确保元素存在后再初始化
+  if (document.getElementById('typewriter-container')) {
+    var aboutMeContent = 'I am Tian Ye, a PhD student at HKUST\'s <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/">ROAS Thrust</a> and Co-founder of <a href="https://huggingface.co/MeissonFlow">MeissonFlow Research</a>. I am fortunate to be supervised by <a href="https://sites.google.com/site/indexlzhu/home">Prof. Lei Zhu</a> and <a href="https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin">Prof. Kan, Ge Lin</a>. During my undergraduate studies, I had the honor of being supervised by and collaborating with <strong>Prof. Erkang Chen</strong> and <strong>Prof. Yun Liu</strong>. Currently, I am working closely with <a href="https://xyyhw.top/">Dr. Hongwei Yi</a> (Founding Scientist at <a href="https://www.hedra.com/">Hedra</a>) to explore and develop Foundational Video Generation Models (e.g., <a href="https://magic-141.github.io/Magic-141/">Magic 1-For-1</a>, <a href="https://magicinfinite.github.io">MagicInfinite</a>).';
+    
+    var typed = new Typed('#typewriter-container', {
+      strings: [aboutMeContent],
+      typeSpeed: 20,       // 打字速度较快
+      showCursor: true,
+      cursorChar: '|',
+      loop: false,
+      smartBackspace: true,
+      onComplete: function(self) {
+        // 打字完成后可以添加额外效果
+        var cursor = document.querySelector('.typed-cursor');
+        if (cursor) {
+          setTimeout(function() {
+            cursor.style.opacity = '0';
+            cursor.style.transition = 'opacity 1s';
+          }, 2000);
+        }
+      }
+    });
   }
 });
 </script>
