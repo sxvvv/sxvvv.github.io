@@ -685,42 +685,441 @@ I am very lucky to work with the following talented students:
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
 
 <style>
-/* Refined styling to match your existing design */
-.research-areas {
-    background: #f8f9fa;
-    padding: 25px;
-    border-radius: 12px;
-    margin: 20px 0;
+/* 全局动画效果 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-.research-item {
+/* 现代化卡片设计 */
+.section-card {
     background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 标题样式优化 */
+.section-title {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+/* 新闻项样式 */
+.news-item {
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #3498db;
+    background: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.news-item:hover {
+    background: #e9ecef;
+    transform: translateX(10px);
+}
+
+/* 论文卡片样式 */
+.paper-card {
+    background: white;
+    border-radius: 10px;
     padding: 20px;
     margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: flex-start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
 }
 
-.research-icon {
-    font-size: 24px;
-    margin-right: 15px;
+.paper-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-.research-content h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.2em;
-    color: #333;
+/* 标签样式 */
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin: 2px;
+    color: white;
+    background: #3498db;
 }
 
-.research-content p {
-    margin: 0;
-    color: #666;
-    line-height: 1.5;
+/* 社交图标悬停效果 */
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .section-card {
+        padding: 15px;
+    }
+    
+    .section-title {
+        font-size: 1.5em;
+    }
 }
 </style>
 
+<div class="section-card">
+    <h1 class="section-title">👋 About Me</h1>
+    I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder of [MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). During my undergraduate studies, I had the honor of being supervised by and collaborating with **Prof. Erkang Chen** and **Prof. Yun Liu**. Currently, I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist at [Hedra](https://www.hedra.com/)) to explore and develop Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/), [MagicInfinite](https://magicinfinite.github.io)).
+</div>
+
+<div class="section-card">
+    <h1 class="section-title">📰 News</h1>
+    <div class="news-container">
+        {% for news in site.data.news %}
+        <div class="news-item">
+            <strong>{{ news.date }}</strong> - {{ news.content }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="section-card">
+    <h1 class="section-title">📝 Selected Papers</h1>
+    <!-- <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
+    </p> -->
+
+    <style type="text/css">
+        /* Color scheme stolen from Sergey Karayev */
+        a {
+            color: #1772d0;
+            text-decoration:none !important;
+        }
+        a {
+        color: #1772d0;
+        text-decoration:none !important;
+        }
+        a:focus, a:hover {
+        color: #f09228;
+        text-decoration:none !important;
+        }
+        table,td,th,tr{
+        	border:none !important;
+        }
+        body,td,th,tr,p,a {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px
+        }
+        strong {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        }
+        heading {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 22px;
+        }
+        papertitle {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700
+        }
+        papertitle_just {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: justify
+        }
+        name {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 32px;
+        }
+        .one
+        {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        }
+        .two
+        {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -webkit-transition: opacity .2s ease-in-out;
+        }
+        .fade {
+         transition: opacity .2s ease-in-out;
+         -moz-transition: opacity .2s ease-in-out;
+         -webkit-transition: opacity .2s ease-in-out;
+        }
+        span.highlight {
+            background-color: #ffffd0;
+        }
+
+
+      .research-areas {
+          background: #f8f9fa;
+          padding: 25px;
+          border-radius: 12px;
+          margin: 20px 0;
+      }
+
+      .research-item {
+          background: white;
+          padding: 20px;
+          margin: 15px 0;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          display: flex;
+          align-items: flex-start;
+          transition: all 0.3s ease;
+          transform-origin: center;
+      }
+
+      /* 鼠标悬停效果 */
+      .research-item:hover {
+          transform: scale(1.03);
+          box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+          background: #fafafa;
+      }
+
+      .research-icon {
+          font-size: 24px;
+          margin-right: 15px;
+          transition: transform 0.3s ease;
+      }
+
+      /* 图标动画效果 */
+      .research-item:hover .research-icon {
+          transform: scale(1.2) rotate(5deg);
+      }
+
+      .research-content {
+          flex: 1;
+      }
+
+      .research-content h3 {
+          margin: 0 0 10px 0;
+          font-size: 1.2em;
+          color: #333;
+          transition: color 0.3s ease;
+      }
+
+      /* 标题颜色变化效果 */
+      .research-item:hover .research-content h3 {
+          color: #1772d0;
+      }
+
+      .research-content p {
+          margin: 0;
+          color: #666;
+          line-height: 1.5;
+          transition: color 0.3s ease;
+      }
+
+      /* 文字颜色变化效果 */
+      .research-item:hover .research-content p {
+          color: #333;
+      }
+
+
+
+
+      /* 添加tooltip样式 */
+      .research-item {
+          position: relative;
+      }
+
+      .research-item::after {
+          content: attr(data-tooltip);
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          padding: 8px;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: white;
+          border-radius: 6px;
+          font-size: 14px;
+          white-space: nowrap;
+          opacity: 0;
+          visibility: hidden;
+          transition: all 0.3s ease;
+          z-index: 1000;
+      }
+
+      .research-item:hover::after {
+        opacity: 1;
+        visibility: visible;
+        bottom: calc(100% + 10px);
+    }
+
+      /* 添加箭头 */
+      .research-item::before {
+          content: '';
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          border: 6px solid transparent;
+          border-top-color: rgba(0, 0, 0, 0.8);
+          opacity: 0;
+          visibility: hidden;
+          transition: all 0.3s ease;
+      }
+
+      .research-item:hover::before {
+          opacity: 1;
+          visibility: visible;
+          bottom: calc(100% + 4px);
+      }
+
+
+    </style>
+
+
+    <tbody>
+
+
+
+    <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://www.hedra.com/">
+       [🔥Talking Avatar Model��] <papertitle_just>🔥🔥🔥MagicInfinite: Generating Infinite Talking Videos with Your Words and Voice </papertitle_just>
+      </a>
+      <br>
+    Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong Zhao*, Hanzhong Guo*, Terrance Wang, Qingyu Yin, Zeke Xie, Lei Zhu, Wei Li, Michael Lingelbach, Daquan Zhou
+
+    <br>
+    <em>Arxiv </em> 2025<br>
+    <a href="https://arxiv.org/abs/2503.05978">PDF</a>
+    |
+    <a href="https://magicinfinite.github.io/">Project</a>
+    |
+    <a href=""><em>Character-3 Model of Hedra Inc.</em></a>
+    <p> </p>
+    </td>
+
+
+    <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://sites.google.com/view/meissonic/home?authuser=0">
+       [🔥Foundational Generation Model🔥]<papertitle_just>🔥🔥🔥Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis</papertitle_just>
+      </a>
+      <br>
+    Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
+    <br>
+    <em>ICLR </em> 2025 <span style="color:red;">The first SDXL Level, High-Resolution Non-AR T2I Model!</span> <br>
+    <a href="https://arxiv.org/abs/2410.08261">PDF</a>
+    |
+    <a href="https://sites.google.com/view/meissonic/home?authuser=0">Project</a>
+    |
+    <a href="https://huggingface.co/MeissonFlow/Meissonic">HF Model</a>
+    |
+    <a href="https://x.com/AdinaYakup/status/1845815299611734141">Adina Yakup@Twitter</a>
+
+    <p> </p>
+    </td>
+
+
+
+    <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://aglldiff.github.io">
+       [Generative Image Enhancement] <papertitle_just> AGLLDiff : Guiding Diffusion Models Towards Unsupervised Training-free Real-world Low-light Image Enhancement </papertitle_just>     
+      </a>
+      <br>
+    Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang, Wenhao Chai, Zhaohu Xing, Lei Zhu and Xinghao Ding
+    <br>
+    <em>AAAI </em> 2025  <br>
+    <a href="https://arxiv.org/pdf/2407.14900">PDF</a>
+    |
+    <a href="https://aglldiff.github.io">Project</a>
+    <p> </p>
+    </td>
+
+
+    <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://aglldiff.github.io">
+       [Real-world Restoration] <papertitle_just> PromptHaze: Prompting Real-world Dehazing via Depth Anything Model </papertitle_just>     
+      </a>
+      <br>
+    <strong>Tian Ye</strong>, Sixiang Chen, Haoyu Chen, Wenhao Chai, Jingjing Ren, Zhaohu Xing, Wenxue Li, Lei Zhu
+    <br>
+    <em>AAAI </em> 2025  <br>
+    <p> </p>
+    </td>
+
+
+
+
+    <!-- <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://aglldiff.github.io">
+       [Generative Image Restoration] <papertitle_just> Residual Diffusion Deblurring Model for Single Image Defocus Deblurring </papertitle_just>     
+      </a>
+      <br>
+      Haoxuan feng, Haohui Zhou, <strong>Tian Ye</strong>, Sixiang Chen, Lei Zhu
+    <br>
+    <em>AAAI </em> 2025  <br>
+    <p> </p>
+    </td> -->
+
+
+    <td width="20%">
+
+    <script type="text/javascript">
+
+    </script>
+    </td>
+    <td valign="top" width="80%">
+      <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather">
+       [Generative Image Restoration] <papertitle_just> Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
+      </a>
+      <br>
+    Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and Lei Zhu
+    <br>
+    <em>ECCV </em> 2024  <br>
+    <a href="https://arxiv.org/pdf/2409.15739">PDF</a>
+    |
+    <a href="https://ephemeral182.github.io/T3-DiffWeather/">Project</a>
 <!-- Add animation for page load -->
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
