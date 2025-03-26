@@ -9,41 +9,60 @@ redirect_from:
 ---
 
 ## 👋 About Me
-<div id="about-me-content" style="display:none;">
+<div id="typewriter-text" style="display:none;">
 I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder of [MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). During my undergraduate studies, I had the honor of being supervised by and collaborating with **Prof. Erkang Chen** and **Prof. Yun Liu**. Currently, I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist at [Hedra](https://www.hedra.com/)) to explore and develop Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/), [MagicInfinite](https://magicinfinite.github.io)).
 </div>
 
 <div id="typewriter-output"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
+// 一个简单的自定义打字机函数
 document.addEventListener('DOMContentLoaded', function() {
-  // 获取源内容
-  var sourceElement = document.getElementById('about-me-content');
-  var targetElement = document.getElementById('typewriter-output');
+  const sourceEl = document.getElementById('typewriter-text');
+  const targetEl = document.getElementById('typewriter-output');
   
-  if (sourceElement && targetElement) {
-    // 获取Markdown内容并转换为HTML（Jekyll已经处理过）
-    var content = sourceElement.innerHTML;
-    
-    // 创建打字机效果
-    var typed = new Typed('#typewriter-output', {
-      strings: [content],
-      typeSpeed: 20,
-      startDelay: 500,
-      showCursor: true,
-      cursorChar: '|',
-      onComplete: function(self) {
-        setTimeout(function() {
-          document.querySelector('.typed-cursor').style.opacity = '0';
-        }, 2000);
-      }
-    });
-  } else {
-    console.error('Elements not found for typewriter effect');
+  if (!sourceEl || !targetEl) return;
+  
+  const text = sourceEl.innerHTML;
+  let i = 0;
+  const speed = 30; // 打字速度
+  
+  function typeWriter() {
+    if (i < text.length) {
+      targetEl.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    } else {
+      // 可选：添加闪烁的光标
+      const cursor = document.createElement('span');
+      cursor.innerHTML = '|';
+      cursor.style.animation = 'blink 1s step-end infinite';
+      targetEl.appendChild(cursor);
+      
+      // 2秒后移除光标
+      setTimeout(function() {
+        if (cursor && cursor.parentNode) {
+          cursor.parentNode.removeChild(cursor);
+        }
+      }, 2000);
+    }
   }
+  
+  // 添加闪烁光标的CSS
+  const style = document.createElement('style');
+  style.innerHTML = `
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  `;
+  document.head.appendChild(style);
+  
+  // 开始打字效果
+  typeWriter();
 });
 </script>
+
 
 ## 🔬 Research Interests
 <div class="research-areas">
