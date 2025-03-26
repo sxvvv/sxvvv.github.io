@@ -126,8 +126,6 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
       padding: 25px;
       border-radius: 12px;
       margin: 20px 0;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-      animation: fadeIn 1s ease-out;
   }
 
   .research-item {
@@ -138,50 +136,26 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       display: flex;
       align-items: flex-start;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: all 0.3s ease;
       transform-origin: center;
-      position: relative;
-      overflow: hidden;
   }
 
-  /* Enhanced hover effect with subtle glow */
+  /* 鼠标悬停效果 */
   .research-item:hover {
-      transform: translateY(-5px) scale(1.03);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.1), 0 0 15px rgba(23, 114, 208, 0.2);
-      background: linear-gradient(to right, #ffffff, #f8f9fa);
-  }
-
-  /* Add subtle background shine effect on hover */
-  .research-item::after {
-      content: "";
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
-      opacity: 0;
-      transform: scale(0.5);
-      transition: transform 0.5s, opacity 0.5s;
-      pointer-events: none;
-  }
-  
-  .research-item:hover::after {
-      opacity: 0.6;
-      transform: scale(1);
+      transform: scale(1.03);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      background: #fafafa;
   }
 
   .research-icon {
-      font-size: 28px;
+      font-size: 24px;
       margin-right: 15px;
-      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-      transform-origin: center;
+      transition: transform 0.3s ease;
   }
 
-  /* Enhanced icon animation effect */
+  /* 图标动画效果 */
   .research-item:hover .research-icon {
-      transform: scale(1.3) rotate(15deg);
-      text-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transform: scale(1.2) rotate(5deg);
   }
 
   .research-content {
@@ -190,173 +164,80 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
   .research-content h3 {
       margin: 0 0 10px 0;
-      font-size: 1.3em;
+      font-size: 1.2em;
       color: #333;
-      transition: color 0.4s ease, transform 0.3s ease;
-      position: relative;
-      display: inline-block;
+      transition: color 0.3s ease;
   }
 
-  /* Title hover animation with underline effect */
+  /* 标题颜色变化效果 */
   .research-item:hover .research-content h3 {
       color: #1772d0;
-      transform: translateX(5px);
-  }
-  
-  .research-content h3::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -4px;
-      left: 0;
-      background-color: #1772d0;
-      transition: width 0.4s ease;
-  }
-  
-  .research-item:hover .research-content h3::after {
-      width: 100%;
   }
 
   .research-content p {
       margin: 0;
       color: #666;
-      line-height: 1.6;
-      transition: all 0.4s ease;
-      transform-origin: left;
+      line-height: 1.5;
+      transition: color 0.3s ease;
   }
 
-  /* Text animation on hover */
+  /* 文字颜色变化效果 */
   .research-item:hover .research-content p {
       color: #333;
-      transform: scale(1.02);
   }
 
-  /* Tooltip styling with enhanced animation */
-  .research-item[data-tooltip]::before {
+
+
+
+  /* 添加tooltip样式 */
+  .research-item {
+      position: relative;
+  }
+
+  .research-item::after {
       content: attr(data-tooltip);
       position: absolute;
-      bottom: 110%;
+      bottom: 100%;
       left: 50%;
-      transform: translateX(-50%) scale(0.9);
-      padding: 10px 15px;
-      background-color: rgba(0, 0, 0, 0.85);
+      transform: translateX(-50%);
+      padding: 8px;
+      background-color: rgba(0, 0, 0, 0.8);
       color: white;
       border-radius: 6px;
       font-size: 14px;
       white-space: nowrap;
       opacity: 0;
       visibility: hidden;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: all 0.3s ease;
       z-index: 1000;
-      pointer-events: none;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-      text-shadow: 0 1px 2px rgba(0,0,0,0.3);
   }
 
-  .research-item[data-tooltip]:hover::before {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(-50%) scale(1);
-      bottom: calc(100% + 15px);
-  }
+  .research-item:hover::after {
+    opacity: 1;
+    visibility: visible;
+    bottom: calc(100% + 10px);
+}
 
-  /* Arrow animation */
-  .research-item[data-tooltip]::after {
+  /* 添加箭头 */
+  .research-item::before {
       content: '';
       position: absolute;
-      bottom: 110%;
+      bottom: 100%;
       left: 50%;
-      transform: translateX(-50%) scale(0.9);
-      border: 8px solid transparent;
-      border-top-color: rgba(0, 0, 0, 0.85);
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: rgba(0, 0, 0, 0.8);
       opacity: 0;
       visibility: hidden;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      pointer-events: none;
+      transition: all 0.3s ease;
   }
 
-  .research-item[data-tooltip]:hover::after {
+  .research-item:hover::before {
       opacity: 1;
       visibility: visible;
-      transform: translateX(-50%) scale(1);
-      bottom: calc(100% + 7px);
+      bottom: calc(100% + 4px);
   }
-  
-  /* Section heading animations */
-  h1, h2 {
-      position: relative;
-      overflow: hidden;
-      display: inline-block;
-      margin-bottom: 15px;
-  }
-  
-  h1::after, h2::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 3px;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(to right, #1772d0, #f09228);
-      transform: translateX(-100%);
-      transition: transform 0.8s ease;
-  }
-  
-  h1:hover::after, h2:hover::after {
-      transform: translateX(0);
-  }
-  
-  /* Paper entry animations */
-  td[valign="top"] {
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-      border-radius: 8px;
-      padding: 10px;
-  }
-  
-  td[valign="top"]:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-      background-color: rgba(248, 249, 250, 0.7);
-  }
-  
-  /* Animated page entry */
-  @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-  }
-  
-  @keyframes slideIn {
-      from { transform: translateX(-50px); opacity: 0; }
-      to { transform: translateX(0); opacity: 1; }
-  }
-  
-  #about-me, #research-interests, #news, #selected-papers, 
-  #mentoring, #competitions-awards-presentations, 
-  #academic-services, #educationsexperience {
-      animation: slideIn 0.6s ease-out forwards;
-      opacity: 0;
-      animation-delay: calc(var(--animation-order) * 0.2s);
-  }
-  
-  /* Custom scrollbar */
-  ::-webkit-scrollbar {
-      width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-      background: #f1f1f1;
-      border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-      background: #888;
-      border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-  }
+
 
 </style>
 
@@ -849,93 +730,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }, 100);
 });
 </script>
-
-<!-- Add sequenced animation for sections -->
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Page fade-in animation
-    document.body.style.opacity = '0';
-    document.body.style.transition = 'opacity 0.8s ease';
-    
-    setTimeout(() => {
-        document.body.style.opacity = '1';
-    }, 100);
-    
-    // Set animation order for sections
-    const sections = [
-        document.getElementById('about-me'),
-        document.getElementById('research-interests'),
-        document.getElementById('news'),
-        document.getElementById('selected-papers'),
-        document.getElementById('mentoring'),
-        document.getElementById('competitions-awards-presentations'),
-        document.getElementById('academic-services'),
-        document.getElementById('educationsexperience')
-    ];
-    
-    sections.forEach((section, index) => {
-        if (section) {
-            section.style.setProperty('--animation-order', index);
-            
-            // Add a slight delay before starting animations
-            setTimeout(() => {
-                section.style.animation = `slideIn 0.6s ease-out forwards ${index * 0.2}s`;
-            }, 300);
-        }
-    });
-    
-    // Add hover effects for research items
-    const researchItems = document.querySelectorAll('.research-item');
-    researchItems.forEach(item => {
-        item.addEventListener('mouseenter', () => {
-            item.style.zIndex = "10";
-        });
-        item.addEventListener('mouseleave', () => {
-            item.style.zIndex = "1";
-        });
-    });
-    
-    // Add scroll reveal animations
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = "1";
-                entry.target.style.transform = "translateY(0)";
-            }
-        });
-    }, { threshold: 0.1 });
-    
-    // Select all paper entries
-    document.querySelectorAll('td[valign="top"]').forEach(element => {
-        element.style.opacity = "0";
-        element.style.transform = "translateY(20px)";
-        element.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-        observer.observe(element);
-    });
-});
-</script>
-
-<!-- Add section IDs for animation targeting -->
-<h1 id="about-me">👋 About Me</h1>
-<!-- ... existing code ... -->
-
-<h2 id="research-interests">🔬 Research Interests</h2>
-<!-- ... existing code ... -->
-
-<h1 id="news">📰 News</h1>
-<!-- ... existing code ... -->
-
-<h1 id="selected-papers">📝 Selected Papers</h1>
-<!-- ... existing code ... -->
-
-<h1 id="mentoring">Mentoring</h1>
-<!-- ... existing code ... -->
-
-<h1 id="competitions-awards-presentations">🎖 Competitions & Awards & Presentations</h1>
-<!-- ... existing code ... -->
-
-<h1 id="academic-services">💬 Academic Services</h1>
-<!-- ... existing code ... -->
-
-<h1 id="educationsexperience">📖 Educations&Experience</h1>
-<!-- ... existing code ... -->
