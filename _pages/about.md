@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
   if (typeof Typed !== 'undefined') {
     new Typed('#motto', {
       strings: ['Pain is the filter. Few pass it.'],
-      typeSpeed: 20,
+      typeSpeed: 50,
       backSpeed: 30,
-      loop: false,
+      loop: true,
       startDelay: 1000,
       showCursor: true,
       cursorChar: '|'
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         strings: ['Pain is the filter. Few pass it.'],
         typeSpeed: 20,
         backSpeed: 30,
-        loop: false,
+        loop: true,
         startDelay: 1000,
         showCursor: true,
         cursorChar: '|'
@@ -56,29 +56,11 @@ document.addEventListener('DOMContentLoaded', function() {
     font-weight: 500;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .typed-cursor {
-    color: #1772d0 !important;
+    color: #1772d0;
     font-weight: bold;
-    opacity: 1;
-    display: inline-block;
-    position: relative;
-    margin-left: 4px;
-    background: #1772d0;
-    width: 2px;
-    height: 24px;
-    -webkit-text-fill-color: initial;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
 }
 </style>
 
@@ -1046,7 +1028,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 初始化打字机效果
     new Typed('#motto', {
         strings: ['Pain is the filter. Few pass it.'],
-        typeSpeed: 20,
+        typeSpeed: 50,
         backSpeed: 30,
         loop: false,
         startDelay: 1000,
@@ -1075,22 +1057,8 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 .typed-cursor {
-    color: #1772d0 !important;
+    color: #1772d0;
     font-weight: bold;
-    opacity: 1;
-    display: inline-block;
-    position: relative;
-    margin-left: 4px;
-    background: #1772d0;
-    width: 2px;
-    height: 24px;
-    -webkit-text-fill-color: initial;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
 }
 </style>
 
