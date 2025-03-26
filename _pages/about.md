@@ -52,8 +52,6 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 
 # 📝 Selected Papers
-<!-- <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
-</p> -->
 
 <style type="text/css">
     /* Color scheme stolen from Sergey Karayev */
@@ -971,63 +969,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-<style>
-/* 添加 News 容器样式 */
-.news-container {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.news-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-}
-
-/* 添加渐变边框效果 */
-.news-container::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
-    z-index: -1;
-    border-radius: 14px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.news-container:hover::before {
-    opacity: 1;
-}
-
-/* 保持原有的Markdown列表样式 */
-.news-container ul {
-    margin-bottom: 0;
-}
-
-.news-container li {
-    margin: 8px 0;
-}
-
-.news-container a {
-    color: #1772d0;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.news-container a:hover {
-    color: #f09228;
-}
-</style>
