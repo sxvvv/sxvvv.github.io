@@ -16,50 +16,44 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 <div id="typewriter-output"></div>
 
 <script>
-// 一个简单的自定义打字机函数
 document.addEventListener('DOMContentLoaded', function() {
-  const sourceEl = document.getElementById('typewriter-text');
-  const targetEl = document.getElementById('typewriter-output');
-  
-  if (!sourceEl || !targetEl) return;
-  
-  const text = sourceEl.innerHTML;
-  let i = 0;
-  const speed = 30; // 打字速度
-  
-  function typeWriter() {
-    if (i < text.length) {
-      targetEl.innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    } else {
-      // 可选：添加闪烁的光标
-      const cursor = document.createElement('span');
-      cursor.innerHTML = '|';
-      cursor.style.animation = 'blink 1s step-end infinite';
-      targetEl.appendChild(cursor);
-      
-      // 2秒后移除光标
-      setTimeout(function() {
-        if (cursor && cursor.parentNode) {
-          cursor.parentNode.removeChild(cursor);
-        }
-      }, 2000);
+  // 确保页面完全加载
+  setTimeout(function() {
+    const sourceEl = document.getElementById('typewriter-text');
+    const targetEl = document.getElementById('typewriter-output');
+    
+    if (!sourceEl || !targetEl) {
+      console.error('Typewriter elements not found!');
+      // 如果找不到元素，直接显示原文
+      document.querySelector('h2:contains("About Me")').insertAdjacentHTML('afterend', sourceEl ? sourceEl.innerHTML : '');
+      return;
     }
-  }
-  
-  // 添加闪烁光标的CSS
-  const style = document.createElement('style');
-  style.innerHTML = `
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
+    
+    const text = sourceEl.innerHTML;
+    let i = 0;
+    const speed = 30; // 打字速度
+    
+    function typeWriter() {
+      if (i < text.length) {
+        targetEl.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
     }
-  `;
-  document.head.appendChild(style);
-  
-  // 开始打字效果
-  typeWriter();
+    
+    // 添加闪烁光标的CSS
+    const style = document.createElement('style');
+    style.innerHTML = `
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+    
+    // 开始打字效果
+    typeWriter();
+  }, 1000); // 等待1秒确保页面完全加载
 });
 </script>
 
