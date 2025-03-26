@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
       loop: true,
       startDelay: 1000,
       showCursor: true,
-      cursorChar: '|'
+      cursorChar: ''
     });
   } else {
     var script = document.createElement('script');
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loop: true,
         startDelay: 1000,
         showCursor: true,
-        cursorChar: '|'
+        cursorChar: ''
       });
     };
     document.head.appendChild(script);
