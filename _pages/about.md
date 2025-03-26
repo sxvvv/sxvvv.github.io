@@ -12,6 +12,61 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 
 <div id="motto" class="typed-motto"></div>
 
+<script>
+// 内联脚本确保加载顺序
+document.addEventListener('DOMContentLoaded', function() {
+  // 检查Typed是否存在
+  if (typeof Typed !== 'undefined') {
+    new Typed('#motto', {
+      strings: ['Pain is the filter. Few pass it.'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: false,
+      startDelay: 1000,
+      showCursor: true,
+      cursorChar: '|'
+    });
+  } else {
+    // 如果Typed不存在，手动加载然后初始化
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12';
+    script.onload = function() {
+      new Typed('#motto', {
+        strings: ['Pain is the filter. Few pass it.'],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: false,
+        startDelay: 1000,
+        showCursor: true,
+        cursorChar: '|'
+      });
+    };
+    document.head.appendChild(script);
+  }
+});
+</script>
+
+<style>
+.typed-motto {
+    font-style: italic;
+    font-size: 24px;
+    margin: 20px 0;
+    min-height: 36px;
+    background: -webkit-linear-gradient(left, #1772d0, #6c5ce7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.typed-cursor {
+    color: #1772d0;
+    font-weight: bold;
+}
+</style>
+
 ## 🔬 Research Interests
 <div class="research-areas">
     My research focuses on two key areas:
