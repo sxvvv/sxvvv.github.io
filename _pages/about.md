@@ -719,14 +719,107 @@ I am very lucky to work with the following talented students:
     color: #666;
     line-height: 1.5;
 }
+
+/* 添加页面加载动画 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 为主要内容块添加动画 */
+.research-areas,
+.news-section,
+.papers-section,
+h1, h2, h3 {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+/* 为不同部分设置不同的动画延迟 */
+h1 { animation-delay: 0.2s; }
+.research-areas { animation-delay: 0.4s; }
+.news-section { animation-delay: 0.6s; }
+.papers-section { animation-delay: 0.8s; }
+
+/* 增强研究领域卡片的动画效果 */
+.research-item {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.research-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(255,255,255,.8) 50%, transparent 51%, transparent 100%);
+    transform: translateX(-100%);
+    transition: all 0.6s;
+}
+
+.research-item:hover::before {
+    transform: translateX(100%);
+}
+
+.research-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* 为图标添加旋转动画 */
+.research-icon {
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.research-item:hover .research-icon {
+    transform: rotate(360deg) scale(1.2);
+}
+
+/* 为标题添加渐变色效果 */
+.research-content h3 {
+    background: linear-gradient(120deg, #1772d0, #6c5ce7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+}
+
+/* 添加鼠标跟随效果 */
+.research-item:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at var(--x) var(--y), 
+                               rgba(255,255,255,0.2) 0%,
+                               transparent 50%);
+    pointer-events: none;
+}
 </style>
 
-<!-- Add animation for page load -->
 <script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    document.body.style.opacity = '0';
-    setTimeout(() => {
-        document.body.style.opacity = '1';
-    }, 100);
+document.addEventListener('DOMContentLoaded', () => {
+    // 添加鼠标跟随效果
+    const items = document.querySelectorAll('.research-item');
+    items.forEach(item => {
+        item.addEventListener('mousemove', (e) => {
+            const rect = item.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            item.style.setProperty('--x', x + 'px');
+            item.style.setProperty('--y', y + 'px');
+        });
+    });
 });
 </script>
