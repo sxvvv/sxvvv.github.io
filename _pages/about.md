@@ -10,7 +10,7 @@ redirect_from:
 ## 👋 About Me
 I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder of [MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). During my undergraduate studies, I had the honor of being supervised by and collaborating with **Prof. Erkang Chen** and **Prof. Yun Liu**. Currently, I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist at [Hedra](https://www.hedra.com/)) to explore and develop Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/), [MagicInfinite](https://magicinfinite.github.io)).
 
-
+<div id="motto" class="typed-motto"></div>
 
 ## 🔬 Research Interests
 <div class="research-areas">
@@ -967,4 +967,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
+
+<!-- 添加Typed.js库 -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // 初始化打字机效果
+    new Typed('#motto', {
+        strings: ['Pain is the filter. Few pass it.'],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: false,
+        startDelay: 1000,
+        showCursor: true,
+        cursorChar: '|',
+        autoInsertCss: true
+    });
+});
+</script>
+
+<!-- 为打字机效果添加样式 -->
+<style>
+.typed-motto {
+    font-style: italic;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+    min-height: 36px;
+    background: -webkit-linear-gradient(left, #1772d0, #6c5ce7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.typed-cursor {
+    color: #1772d0;
+    font-weight: bold;
+}
+</style>
 
