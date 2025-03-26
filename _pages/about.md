@@ -11,11 +11,12 @@ redirect_from:
 # 👋 About Me
 I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/) and Co-founder of [MeissonFlow Research](https://huggingface.co/MeissonFlow). I am fortunate to be supervised by [Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home) and [Prof. Kan, Ge Lin](https://repository.hkust.edu.hk/ir/AuthorProfile/kan-ge-lin). During my undergraduate studies, I had the honor of being supervised by and collaborating with **Prof. Erkang Chen** and **Prof. Yun Liu**. Currently, I am working closely with [Dr. Hongwei Yi](https://xyyhw.top/) (Founding Scientist at [Hedra](https://www.hedra.com/)) to explore and develop Foundational Video Generation Models (e.g., [Magic 1-For-1](https://magic-141.github.io/Magic-141/), [MagicInfinite](https://magicinfinite.github.io)).
 
-<div class="profile-container">
-  <div class="profile-content">
+
+
+## 🔬 Research Interests
 <div class="research-areas">
-      <h2>🔬 Research Interests</h2>
-      <div class="research-grid">
+    My research focuses on two key areas:
+
     <div class="research-item" data-tooltip="ICLR'25 Meissonic, IJCAI'24, Magic 1-For-1, MagicInfinite">
         <div class="research-icon">🎨</div>
         <div class="research-content">
@@ -31,268 +32,176 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
             <p>Exploring visual challenges in photography to create images with superior quality.</p>
         </div>
     </div>
-      </div>
-    </div>
-  </div>
 </div>
 
-<div class="news-section">
-  <h1 class="section-title">📰 News</h1>
-  <div class="news-container">
-    <div class="news-item">
-      <div class="news-date">2025-03</div>
-      <div class="news-content">We are pleased to announce the release of <a href="https://magicinfinite.github.io">MagicInfinite</a> (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2025-02</div>
-      <div class="news-content">3 Papers are accepted by CVPR 2025.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2025-02</div>
-      <div class="news-content">We are pleased to announce the release <a href="https://magic-141.github.io/Magic-141/">Magic 1-For-1</a>, a SOTA, <em>4-step image-to-video diffusion model</em>, along with our technical report.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2025-01</div>
-      <div class="news-content">I am honored to be selected as a speaker at <a href="https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025">KAUST Rising Stars in AI Symposium 2025</a>!! Thank you KAUST for the opportunity!</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2025-01</div>
-      <div class="news-content"><a href="https://sites.google.com/view/meissonic/home?authuser=0">Meissonic</a> is accepted by ICLR 2025🎉.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2024-12</div>
-      <div class="news-content">4 Papers are accepted by AAAI 2025.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2024-11</div>
-      <div class="news-content">I am honored to be selected as a Outstanding Reviewer for BMVC 2024！</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2024-11</div>
-      <div class="news-content">We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2024-09</div>
-      <div class="news-content">2 Papers are accepted by ECCV 2024.</div>
-    </div>
-    <div class="news-item">
-      <div class="news-date">2024-06</div>
-      <div class="news-content">2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.</div>
-    </div>
-  </div>
-</div>
 
-<div class="section-container papers-section">
-  <h1 class="section-title">📝 Selected Papers</h1>
-  <!-- Keep your existing style and paper HTML structure -->
-  <!-- ... existing code ... -->
-</div>
+# 📰 News
+- [2025-03] We are pleased to announce the release of [MagicInfinite](https://magicinfinite.github.io) (Character-3 Model of Hedra Inc.). Now you can fastly generate infinite talking videos with your words and voice!
+- [2025-02] 3 Papers are accepted by CVPR 2025.
+- [2025-02] We are pleased to announce the release [Magic 1-For-1](https://magic-141.github.io/Magic-141/), a SOTA, *4-step image-to-video diffusion model*, along with our technical report.
+- [2025-01] I am honored to be selected as a speaker at [KAUST Rising Stars in AI Symposium 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)!! Thank you KAUST for the opportunity!
+- [2025-01] [Meissonic](https://sites.google.com/view/meissonic/home?authuser=0) is accepted by ICLR 2025🎉.
+- [2024-12] 4 Papers are accepted by AAAI 2025.
+- [2024-11] I am honored to be selected as a Outstanding Reviewer for BMVC 2024！
+- [2024-11] We release Meissonic on HuggingFace🎉, Meissonic-1B is the first SDXL level, high-resolution non-AR T2I model!!
+- [2024-09] 2 Papers are accepted by ECCV 2024.
+- [2024-06] 2 Papers are accepted by MICCAI 2024, and Segmamba is selected as a Spotlight presentation paper.
 
-<div class="section-container">
-  <h1 class="section-title">Mentoring</h1>
-  <div class="mentoring-container">
-    <p>I am very lucky to work with the following talented students:</p>
-    <ul class="mentoring-list">
-      <li>[Heming Li], RA@HKUST(GZ), B.S.@CUHK</li>
-      <li>[Song Fei], Mphil Student@HKUST(GZ).</li>
-      <li>[Haoxuan Feng], Mphil Student@HKUST(GZ).</li>
-      <li>[Chenghao Xue], Now MSc Student@UC Davis.</li>
-      <li>[Jingxia Jiang], Now PhD Student@NC State.</li>
-    </ul>
-  </div>
-</div>
 
-<div class="section-container">
-  <h1 class="section-title">🎖 Competitions & Awards & Presentations</h1>
-  <div class="awards-container">
-    <ul class="awards-list">
-      <li><a href="https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025">KAUST AI Rising Star, 2025</a></li>
-      <li><a href="https://bmvc2024.org/people/reviewers/">Outstanding Reviewer</a>, BMVC 2024.</li>
-      <li>PG scholarship of HKUST(GZ), 2024.</li>
-      <li>2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1</li>
-      <li>2022 JMU Student Star Award (20/19000)</li>
-    </ul>
-  </div>
-</div>
+# 📝 Selected Papers
+<!-- <p style='text-align: justify;'> My research revolves around three key areas: <strong>(I)</strong> Supporting the art creation industry and digital asset generation through advances in AIGC (Artificial Intelligence Generated Content) technology. <strong>(II)</strong> Exploring visual challenges in photography to create images with superior quality. <strong>(III)</strong> Addressing real-world image restoration and enhancement by identifying and overcoming the limitations of existing methods.
+</p> -->
 
-<div class="section-container">
-  <h1 class="section-title">💬 Academic Services</h1>
-  <div class="services-container">
-    <div class="service-category">
-      <h3>Conference Reviewer</h3>
-      <p>ACCV 2022&2024, WACV 2023&2024, BMVC 2023&2024, AAAI 2022&2023&2024&2025, ICCV 2023, CVPR 2024, ECCV 2024, ACM MM 2024, NeurIPS 2024, ICLR 2025, ICML 2025.</p>
-</div>
-
-    <div class="service-category">
-      <h3>Workshop Competition Organizer</h3>
-      <p><a href="https://sites.google.com/view/loveucvpr24/track1">LOVEU@CVPR 2024</a></p>
-    </div>
-    
-    <div class="service-category">
-      <h3>Journal Reviewer</h3>
-      <ul>
-        <li>International Journal of Computer Vision</li>
-        <li>IEEE Signal Processing Letter</li>
-        <li>IEEE Journal of Oceanic Engineering</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="section-container">
-  <h1 class="section-title">📖 Education & Experience</h1>
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-date">Aug'2024-Present</div>
-      <div class="timeline-content">
-        <h3>PhD Student</h3>
-        <p>The Hong Kong University of Science and Technology, Guangzhou.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">Jun'2023-Jul'2024</div>
-      <div class="timeline-content">
-        <h3>Research Assistant</h3>
-        <p>The Hong Kong University of Science and Technology, Guangzhou.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">Sep'2019-Jul'2023</div>
-      <div class="timeline-content">
-        <h3>B.Eng (Telecommunication Engineering)</h3>
-        <p>Jimei University, Xiamen.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
-
-<style>
-/* Base styling */
-body {
+<style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+        color: #1772d0;
+        text-decoration:none !important;
+    }
+    a {
+    color: #1772d0;
+    text-decoration:none !important;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none !important;
+    }
+    table,td,th,tr{
+    	border:none !important;
+    }
+    body,td,th,tr,p,a {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  line-height: 1.6;
-  color: #333;
-  transition: opacity 0.8s ease;
-}
-
-/* Section styling */
-.section-title {
-  position: relative;
-  padding-bottom: 10px;
-  margin: 40px 0 20px;
-  color: #2c3e50;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    papertitle_just {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
     font-weight: 700;
-}
+    text-align: justify
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
 
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 80px;
-  height: 3px;
-  background: linear-gradient(90deg, #1772d0, #4a90e2);
-  border-radius: 3px;
-}
 
-.section-container {
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  margin: 30px 0;
-  border: 1px solid #eaeaea;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 7px 25px rgba(0,0,0,0.08);
-}
-
-/* Profile section */
-.profile-container {
-  display: flex;
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.profile-content {
-  flex: 1;
-}
-
-/* Research interests styling */
   .research-areas {
       background: #f8f9fa;
       padding: 25px;
       border-radius: 12px;
       margin: 20px 0;
-  border: 1px solid #eaeaea;
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
   }
 
   .research-item {
       background: white;
       padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       display: flex;
       align-items: flex-start;
       transition: all 0.3s ease;
-  position: relative;
-  border: 1px solid #eaeaea;
+      transform-origin: center;
   }
 
+  /* 鼠标悬停效果 */
   .research-item:hover {
       transform: scale(1.03);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      background: #fafafa;
   }
 
   .research-icon {
-  font-size: 28px;
+      font-size: 24px;
       margin-right: 15px;
       transition: transform 0.3s ease;
   }
 
+  /* 图标动画效果 */
   .research-item:hover .research-icon {
       transform: scale(1.2) rotate(5deg);
+  }
+
+  .research-content {
+      flex: 1;
   }
 
   .research-content h3 {
       margin: 0 0 10px 0;
       font-size: 1.2em;
-  color: #2c3e50;
+      color: #333;
       transition: color 0.3s ease;
   }
 
+  /* 标题颜色变化效果 */
   .research-item:hover .research-content h3 {
       color: #1772d0;
   }
 
   .research-content p {
       margin: 0;
-  color: #555;
-  line-height: 1.6;
+      color: #666;
+      line-height: 1.5;
       transition: color 0.3s ease;
   }
 
-/* Tooltip styles */
+  /* 文字颜色变化效果 */
+  .research-item:hover .research-content p {
+      color: #333;
+  }
+
+
+
+
+  /* 添加tooltip样式 */
+  .research-item {
+      position: relative;
+  }
+
   .research-item::after {
       content: attr(data-tooltip);
       position: absolute;
       bottom: 100%;
       left: 50%;
       transform: translateX(-50%);
-  padding: 8px 12px;
-  background-color: rgba(44, 62, 80, 0.95);
+      padding: 8px;
+      background-color: rgba(0, 0, 0, 0.8);
       color: white;
       border-radius: 6px;
       font-size: 14px;
@@ -301,7 +210,6 @@ body {
       visibility: hidden;
       transition: all 0.3s ease;
       z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
 
   .research-item:hover::after {
@@ -310,6 +218,7 @@ body {
     bottom: calc(100% + 10px);
 }
 
+  /* 添加箭头 */
   .research-item::before {
       content: '';
       position: absolute;
@@ -317,7 +226,7 @@ body {
       left: 50%;
       transform: translateX(-50%);
       border: 6px solid transparent;
-  border-top-color: rgba(44, 62, 80, 0.95);
+      border-top-color: rgba(0, 0, 0, 0.8);
       opacity: 0;
       visibility: hidden;
       transition: all 0.3s ease;
@@ -329,285 +238,495 @@ body {
       bottom: calc(100% + 4px);
   }
 
-/* News section styling */
-.news-section {
-  margin: 40px 0;
-}
 
-.news-container {
-  background: white;
-  border-radius: 12px;
-  padding: 5px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  border: 1px solid #eaeaea;
-}
+</style>
 
-.news-item {
-  display: flex;
-  padding: 15px 20px;
-  border-bottom: 1px solid #eaeaea;
-  transition: background-color 0.3s ease;
-}
 
-.news-item:last-child {
-  border-bottom: none;
-}
+<tbody>
 
-.news-item:hover {
-  background-color: #f8f9fa;
-}
 
-.news-date {
-  min-width: 100px;
-  font-weight: bold;
-  color: #1772d0;
-}
 
-.news-content {
-  flex: 1;
-}
+<td width="20%">
 
-.news-content a {
-  color: #1772d0;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+<script type="text/javascript">
 
-.news-content a:hover {
-  color: #f09228;
-  text-decoration: underline;
-}
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://www.hedra.com/">
+   [🔥Talking Avatar Model🔥] <papertitle_just>🔥🔥🔥MagicInfinite: Generating Infinite Talking Videos with Your Words and Voice </papertitle_just>
+  </a>
+  <br>
+Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong Zhao*, Hanzhong Guo*, Terrance Wang, Qingyu Yin, Zeke Xie, Lei Zhu, Wei Li, Michael Lingelbach, Daquan Zhou
 
-/* Mentoring section */
-.mentoring-list {
-  list-style-type: none;
-  padding: 0;
-}
+<br>
+<em>Arxiv </em> 2025<br>
+<a href="https://arxiv.org/abs/2503.05978">PDF</a>
+|
+<a href="https://magicinfinite.github.io/">Project</a>
+|
+<a href=""><em>Character-3 Model of Hedra Inc.</em></a>
+<p> </p>
+</td>
 
-.mentoring-list li {
-  padding: 10px 15px;
-  margin-bottom: 8px;
-  background: #f8f9fa;
-  border-radius: 6px;
-  border-left: 3px solid #1772d0;
-  transition: all 0.3s ease;
-}
 
-.mentoring-list li:hover {
-  background: #eef2f7;
-  transform: translateX(5px);
-}
+<td width="20%">
 
-/* Awards section */
-.awards-list {
-  list-style-type: none;
-  padding: 0;
-}
+<script type="text/javascript">
 
-.awards-list li {
-  padding: 12px 15px;
-  margin-bottom: 10px;
-  background: #f8f9fa;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  transition: all 0.3s ease;
-}
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://sites.google.com/view/meissonic/home?authuser=0">
+   [🔥Foundational Generation Model🔥]<papertitle_just>🔥🔥🔥Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis</papertitle_just>
+  </a>
+  <br>
+Jinbin Bai*, <strong>Tian Ye*</strong>, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan
+<br>
+<em>ICLR </em> 2025 <span style="color:red;">The first SDXL Level, High-Resolution Non-AR T2I Model!</span> <br>
+<a href="https://arxiv.org/abs/2410.08261">PDF</a>
+|
+<a href="https://sites.google.com/view/meissonic/home?authuser=0">Project</a>
+|
+<a href="https://huggingface.co/MeissonFlow/Meissonic">HF Model</a>
+|
+<a href="https://x.com/AdinaYakup/status/1845815299611734141">Adina Yakup@Twitter</a>
 
-.awards-list li::before {
-  content: '🏆';
-  margin-right: 10px;
-  font-size: 18px;
-}
+<p> </p>
+</td>
 
-.awards-list li:hover {
-  background: #eef2f7;
-  transform: translateX(5px);
-}
 
-/* Academic services section */
-.services-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
 
-.service-category {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-  border-top: 3px solid #1772d0;
-  transition: all 0.3s ease;
-}
+<td width="20%">
 
-.service-category:hover {
-  background: #eef2f7;
-  transform: translateY(-5px);
-  box-shadow: 0 7px 15px rgba(0,0,0,0.1);
-}
+<script type="text/javascript">
 
-.service-category h3 {
-  color: #2c3e50;
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 1.2em;
-}
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Generative Image Enhancement] <papertitle_just> AGLLDiff : Guiding Diffusion Models Towards Unsupervised Training-free Real-world Low-light Image Enhancement </papertitle_just>     
+  </a>
+  <br>
+Yunlong Lin*, <strong>Tian Ye*</strong>, Sixiang Chen*, Zhenqi Fu, Yingying Wang, Wenhao Chai, Zhaohu Xing, Lei Zhu and Xinghao Ding
+<br>
+<em>AAAI </em> 2025  <br>
+<a href="https://arxiv.org/pdf/2407.14900">PDF</a>
+|
+<a href="https://aglldiff.github.io">Project</a>
+<p> </p>
+</td>
 
-.service-category ul {
-  padding-left: 20px;
-}
 
-/* Timeline styling for education */
-.timeline {
-  position: relative;
-  padding-left: 30px;
-}
+<td width="20%">
 
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 5px;
-  bottom: 5px;
-  width: 3px;
-  background: linear-gradient(to bottom, #1772d0, #4a90e2);
-  border-radius: 3px;
-}
+<script type="text/javascript">
 
-.timeline-item {
-  position: relative;
-  padding-bottom: 25px;
-}
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Real-world Restoration] <papertitle_just> PromptHaze: Prompting Real-world Dehazing via Depth Anything Model </papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye</strong>, Sixiang Chen, Haoyu Chen, Wenhao Chai, Jingjing Ren, Zhaohu Xing, Wenxue Li, Lei Zhu
+<br>
+<em>AAAI </em> 2025  <br>
+<p> </p>
+</td>
 
-.timeline-item:last-child {
-  padding-bottom: 0;
-}
 
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -36px;
-  top: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 3px solid #1772d0;
-  background: white;
-  transition: all 0.3s ease;
-}
 
-.timeline-item:hover::before {
-  transform: scale(1.2);
-  background: #1772d0;
-}
 
-.timeline-date {
-  font-weight: bold;
-  color: #1772d0;
-  margin-bottom: 5px;
-}
+<!-- <td width="20%">
 
-.timeline-content {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 6px;
-  margin-top: 5px;
-  transition: all 0.3s ease;
-}
+<script type="text/javascript">
 
-.timeline-item:hover .timeline-content {
-  background: #eef2f7;
-  transform: translateX(5px);
-}
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://aglldiff.github.io">
+   [Generative Image Restoration] <papertitle_just> Residual Diffusion Deblurring Model for Single Image Defocus Deblurring </papertitle_just>     
+  </a>
+  <br>
+  Haoxuan feng, Haohui Zhou, <strong>Tian Ye</strong>, Sixiang Chen, Lei Zhu
+<br>
+<em>AAAI </em> 2025  <br>
+<p> </p>
+</td> -->
 
-.timeline-content h3 {
-  margin: 0 0 5px 0;
-  color: #2c3e50;
-  font-size: 1.1em;
-}
 
-/* Animation for page transition */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+<td width="20%">
 
-.section-container {
-  animation: fadeInUp 0.8s ease forwards;
-  opacity: 0;
-}
+<script type="text/javascript">
 
-.section-container:nth-child(1) { animation-delay: 0.1s; }
-.section-container:nth-child(2) { animation-delay: 0.2s; }
-.section-container:nth-child(3) { animation-delay: 0.3s; }
-.section-container:nth-child(4) { animation-delay: 0.4s; }
-.section-container:nth-child(5) { animation-delay: 0.5s; }
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather">
+   [Generative Image Restoration] <papertitle_just> Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</papertitle_just>     
+  </a>
+  <br>
+Sixiang Chen, <strong>Tian Ye</strong>, Kai Zhang, Zhaohu Xing, Yunlong Lin, and Lei Zhu
+<br>
+<em>ECCV </em> 2024  <br>
+<a href="https://arxiv.org/pdf/2409.15739">PDF</a>
+|
+<a href="https://ephemeral182.github.io/T3-DiffWeather/">Project</a>
+|
+<a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather">code</a>
+<p> </p>
+</td>
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .profile-container {
-    flex-direction: column;
-  }
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="">
+   [Video Restoration] <papertitle_just> Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization</papertitle_just>     
+  </a>
+  <br>
+Jingjing Ren, Haoyu Chen, <strong>Tian Ye</strong>, Hongtao Wu and Lei Zhu
+<br>
+<em>IJCV </em> 2024  <br>
+<a href="https://link.springer.com/article/10.1007/s11263-024-02161-0">PDF</a>
+<p> </p>
+</td>
+
+
+
+<td width="20%">
+
+<script type="text/javascript">
+
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2401.13560">
+    [Medical Image Seg] <papertitle_just> SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation</papertitle_just>     
+  </a>
+  <br>
+Zhaohu Xing,  <strong>Tian Ye</strong>, Yijun Yang, Guang Liu and Lei Zhu
+<br>
+<em>MICCAI </em> 2024 <span style="color:red;"> Selected as a Spotlight presentation paper (about 20 of 2,869 valid submissions) and  Early Accepted by MICCAI. Don't need rebuttal!</span> <br>
+<a href="https://arxiv.org/pdf/2401.13560">PDF</a>
+|
+<a href="https://github.com/ge-xing/SegMamba">code</a>
+<p> </p>
+</td>
+
+
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Learning_Diffusion_Texture_Priors_for_Image_Restoration_CVPR_2024_paper.pdf">
+    [Generative Model For IR] <papertitle_just> Learning Diffusion Texture Priors for Image Restoration</papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye</strong>, Sixiang Chen, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu.
+<br>
+<em>CVPR Highlight </em> 2024 <span style="color:red;">Selected as a Highlight presentation paper (324 of 11,532 valid submissions).</span><br>
+
+<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Learning_Diffusion_Texture_Priors_for_Image_Restoration_CVPR_2024_paper.pdf">PDF</a>
+|
+<a href="https://owen718.github.io/files/CVPR2024_Poster_DTPM.pdf">CVPR Poster</a>
+<p></p>
+</td>
+
+
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+<!-- <div class="one"> -->
+<!-- <div class="two" id = 'submit23__image'><img src='./files/submit23_after.png'></div>
+<img src='./files/submit23_before.png'> -->
+<!-- </div> -->
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/pdf/2312.08606.pdf">
+    [Generative Model For IR]<papertitle_just> VQCNIR: Clearer Night Image Restoration with Vector-Quantized Codebook</papertitle_just>     
+  </a>
+  <br>
+Wenbin Zou, Hongxia Gao, <strong>Tian Ye</strong>, Liang Chen, Weipeng Yang, Shasha Huang, Hongsheng Chen, Sixiang Chen
+<br>
+<em>AAAI</em> 2024 <br>
+<a href="https://arxiv.org/pdf/2312.08606.pdf">PDF</a>
+|
+<a href="https://github.com/AlexZou14/VQCNIR">Code</a>
+<p></p>
+</td>
+
+
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Sparse_Sampling_Transformer_with_Uncertainty-Driven_Ranking_for_Unified_Removal_of_ICCV_2023_paper.html">
+    [Image Restoration]<papertitle_just> Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks </papertitle_just>     
+  </a>
+  <br>
+Sixiang Chen*,<strong>Tian Ye*</strong>, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
+  <br>
+<em>ICCV</em> 2023 <br>
+<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Sparse_Sampling_Transformer_with_Uncertainty-Driven_Ranking_for_Unified_Removal_of_ICCV_2023_paper.html">PDF</a>
+|
+<a href="https://github.com/Owen718/UDR-S2Former_deraining">Code</a>
+|
+<a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">Project</a>
+<p></p>
+</td>
+
+
+
+<td width="20%">
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// }
+// function submit23__stop() {
+// document.getElementById('submit23__image').style.opacity = "0";
+// }
+// submit23__stop()
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.html">
+   [Generative Model For IR]<papertitle_just> Adverse Weather Removal with Codebook Priors </papertitle_just>     
+  </a>
+  <br>
+<strong>Tian Ye*</strong>, Sixiang Chen*, Jinbin Bai*, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
+  <br>
+<em>ICCV</em> 2023 <br>
+<a href="https://openaccess.thecvf.com/content/ICCV2023/html/Ye_Adverse_Weather_Removal_with_Codebook_Priors_ICCV_2023_paper.html">PDF</a>
+|
+<a href="">Code</a>
+<p></p>
+</td>
+
+<!-- Paper V  -->
+<!-- ###################################################################################################-->
   
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
+
+
+
+
+
+
+<!-- <td width="20%">
+<script type="text/javascript">
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://arxiv.org/abs/2306.17201">
+    <papertitle_just>MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling </papertitle_just>     
+  </a>
+  <br>
+Zhengyu Zhang, Wenhao Chai, Zhongyu Jiang, <strong>Tian Ye</strong>, Mingli Song, Jenq-Neng Hwang, Gaoang Wang 
+  <br>
+<em>Under Review.</em> 2023 <br>
+<a href="https://arxiv.org/abs/2306.17201">PDF</a>
+|
+<a href="https://github.com/vvirgooo2/MPM">code</a>
+<p>Treat 2D and 3D pose as two different modalities and apply three mask modeling based pretext tasks for human pose pre-training to learn spatial and temporal relations.</p>
+</td>
+ -->
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+
+</td>
+<td valign="top" width="80%">
+  <a href="">
+    [Image Restoration]<papertitle_just> Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing</papertitle_just>     
+  </a>
+  <br>
+SiXiang Chen*, <strong>Tian Ye*</strong>, Chenghao Xue, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu
+  <br>
+<em>ACM Multimedia (ACM MM) </em> 2023 <br>
+<a href="">PDF</a>
+|
+<a href="">Code</a>
+<p></p>
+</td>
+
+
+<!-- Paper V  -->
+<!-- ###################################################################################################-->
   
-  .services-container {
-    grid-template-columns: 1fr;
-  }
+
+
+<!-- ###################################################################################################-->
+<!-- Paper V -->
+<!-- <tr onmouseout="submit23__stop()" onmouseover="submit23__start()" > -->
+<td width="20%">
+
+<script type="text/javascript">
+// function submit23__start() {
+// document.getElementById('submit23__image').style.opacity = "1";
+// 
+</script>
+</td>
+<td valign="top" width="80%">
+  <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">
+    [Image Restoration]<papertitle_just> Perceiving and Modeling Density for Image Dehazing</papertitle_just>     
+  </a>
+  <br>
+  <strong>Tian Ye*</strong>, Yunchen Zhang*, Mingchao Jiang*, Liang Chen, Yun Liu, Erkang Chen. 
+  <!-- <strong>Yeying Jin</strong>, Ruoteng Li, Wenhan Yang, Robby T. Tan
+   -->
+  <br>
+<em>ECCV Oral</em>, 2022. <span style="color:red;">Selected as a Oral presentation paper (Top 2.7%, 158 of 5,803 valid submissions).</span><br>
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">PDF</a>
+|
+<a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">Code</a> 
+<p></p>
+</td>
+
+<!-- Paper IV Reflectance, AAAI'23 -->
+<!-- ###################################################################################################-->
+
+
+
+</tbody>
+
+
+# Mentoring
+I am very lucky to work with the following talented students:
+- [Heming Li], RA@HKUST(GZ), B.S.@CUHK
+- [Song Fei], Mphil Student@HKUST(GZ).
+- [Haoxuan Feng], Mphil Student@HKUST(GZ).
+- [Chenghao Xue], Now MSc Student@UC Davis.
+- [Jingxia Jiang], Now PhD Student@NC State.
+
+
+# 🎖 Competitions & Awards & Presentations
+- [KAUST AI Rising Star, 2025](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025)
+- [Outstanding Reviewer](https://bmvc2024.org/people/reviewers/), BMVC 2024.
+- PG scholarship of HKUST(GZ), 2024.
+- 2022 CVPR NAS Competition Supernet Track: Third Place Solution of Track 1 
+- 2022 JMU Student Star Award  (20/19000)
+
+
+# 💬 Academic Services
+- Conference Reviewer: ACCV 2022&2024, WACV 2023&2024, BMVC 2023&2024, AAAI 2022&2023&2024&2025, ICCV 2023, CVPR 2024, ECCV 2024, ACM MM 2024, NeurIPS 2024, ICLR 2025, ICML 2025.
+
+- Workshop Competition Organizer: [LOVEU@CVPR 2024](https://sites.google.com/view/loveucvpr24/track1)
   
-  .news-item {
-    flex-direction: column;
-  }
+- Journal Reviewer: 
+
+  International Journal of Computer Vision
   
-  .news-date {
-    margin-bottom: 8px;
-  }
+  IEEE Signal Processing Letter
+
+  IEEE Journal of Oceanic Engineering
+
+
+# 📖 Educations&Experience
+
+- Aug'2024-Present: PhD Student, The Hong Kong University of Science and Technology, Guangzhou.
+
+- Jun'2023-Jul'2024: Research Assistant, The Hong Kong University of Science and Technology, Guangzhou.
+  
+- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
+
+<!-- <div style="font-style: italic; font-family: 'Arial Black', Gadget, sans-serif; font-size: 24px;
+    background: -webkit-linear-gradient(left, black, yellow, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">Adversity shaped me.</div> -->
+
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KKPhQ-LXT8mek63h4Oa8BltFlbFsTTwZkLrrWb3wFEs&cl=ffffff&w=a"></script>
+
+<style>
+/* Refined styling to match your existing design */
+.research-areas {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
 }
 
-/* Keep your existing styles that are working well */
-a {
-    color: #1772d0;
-    text-decoration:none !important;
+.research-item {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: flex-start;
 }
-a:focus, a:hover {
-    color: #f09228;
-    text-decoration:none !important;
+
+.research-icon {
+    font-size: 24px;
+    margin-right: 15px;
 }
-table,td,th,tr{
-    border:none !important;
+
+.research-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.research-content p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
 }
 </style>
 
+<!-- Add animation for page load -->
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Add animation effects for sections
-    const sections = document.querySelectorAll('.section-container');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-                observer.unobserve(entry.target);
-            }
-        });
-    }, {
-        threshold: 0.1
-    });
-    
-    sections.forEach(section => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-        observer.observe(section);
-    });
+    document.body.style.opacity = '0';
+    setTimeout(() => {
+        document.body.style.opacity = '1';
+    }, 100);
 });
 </script>
