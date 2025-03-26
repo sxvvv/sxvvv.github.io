@@ -13,9 +13,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 <div id="motto" class="typed-motto"></div>
 
 <script>
-// 内联脚本确保加载顺序
 document.addEventListener('DOMContentLoaded', function() {
-  // 检查Typed是否存在
   if (typeof Typed !== 'undefined') {
     new Typed('#motto', {
       strings: ['Pain is the filter. Few pass it.'],
@@ -27,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
       cursorChar: '|'
     });
   } else {
-    // 如果Typed不存在，手动加载然后初始化
     var script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12';
     script.onload = function() {
