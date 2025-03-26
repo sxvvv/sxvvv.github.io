@@ -298,31 +298,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<td valign="top" width="80%">
-  <a href="https://magic-141.github.io/Magic-141/">
-   [🔥Video Generation Model🔥] <papertitle_just>🔥🔥🔥Magic 1-For-1: Fast Image-to-Video Diffusion Model</papertitle_just>     
-  </a>
-  <br>
-  Hongwei Yi*, <strong>Tian Ye*</strong>, etc.
-  <br>
-  <em>Arxiv </em> 2025<br>
-  <a href="https://arxiv.org/abs/2503.05578">PDF</a>
-  |
-  <a href="https://magic-141.github.io/Magic-141/">Project</a>
-  |
-  <details class="video-demo">
-    <summary class="video-button">▶️ Watch Demo</summary>
-    <div class="video-container">
-      <video controls width="100%">
-        <source src="/assets/videos/magic-141-demo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  </details>
-  <p> </p>
-</td>
-
-
 
 <td width="20%">
 
@@ -344,6 +319,18 @@ Hongwei Yi*, <strong>Tian Ye*</strong>, Shitong Shao*, Xuancheng Yang*, Jiantong
 <a href="https://magicinfinite.github.io/">Project</a>
 |
 <a href=""><em>Character-3 Model of Hedra Inc.</em></a>
+
+<details class="video-demo">
+    <summary class="video-button">▶️ Watch Demo</summary>
+    <div class="video-container">
+      <video controls width="100%">
+        <source src="/assets/videos/magic-141-demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </details>
+
+
 <p> </p>
 </td>
 
