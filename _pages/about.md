@@ -16,7 +16,7 @@ I am Tian Ye, a PhD student at HKUST's [ROAS Thrust](https://www.hkust-gz.edu.cn
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof Typed !== 'undefined') {
     new Typed('#motto', {
-      strings: ['Pain is the filter. Few pass it.'],
+      strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     script.src = 'https://cdn.jsdelivr.net/npm/typed.js@2.0.12';
     script.onload = function() {
       new Typed('#motto', {
-        strings: ['Pain is the filter. Few pass it.'],
+        strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
         typeSpeed: 50,
         backSpeed: 30,
         loop: true,
