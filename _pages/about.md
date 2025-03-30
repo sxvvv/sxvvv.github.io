@@ -1034,13 +1034,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <!-- 添加Typed.js库 -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
 
-<script>
+<!-- <script>
 document.addEventListener('DOMContentLoaded', () => {
     // 初始化打字机效果
     new Typed('#motto', {
-        strings: ['Pain is the filter. Few pass it.'],
+        strings: ["At a certain point, success isn't about talent or luck. It's about who’s willing to suffer for the longest. Pain is the filter. Few pass it."],
         typeSpeed: 50,
         backSpeed: 30,
         loop: false,
@@ -1050,10 +1050,10 @@ document.addEventListener('DOMContentLoaded', () => {
         autoInsertCss: true
     });
 });
-</script>
+</script> -->
 
 <!-- 为打字机效果添加样式 -->
-<style>
+<!-- <style>
 .typed-motto {
     font-style: italic;
     font-size: 24px;
@@ -1073,5 +1073,5 @@ document.addEventListener('DOMContentLoaded', () => {
     color: #1772d0;
     font-weight: bold;
 }
-</style>
+</style> -->
 
