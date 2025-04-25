@@ -31,3 +31,31 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 </style>
+## 🔬 Research Interests
+<div class="research-areas">
+    My research focuses on the following key areas:
+
+<div class="research-areas">
+    <div class="research-item" data-tooltip="UHD Image Restoration, All-in-one Image Restoration, Advanced Restoration Models">
+        <div class="research-icon">🖼️</div>
+        <div class="research-content">
+            <h3>UHD & All-in-one Image Restoration</h3>
+            <p>Focusing on developing innovative solutions for ultra-high-definition (UHD) image restoration and comprehensive image restoration models.</p>
+        </div>
+    </div>
+
+    <div class="research-item" data-tooltip="AIGC, Visual Quality, Content Creation">
+        <div class="research-icon">🤖</div> 
+        <div class="research-content">
+            <h3>AIGC Technology</h3>
+            <p>Exploring how artificial intelligence generates content, enhancing the creation process in various artistic fields.</p>
+        </div>
+    </div>
+
+</div>
+# 📰 News
+<!-- <div class="news-container"> -->
+
+
+<!-- </div> -->
+
