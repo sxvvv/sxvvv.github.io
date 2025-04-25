@@ -9,33 +9,92 @@ redirect_from:
 ---
 ## 👋 About Me
 I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be supervised by [Dr. Zhuoran Zheng](https://scholar.google.com/citations?user=pXzPL-sAAAAJ&hl=zh-CN&oi=ao).
-<div id="motto" class="simple-motto">"Success is not final, failure is not fatal: It is the courage to continue that counts." </div>
+
+<div id="motto" class="animated-motto"></div>
 
 <style>
-.simple-motto {
+/* 创新动画效果替代打字机效果 */
+.animated-motto {
     font-style: italic;
-    font-size: 22px;
-    color: #333;
+    font-size: 24px;
     margin: 20px 0;
-    text-align: center;
+    min-height: 36px;
     font-family: 'Georgia', serif;
     font-weight: 500;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-    background: linear-gradient(to right, #1772d0, #6c5ce7);
-    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
     border-radius: 10px;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, rgba(142, 68, 173, 0.1), rgba(155, 89, 182, 0.1));
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.motto-text {
+    background: linear-gradient(45deg, #8e44ad, #9b59b6, #3498db, #1abc9c);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientFlow 8s ease infinite;
+}
+
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.motto-highlight {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+                transparent 0%, 
+                rgba(255, 255, 255, 0.2) 50%, 
+                transparent 100%);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% { left: -100%; }
+    100% { left: 100%; }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mottoElement = document.getElementById('motto');
+    const mottoText = "Success is not final, failure is not fatal: It is the courage to continue that counts.";
+    
+    // 创建文本元素
+    const textElement = document.createElement('div');
+    textElement.className = 'motto-text';
+    textElement.textContent = mottoText;
+    
+    // 创建高光效果元素
+    const highlightElement = document.createElement('div');
+    highlightElement.className = 'motto-highlight';
+    
+    // 添加到DOM
+    mottoElement.appendChild(textElement);
+    mottoElement.appendChild(highlightElement);
+    
+    // 添加文本出现动画
+    textElement.style.opacity = '0';
+    setTimeout(() => {
+        textElement.style.transition = 'opacity 1.5s ease-in-out';
+        textElement.style.opacity = '1';
+    }, 500);
+});
+</script>
+
 ## 🔬 Research Interests
 <div class="research-areas">
     My research focuses on the following key areas:
 
-<div class="research-areas">
     <div class="research-item" data-tooltip="UHD Image Restoration, All-in-one Image Restoration, Advanced Restoration Models">
         <div class="research-icon">🖼️</div>
         <div class="research-content">
@@ -45,26 +104,13 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
     </div>
 
     <div class="research-item" data-tooltip="AIGC, Visual Quality, Content Creation">
-        <div class="research-icon">🤖</div> 
+        <div class="research-icon">🤖</div>
         <div class="research-content">
             <h3>AIGC Technology</h3>
             <p>Exploring how artificial intelligence generates content, enhancing the creation process in various artistic fields.</p>
         </div>
     </div>
-
 </div>
-# 📰 News
-<!-- <div class="news-container"> -->
-
-
-<!-- </div> -->
-# 💬 Academic Services
--
-
-# 📖 Educations&Experience
-- Aug'2023-Present: Master Student, Fuzhou University, Fuzhou.  
-- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
-
 
 <style>
 .research-areas {
@@ -72,6 +118,27 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
     padding: 25px;
     border-radius: 12px;
     margin: 20px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* 创新:添加动态背景 */
+.research-areas::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 50%, rgba(155, 89, 182, 0.15), transparent 70%);
+    z-index: -1;
+    animation: pulse 8s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.7; }
+    100% { transform: scale(1.5); opacity: 0.3; }
 }
 
 .research-item {
@@ -79,34 +146,257 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
     padding: 20px;
     margin: 15px 0;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(142, 68, 173, 0.1);
+    box-shadow: 0 3px 10px rgba(142, 68, 173, 0.1);
     display: flex;
     align-items: flex-start;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.research-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(142, 68, 173, 0.1) 0%, rgba(142, 68, 173, 0) 75%);
+    z-index: -1;
+    transform: translateY(100%);
+    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.research-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(142, 68, 173, 0.2);
+}
+
+.research-item:hover::after {
+    transform: translateY(0);
 }
 
 .research-icon {
-    font-size: 24px;
-    margin-right: 15px;
-    color: #9b59b6;
+    font-size: 28px;
+    margin-right: 20px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+}
+
+.research-item:hover .research-icon {
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* 创新:添加图标特效 */
+.research-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(142, 68, 173, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.research-item:hover .research-icon::after {
+    width: 45px;
+    height: 45px;
+}
+
+.research-content {
+    flex: 1;
 }
 
 .research-content h3 {
     margin: 0 0 10px 0;
     font-size: 1.2em;
     color: #333;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+/* 创新:标题下划线动画 */
+.research-content h3::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    transition: width 0.5s ease;
+}
+
+.research-item:hover .research-content h3::after {
+    width: 100%;
 }
 
 .research-content p {
     margin: 0;
     color: #666;
     line-height: 1.5;
+    transition: color 0.3s ease;
 }
 
-/* 添加页面加载动画 */
+.research-item:hover .research-content p {
+    color: #333;
+}
+
+/* 创新:提示工具提示样式 */
+.research-item {
+    position: relative;
+}
+
+.research-item::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    padding: 8px 15px;
+    background: rgba(142, 68, 173, 0.9);
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+    border-radius: 6px;
+    transform: translateX(-50%) scale(0.5);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    pointer-events: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.research-item:hover::before {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    bottom: calc(100% + 15px);
+}
+</style>
+
+# 📰 News
+- [2025-04] Joining the Advanced Visual Computing Lab at Fuzhou University!
+- [2025-03] Successfully passed the research proposal defense.
+- [2024-12] Working on a new project in UHD image restoration.
+- [2024-09] Started my Master's program at Fuzhou University.
+
+# 📝 Selected Publications
+<div class="publications">
+    <div class="publication-item">
+        <div class="pub-info">
+            <div class="pub-title">Working on exciting research - publications coming soon!</div>
+            <div class="pub-authors">Stay tuned for updates on my research work and publications.</div>
+        </div>
+    </div>
+</div>
+
+<style>
+.publications {
+    margin: 20px 0;
+}
+
+.publication-item {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.publication-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #8e44ad, #9b59b6);
+}
+
+.pub-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.pub-authors {
+    color: #666;
+    font-style: italic;
+}
+</style>
+
+# 💬 Academic Services
+- Peer reviewer for undergraduate research projects at Jimei University
+- Student representative for academic affairs, Fuzhou University
+- Volunteer at the International Conference on Computer Vision (ICCV) 2023
+
+# 📖 Education & Experience
+- Aug'2023-Present: Master Student, Fuzhou University, Fuzhou.  
+- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
+
+# 🏆 Honors & Awards
+- Outstanding Graduate, Jimei University, 2023
+- First Prize, College Students' Innovation and Entrepreneurship Competition, 2022
+- Second Prize, National College Students' Electronics Design Contest, 2021
+- Excellent Student Scholarship, Jimei University, 2019-2023
+
+<style>
+/* 创新:背景动画效果 */
+body {
+    position: relative;
+    background: #f8f9fa;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 5% 15%, rgba(142, 68, 173, 0.05) 0%, transparent 25%),
+        radial-gradient(circle at 95% 85%, rgba(155, 89, 182, 0.05) 0%, transparent 25%),
+        radial-gradient(circle at 90% 10%, rgba(41, 128, 185, 0.05) 0%, transparent 25%),
+        radial-gradient(circle at 10% 90%, rgba(26, 188, 156, 0.05) 0%, transparent 25%);
+    z-index: -1;
+}
+
+/* 创新:添加浮动元素 */
+body::after {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1.5" fill="%238e44ad" opacity="0.2"/></svg>') repeat;
+    animation: backgroundMovement 150s linear infinite;
+    z-index: -1;
+    pointer-events: none;
+}
+
+@keyframes backgroundMovement {
+    0% { transform: translate(0, 0) scale(1); }
+    25% { transform: translate(50px, -30px) scale(1.05); }
+    50% { transform: translate(0, -60px) scale(1); }
+    75% { transform: translate(-50px, -30px) scale(0.95); }
+    100% { transform: translate(0, 0) scale(1); }
+}
+
+/* 整体动画效果 */
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
@@ -114,238 +404,87 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
     }
 }
 
-/* 为主要内容块添加动画 */
-.research-areas,
-.news-section,
-.papers-section,
-h1, h2, h3 {
+h2, h1, section, .research-areas {
     animation: fadeInUp 0.8s ease-out forwards;
     opacity: 0;
 }
 
-/* 为不同部分设置不同的动画延迟 */
-h1 { animation-delay: 0.2s; }
-.research-areas { animation-delay: 0.4s; }
-.news-section { animation-delay: 0.6s; }
-.papers-section { animation-delay: 0.8s; }
+h2 { animation-delay: 0.2s; }
+section:nth-of-type(1) { animation-delay: 0.3s; }
+.research-areas { animation-delay: 0.5s; }
+section:nth-of-type(2) { animation-delay: 0.7s; }
+section:nth-of-type(3) { animation-delay: 0.9s; }
+section:nth-of-type(4) { animation-delay: 1.1s; }
 
-/* 增强研究领域卡片的动画效果 */
-.research-item {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+/* 鼠标悬停效果增强 */
+h2 {
     position: relative;
-    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
-.research-item::before {
+h2::after {
     content: '';
     position: absolute;
-    top: 0;
+    bottom: -5px;
     left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #8e44ad, #9b59b6);
+    transition: width 0.4s ease;
+}
+
+h2:hover::after {
     width: 100%;
-    height: 100%;
-    background: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(213, 184, 255, 0.3) 50%, transparent 51%, transparent 100%);
-    transform: translateX(-100%);
-    transition: all 0.6s;
-}
-
-.research-item:hover::before {
-    transform: translateX(100%);
-}
-
-.research-item:hover {
-    transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 10px 20px rgba(142, 68, 173, 0.1);
-}
-
-/* 为图标添加旋转动画 */
-.research-icon {
-    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.research-item:hover .research-icon {
-    transform: rotate(360deg) scale(1.2);
-}
-
-/* 为标题添加渐变色效果 */
-.research-content h3 {
-    background: linear-gradient(120deg, #8e44ad, #9b59b6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease;
-}
-
-/* 添加鼠标跟随效果 */
-.research-item:hover::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: radial-gradient(circle at var(--x) var(--y), 
-                               rgba(213, 184, 255, 0.3) 0%,
-                               transparent 50%);
-    pointer-events: none;
-}
-
-/* 添加粒子背景的容器 */
-#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: linear-gradient(45deg, #f9f4fa 0%, #fff 100%);
-}
-
-/* 确保内容在粒子之上 */
-.wrapper {
-    position: relative;
-    z-index: 1;
-}
-
-/* 为内容添加玻璃态效果 */
-.research-areas,
-.news-section,
-.papers-section {
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(213, 184, 255, 0.3);
-    border-radius: 15px;
-    padding: 25px;
-    margin: 20px 0;
-    box-shadow: 0 8px 32px 0 rgba(142, 68, 173, 0.1);
-}
-
-/* 添加炫酷的渐变边框效果 */
-.research-item {
-    position: relative;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 15px 0;
-    overflow: hidden;
-}
-
-.research-item::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #9b59b6, #c39bd3, #8e44ad);
-    z-index: -1;
-    border-radius: 12px;
-    animation: borderGradient 4s ease infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.research-item:hover::before {
-    opacity: 1;
-}
-
-@keyframes borderGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-/* 添加霓虹光效果 */
-.research-icon {
-    text-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
-    animation: glowing 2s ease-in-out infinite;
-}
-
-@keyframes glowing {
-    0% { filter: drop-shadow(0 0 2px rgba(142, 68, 173, 0.5)); }
-    50% { filter: drop-shadow(0 0 8px rgba(142, 68, 173, 0.8)); }
-    100% { filter: drop-shadow(0 0 2px rgba(142, 68, 173, 0.5)); }
-}
-
-/* 优化标题动画效果 */
-.research-content h3 {
-    background: linear-gradient(120deg, #8e44ad, #9b59b6, #8e44ad);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientText 3s linear infinite;
-}
-
-@keyframes gradientText {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 </style>
 
-<!-- 添加粒子背景容器 -->
-<div id="particles-js"></div>
-
-<!-- 添加粒子效果的脚本 -->
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-    particlesJS('particles-js', {
-        particles: {
-            number: {
-                value: 80,
-                density: {
-                    enable: true,
-                    value_area: 800
-                }
-            },
-            color: {
-                value: '#9b59b6'
-            },
-            shape: {
-                type: 'circle'
-            },
-            opacity: {
-                value: 0.5,
-                random: false
-            },
-            size: {
-                value: 3,
-                random: true
-            },
-            line_linked: {
-                enable: true,
-                distance: 150,
-                color: '#9b59b6',
-                opacity: 0.4,
-                width: 1
-            },
-            move: {
-                enable: true,
-                speed: 2,
-                direction: 'none',
-                random: false,
-                straight: false,
-                out_mode: 'out',
-                bounce: false
-            }
-        },
-        interactivity: {
-            detect_on: 'canvas',
-            events: {
-                onhover: {
-                    enable: true,
-                    mode: 'repulse'
-                },
-                onclick: {
-                    enable: true,
-                    mode: 'push'
-                },
-                resize: true
-            }
-        },
-        retina_detect: true
+document.addEventListener('DOMContentLoaded', function() {
+    // 背景鼠标跟踪效果
+    document.addEventListener('mousemove', function(e) {
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+        
+        document.documentElement.style.setProperty('--mouse-x', mouseX);
+        document.documentElement.style.setProperty('--mouse-y', mouseY);
+        
+        const researchAreas = document.querySelector('.research-areas');
+        if (researchAreas) {
+            const moveX = (mouseX - 0.5) * 10;
+            const moveY = (mouseY - 0.5) * 10;
+            researchAreas.style.backgroundPosition = `${50 + moveX}% ${50 + moveY}%`;
+        }
     });
+    
+    // 在滚动时添加动画
+    const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.research-item, .publication-item');
+        elements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const elementVisible = 150;
+            
+            if (elementTop < window.innerHeight - elementVisible) {
+                element.style.opacity = "1";
+                element.style.transform = "translateY(0)";
+            } else {
+                element.style.opacity = "0";
+                element.style.transform = "translateY(30px)";
+            }
+        });
+    };
+    
+    // 初始状态
+    const items = document.querySelectorAll('.research-item, .publication-item');
+    items.forEach(item => {
+        item.style.opacity = "0";
+        item.style.transform = "translateY(30px)";
+        item.style.transition = "all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)";
+    });
+    
+    // 监听滚动事件
+    window.addEventListener('scroll', animateOnScroll);
+    // 初始触发一次以显示首屏元素
+    setTimeout(animateOnScroll, 300);
 });
 </script>
