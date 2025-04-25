@@ -10,86 +10,144 @@ redirect_from:
 ## 👋 About Me
 I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be supervised by [Dr. Zhuoran Zheng](https://scholar.google.com/citations?user=pXzPL-sAAAAJ&hl=zh-CN&oi=ao).
 
-<div id="motto" class="animated-motto"></div>
-
+<div id="motto" class="epic-motto">
+    <div class="motto-bg"></div>
+    <div class="motto-container">
+        <div class="motto-icon">⚡</div>
+        <div class="motto-text">
+            <span class="motto-highlight">Vision without execution is hallucination.</span>
+            <span class="motto-author">— Edison</span>
+        </div>
+    </div>
+</div>
 <style>
-/* 创新动画效果替代打字机效果 */
-.animated-motto {
-    font-style: italic;
-    font-size: 24px;
-    margin: 20px 0;
-    min-height: 36px;
-    font-family: 'Georgia', serif;
-    font-weight: 500;
-    text-align: center;
+  
+.epic-motto {
     position: relative;
+    margin: 40px auto;
+    max-width: 90%;
+    min-height: 120px;
+    border-radius: 12px;
     overflow: hidden;
-    padding: 15px;
-    border-radius: 10px;
-    background: linear-gradient(45deg, rgba(142, 68, 173, 0.1), rgba(155, 89, 182, 0.1));
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(142, 68, 173, 0.2);
+}
+
+.motto-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #8e44ad, #9b59b6, #3498db);
+    background-size: 300% 300%;
+    animation: gradientBG 10s ease infinite;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.motto-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 40%);
+}
+
+.motto-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+    color: white;
+}
+
+.motto-icon {
+    font-size: 40px;
+    margin-right: 25px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    animation: pulseIcon 2s ease-in-out infinite alternate;
 }
 
 .motto-text {
-    background: linear-gradient(45deg, #8e44ad, #9b59b6, #3498db, #1abc9c);
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientFlow 8s ease infinite;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-@keyframes gradientFlow {
+.motto-highlight {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards 0.3s;
+}
+
+.motto-author {
+    align-self: flex-end;
+    font-size: 16px;
+    opacity: 0.8;
+    font-style: italic;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: fadeInLeft 1s ease forwards 1s;
+}
+
+@keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-.motto-highlight {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, 
-                transparent 0%, 
-                rgba(255, 255, 255, 0.2) 50%, 
-                transparent 100%);
-    animation: shimmer 3s infinite;
+@keyframes pulseIcon {
+    0% { transform: scale(1); text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+    100% { transform: scale(1.15); text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.4); }
 }
 
-@keyframes shimmer {
-    0% { left: -100%; }
-    100% { left: 100%; }
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* 添加闪光效果 */
+.motto-bg::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 40%,
+        rgba(255, 255, 255, 0.3) 50%,
+        rgba(255, 255, 255, 0) 60%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(30deg);
+    animation: shimmerEffect 7s infinite;
+}
+
+@keyframes shimmerEffect {
+    0% { transform: rotate(30deg) translateX(-100%); }
+    100% { transform: rotate(30deg) translateX(100%); }
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const mottoElement = document.getElementById('motto');
-    const mottoText = "Success is not final, failure is not fatal: It is the courage to continue that counts.";
-    
-    // 创建文本元素
-    const textElement = document.createElement('div');
-    textElement.className = 'motto-text';
-    textElement.textContent = mottoText;
-    
-    // 创建高光效果元素
-    const highlightElement = document.createElement('div');
-    highlightElement.className = 'motto-highlight';
-    
-    // 添加到DOM
-    mottoElement.appendChild(textElement);
-    mottoElement.appendChild(highlightElement);
-    
-    // 添加文本出现动画
-    textElement.style.opacity = '0';
-    setTimeout(() => {
-        textElement.style.transition = 'opacity 1.5s ease-in-out';
-        textElement.style.opacity = '1';
-    }, 500);
-});
-</script>
 
 ## 🔬 Research Interests
 <div class="research-areas">
