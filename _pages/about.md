@@ -279,73 +279,53 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 # 📰 News
-- [2025-04] Joining the Advanced Visual Computing Lab at Fuzhou University!
-- [2025-03] Successfully passed the research proposal defense.
-- [2024-12] Working on a new project in UHD image restoration.
-- [2024-09] Started my Master's program at Fuzhou University.
+<div class="news-section animated-section">
+    <ul>
+        <li>[2025-03] My first paper Accepted by Neurocomputing.</li>
+        <li>[2024-04] Working on a new project in UHD image restoration.</li>
+        <li>[2024-02] Working on a new project in medical image enhancement.</li>
+    </ul>
+</div>
 
-# 📝 Selected Publications
-<div class="publications">
-    <div class="publication-item">
-        <div class="pub-info">
-            <div class="pub-title">Working on exciting research - publications coming soon!</div>
-            <div class="pub-authors">Stay tuned for updates on my research work and publications.</div>
+# 📖 Education & Experience
+<div class="education-section animated-section">
+    <ul>
+        <li>Aug'2023-Present: Master Student, Fuzhou University, Fuzhou.</li>  
+        <li>Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.</li>
+    </ul>
+</div>
+
+# 🏆 Honors & Awards
+<div class="awards-section animated-section">
+    <div class="award-item">
+        <div class="award-icon">🎓</div>
+        <div class="award-content">
+            <h3>Outstanding Graduate</h3>
+            <p>Jimei University, 2023</p>
+        </div>
+    </div>
+    <div class="award-item">
+        <div class="award-icon">🏆</div>
+        <div class="award-content">
+            <h3>First Prize</h3>
+            <p>National College Students' Electronics Design Contest, 2021</p>
+        </div>
+    </div>
+    <div class="award-item">
+        <div class="award-icon">🥉</div>
+        <div class="award-content">
+            <h3>National Third Prize</h3>
+            <p>Team Leader: Mathorcup Mathematical Contest in Modeling, 2021</p>
+        </div>
+    </div>
+    <div class="award-item">
+        <div class="award-icon">🎯</div>
+        <div class="award-content">
+            <h3>Excellent Student Scholarship</h3>
+            <p>Jimei University, 2019-2023</p>
         </div>
     </div>
 </div>
-
-<style>
-.publications {
-    margin: 20px 0;
-}
-
-.publication-item {
-    background: white;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-.publication-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 4px;
-    height: 100%;
-    background: linear-gradient(to bottom, #8e44ad, #9b59b6);
-}
-
-.pub-title {
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #333;
-}
-
-.pub-authors {
-    color: #666;
-    font-style: italic;
-}
-</style>
-
-# 💬 Academic Services
-- Peer reviewer for undergraduate research projects at Jimei University
-- Student representative for academic affairs, Fuzhou University
-- Volunteer at the International Conference on Computer Vision (ICCV) 2023
-
-# 📖 Education & Experience
-- Aug'2023-Present: Master Student, Fuzhou University, Fuzhou.  
-- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
-
-# 🏆 Honors & Awards
-- Outstanding Graduate, Jimei University, 2023
-- First Prize, College Students' Innovation and Entrepreneurship Competition, 2022
-- Second Prize, National College Students' Electronics Design Contest, 2021
-- Excellent Student Scholarship, Jimei University, 2019-2023
 
 <style>
 /* 创新:背景动画效果 */
@@ -404,23 +384,72 @@ body::after {
     }
 }
 
-h2, h1, section, .research-areas {
+/* 新的奖项样式和动画 */
+.animated-section {
     animation: fadeInUp 0.8s ease-out forwards;
-    opacity: 0;
+    opacity: 1; /* 确保初始可见 */
 }
 
-h2 { animation-delay: 0.2s; }
-section:nth-of-type(1) { animation-delay: 0.3s; }
-.research-areas { animation-delay: 0.5s; }
-section:nth-of-type(2) { animation-delay: 0.7s; }
-section:nth-of-type(3) { animation-delay: 0.9s; }
-section:nth-of-type(4) { animation-delay: 1.1s; }
+.award-item {
+    background: white;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(142, 68, 173, 0.1);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
 
-/* 鼠标悬停效果增强 */
+.award-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #8e44ad, #9b59b6);
+}
+
+.award-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(142, 68, 173, 0.2);
+}
+
+.award-icon {
+    font-size: 28px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.award-item:hover .award-icon {
+    transform: scale(1.2);
+}
+
+.award-content {
+    flex: 1;
+}
+
+.award-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.award-content p {
+    margin: 0;
+    color: #666;
+}
+
+/* 标题样式 */
 h2 {
     position: relative;
     display: inline-block;
     margin-bottom: 15px;
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 1; /* 确保初始可见 */
 }
 
 h2::after {
@@ -436,6 +465,30 @@ h2::after {
 
 h2:hover::after {
     width: 100%;
+}
+
+/* 确保所有列表样式一致 */
+.news-section ul, .education-section ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.news-section li, .education-section li {
+    position: relative;
+    padding: 10px 0;
+    padding-left: 15px;
+}
+
+.news-section li::before, .education-section li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8e44ad;
 }
 </style>
 
@@ -457,34 +510,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // 在滚动时添加动画
-    const animateOnScroll = function() {
-        const elements = document.querySelectorAll('.research-item, .publication-item');
-        elements.forEach(element => {
-            const elementTop = element.getBoundingClientRect().top;
-            const elementVisible = 150;
-            
-            if (elementTop < window.innerHeight - elementVisible) {
-                element.style.opacity = "1";
-                element.style.transform = "translateY(0)";
-            } else {
-                element.style.opacity = "0";
-                element.style.transform = "translateY(30px)";
-            }
-        });
-    };
-    
-    // 初始状态
-    const items = document.querySelectorAll('.research-item, .publication-item');
-    items.forEach(item => {
-        item.style.opacity = "0";
-        item.style.transform = "translateY(30px)";
-        item.style.transition = "all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)";
+    // 为Award Items添加进入动画
+    const awardItems = document.querySelectorAll('.award-item');
+    awardItems.forEach((item, index) => {
+        item.style.opacity = '0';
+        item.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            item.style.transition = 'all 0.5s ease';
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0)';
+        }, 200 + (index * 150)); // 错开时间，产生连续出现效果
     });
     
-    // 监听滚动事件
-    window.addEventListener('scroll', animateOnScroll);
-    // 初始触发一次以显示首屏元素
-    setTimeout(animateOnScroll, 300);
+    // 为悬停添加光效
+    const allItems = document.querySelectorAll('.research-item, .award-item');
+    allItems.forEach(item => {
+        item.addEventListener('mousemove', function(e) {
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            this.style.setProperty('--x', x + 'px');
+            this.style.setProperty('--y', y + 'px');
+        });
+    });
 });
 </script>
