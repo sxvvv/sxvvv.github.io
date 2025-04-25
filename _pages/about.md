@@ -68,57 +68,45 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
 
 <style>
 .research-areas {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 30px;
-    border-radius: 16px;
-    margin: 25px 0;
-    box-shadow: 0 4px 12px rgba(158, 118, 180, 0.1);
-    border: 1px solid rgba(199, 160, 227, 0.2);
+    background: #f9f4fa;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
 }
 
 .research-item {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 25px;
-    margin: 20px 0;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(158, 118, 180, 0.05);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(199, 160, 227, 0.1);
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(142, 68, 173, 0.1);
     display: flex;
     align-items: flex-start;
-    position: relative;
 }
 
 .research-icon {
-    color: #8e44ad;
-    font-size: 26px;
+    font-size: 24px;
     margin-right: 15px;
-    transition: all 0.4s ease;
+    color: #9b59b6;
 }
 
 .research-content h3 {
     margin: 0 0 10px 0;
-    font-size: 1.3em;
-    font-weight: 600;
-    background: linear-gradient(120deg, #8e44ad, #9b59b6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 0.3px;
+    font-size: 1.2em;
+    color: #333;
 }
 
 .research-content p {
     margin: 0;
-    color: #555;
-    line-height: 1.6;
-    font-size: 0.95em;
+    color: #666;
+    line-height: 1.5;
 }
 
 /* 添加页面加载动画 */
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(15px);
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
@@ -131,8 +119,7 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
 .news-section,
 .papers-section,
 h1, h2, h3 {
-    animation: fadeInUp 0.7s ease-out forwards;
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation: fadeInUp 0.8s ease-out forwards;
     opacity: 0;
 }
 
@@ -156,7 +143,7 @@ h1 { animation-delay: 0.2s; }
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(214, 168, 230, 0.2) 50%, transparent 51%, transparent 100%);
+    background: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(213, 184, 255, 0.3) 50%, transparent 51%, transparent 100%);
     transform: translateX(-100%);
     transition: all 0.6s;
 }
@@ -166,9 +153,8 @@ h1 { animation-delay: 0.2s; }
 }
 
 .research-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 15px rgba(158, 118, 180, 0.15);
-    border-color: rgba(158, 118, 180, 0.3);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(142, 68, 173, 0.1);
 }
 
 /* 为图标添加旋转动画 */
@@ -177,22 +163,30 @@ h1 { animation-delay: 0.2s; }
 }
 
 .research-item:hover .research-icon {
-    transform: rotate(5deg) scale(1.1);
-    color: #9b59b6;
+    transform: rotate(360deg) scale(1.2);
+}
+
+/* 为标题添加渐变色效果 */
+.research-content h3 {
+    background: linear-gradient(120deg, #8e44ad, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
 }
 
 /* 添加鼠标跟随效果 */
 .research-item:hover::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
     left: 0;
-    width: 30%;
-    height: 2px;
-    background: linear-gradient(90deg, #8e44ad, transparent);
-    opacity: 0.6;
-    transition: all 0.3s ease;
-    width: 80%;
+    background: radial-gradient(circle at var(--x) var(--y), 
+                               rgba(213, 184, 255, 0.3) 0%,
+                               transparent 50%);
+    pointer-events: none;
 }
 
 /* 添加粒子背景的容器 */
@@ -203,7 +197,7 @@ h1 { animation-delay: 0.2s; }
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(135deg, #f9f4fc 0%, #eee6f3 100%);
+    background: linear-gradient(45deg, #f9f4fa 0%, #fff 100%);
 }
 
 /* 确保内容在粒子之上 */
@@ -216,14 +210,77 @@ h1 { animation-delay: 0.2s; }
 .research-areas,
 .news-section,
 .papers-section {
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(199, 160, 227, 0.25);
+    border: 1px solid rgba(213, 184, 255, 0.3);
     border-radius: 15px;
     padding: 25px;
     margin: 20px 0;
-    box-shadow: 0 4px 15px rgba(158, 118, 180, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(142, 68, 173, 0.1);
+}
+
+/* 添加炫酷的渐变边框效果 */
+.research-item {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.research-item::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #9b59b6, #c39bd3, #8e44ad);
+    z-index: -1;
+    border-radius: 12px;
+    animation: borderGradient 4s ease infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.research-item:hover::before {
+    opacity: 1;
+}
+
+@keyframes borderGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 添加霓虹光效果 */
+.research-icon {
+    text-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
+    animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+    0% { filter: drop-shadow(0 0 2px rgba(142, 68, 173, 0.5)); }
+    50% { filter: drop-shadow(0 0 8px rgba(142, 68, 173, 0.8)); }
+    100% { filter: drop-shadow(0 0 2px rgba(142, 68, 173, 0.5)); }
+}
+
+/* 优化标题动画效果 */
+.research-content h3 {
+    background: linear-gradient(120deg, #8e44ad, #9b59b6, #8e44ad);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 3s linear infinite;
+}
+
+@keyframes gradientText {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 </style>
 
@@ -237,47 +294,38 @@ document.addEventListener('DOMContentLoaded', () => {
     particlesJS('particles-js', {
         particles: {
             number: {
-                value: 50,
+                value: 80,
                 density: {
                     enable: true,
-                    value_area: 1000
+                    value_area: 800
                 }
             },
             color: {
-                value: ['#9b59b6', '#8e44ad', '#c39bd3', '#af7ac5']
+                value: '#9b59b6'
+            },
+            shape: {
+                type: 'circle'
             },
             opacity: {
-                value: 0.3,
-                random: true,
-                anim: {
-                    enable: true,
-                    speed: 1,
-                    opacity_min: 0.1,
-                    sync: false
-                }
+                value: 0.5,
+                random: false
             },
             size: {
                 value: 3,
-                random: true,
-                anim: {
-                    enable: true,
-                    speed: 2,
-                    size_min: 0.3,
-                    sync: false
-                }
+                random: true
             },
             line_linked: {
                 enable: true,
                 distance: 150,
-                color: '#8e44ad',
-                opacity: 0.2,
+                color: '#9b59b6',
+                opacity: 0.4,
                 width: 1
             },
             move: {
                 enable: true,
-                speed: 1.2,
+                speed: 2,
                 direction: 'none',
-                random: true,
+                random: false,
                 straight: false,
                 out_mode: 'out',
                 bounce: false
@@ -288,37 +336,16 @@ document.addEventListener('DOMContentLoaded', () => {
             events: {
                 onhover: {
                     enable: true,
-                    mode: 'bubble'
+                    mode: 'repulse'
                 },
                 onclick: {
                     enable: true,
                     mode: 'push'
                 },
                 resize: true
-            },
-            modes: {
-                bubble: {
-                    distance: 150,
-                    size: 6,
-                    duration: 2,
-                    opacity: 0.6,
-                    speed: 3
-                },
-                push: {
-                    particles_nb: 3
-                }
             }
-        }
-    });
-    
-    // 添加鼠标跟随效果
-    document.querySelectorAll('.research-item').forEach(item => {
-        item.addEventListener('mousemove', function(e) {
-            const x = e.clientX - this.getBoundingClientRect().left;
-            const y = e.clientY - this.getBoundingClientRect().top;
-            this.style.setProperty('--x', `${x}px`);
-            this.style.setProperty('--y', `${y}px`);
-        });
+        },
+        retina_detect: true
     });
 });
 </script>
