@@ -58,286 +58,215 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
 
 
 <!-- </div> -->
+# 💬 Academic Services
+-
 
-/* Import a modern, clean font (optional, replace with your preferred font) */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+# 📖 Educations&Experience
+- Aug'2023-Present: Master Student, Fuzhou University, Fuzhou.  
+- Sep'2019-Jul'2023: B.Eng (Telecommunication Engineering), Jimei University, Xiamen.
 
-/* Define root variables for easy color theming */
-:root {
-    --primary-color: #7C3AED; /* Vibrant Purple */
-    --secondary-color: #EC4899; /* Bright Pink */
-    --accent-color: #10B981; /* Emerald Green */
-    --background-start: #F3E8FF; /* Light Lavender */
-    --background-end: #FFF7ED; /* Pale Peach */
-    --text-dark: #1F2937; /* Dark Gray */
-    --text-light: #6B7280; /* Medium Gray */
-    --glass-bg: rgba(255, 255, 255, 0.65);
-    --glass-border: rgba(255, 255, 255, 0.4);
-    --shadow-light: rgba(107, 114, 128, 0.1);
-    --shadow-medium: rgba(107, 114, 128, 0.15);
+
+.research-areas {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 16px;
+    margin: 25px 0;
+    box-shadow: 0 4px 12px rgba(158, 118, 180, 0.1);
+    border: 1px solid rgba(199, 160, 227, 0.2);
 }
 
-body {
-    font-family: 'Poppins', sans-serif; /* Apply the clean font */
-    color: var(--text-dark);
-    line-height: 1.6;
-}
-
-/* --- Particle Background Container --- */
-#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    /* Soft gradient background behind particles */
-    background: linear-gradient(45deg, var(--background-start) 0%, var(--background-end) 100%);
-}
-
-/* --- Main Content Wrapper --- */
-.wrapper {
-    position: relative;
-    z-index: 1;
-    max-width: 1100px; /* Control max width for readability */
-    margin: 0 auto; /* Center the content */
-    padding: 20px;
-}
-
-/* --- Glassmorphism Sections --- */
-.research-areas,
-.news-section,
-.papers-section { /* Apply to all major content blocks */
-    background: var(--glass-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid var(--glass-border);
-    border-radius: 18px; /* Softer corners */
-    padding: 30px 35px; /* More padding */
-    margin: 30px 0;
-    box-shadow: 0 6px 25px var(--shadow-light);
-    transition: all 0.4s ease-in-out;
-}
-
-/* --- Page Load Animation --- */
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(25px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.research-areas,
-.news-section,
-.papers-section,
-h1, h2, h3 { /* Apply animation */
-    animation: fadeInUp 0.9s ease-out forwards;
-    opacity: 0;
-}
-
-/* Stagger the animation */
-h1 { animation-delay: 0.2s; }
-h2 { animation-delay: 0.3s; }
-.research-areas { animation-delay: 0.4s; }
-.news-section { animation-delay: 0.6s; }
-.papers-section { animation-delay: 0.8s; }
-.research-item { animation-delay: calc(0.5s + var(--item-index, 0) * 0.1s); /* Stagger items */ }
-
-
-/* --- Research Item Styling --- */
 .research-item {
-    background: rgba(255, 255, 255, 0.85); /* Slightly more opaque than section */
+    background: rgba(255, 255, 255, 0.95);
     padding: 25px;
     margin: 20px 0;
     border-radius: 12px;
-    box-shadow: 0 3px 8px var(--shadow-light);
-    display: flex;
-    align-items: center; /* Center icon vertically */
-    position: relative;
-    overflow: hidden; /* Important for pseudo-elements */
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid transparent; /* Placeholder for border */
+    box-shadow: 0 2px 10px rgba(158, 118, 180, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(199, 160, 227, 0.1);
 }
 
-/* Subtle Hover Effect */
+/* 更新配色方案 - 科技紫色调 */
+:root {
+    --primary-color: #8e44ad;
+    --secondary-color: #9b59b6;
+    --accent-color: #d6a8e6;
+    --light-accent: #f0e6f5;
+    --dark-text: #2c3e50;
+}
+
+/* 更新动画效果 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 优雅的悬停效果 */
 .research-item:hover {
-    transform: translateY(-5px) scale(1.01); /* Less dramatic scale */
-    box-shadow: 0 8px 20px var(--shadow-medium);
-    border-color: var(--glass-border); /* Show subtle border on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(158, 118, 180, 0.15);
+    border-color: rgba(158, 118, 180, 0.3);
+    background: linear-gradient(135deg, #fff 0%, var(--light-accent) 100%);
 }
 
-/* Refined Gradient Border Animation (Subtler) */
-.research-item::before {
-    content: '';
-    position: absolute;
-    top: -1px; left: -1px; right: -1px; bottom: -1px; /* Adjust for border width */
-    background: linear-gradient(120deg, var(--primary-color), var(--secondary-color), var(--accent-color), var(--primary-color));
-    background-size: 300% 300%; /* Larger size for smoother animation */
-    z-index: -1;
-    border-radius: 13px; /* Slightly larger than item radius */
-    opacity: 0; /* Hidden initially */
-    transition: opacity 0.5s ease;
-    animation: subtleBorderSpin 6s linear infinite paused; /* Paused initially */
-}
-
-.research-item:hover::before {
-    opacity: 0.8; /* Reveal on hover */
-    animation-play-state: running; /* Start animation on hover */
-}
-
-@keyframes subtleBorderSpin {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-/* Elegant Icon Styling */
-.research-icon {
-    font-size: 26px;
-    margin-right: 20px;
-    color: var(--primary-color); /* Use primary color */
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    text-shadow: 0 0 8px rgba(124, 58, 237, 0.3); /* Softer shadow */
-}
-
-.research-item:hover .research-icon {
-    transform: rotateY(360deg); /* Different rotation axis */
-    color: var(--secondary-color); /* Change color on hover */
-    text-shadow: 0 0 12px rgba(236, 72, 153, 0.5); /* Pinkish shadow */
-}
-
-/* Content Styling */
+/* 更新标题样式 */
 .research-content h3 {
-    margin: 0 0 8px 0;
-    font-size: 1.25em; /* Slightly larger */
-    font-weight: 500; /* Medium weight */
-    /* Elegant Gradient Text */
-    background: linear-gradient(110deg, var(--primary-color), var(--secondary-color));
-    background-size: 100% auto;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 12px;
+    background: linear-gradient(120deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: background-position 0.6s ease;
+    letter-spacing: 0.3px;
 }
 
-.research-item:hover .research-content h3 {
-    background-position: -100% center; /* Shift gradient on hover */
-}
-
+/* 文本样式 */
 .research-content p {
-    margin: 0;
-    color: var(--text-light);
+    color: #555;
     line-height: 1.6;
     font-size: 0.95em;
 }
 
-/* Optional: Mouse Follow Aura (Subtle) */
+/* 更新粒子背景 */
+#particles-js {
+    background: linear-gradient(135deg, #f9f4fc 0%, #eee6f3 100%);
+}
+
+/* 更新玻璃态效果 */
+.research-areas,
+.news-section,
+.papers-section {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(199, 160, 227, 0.25);
+    box-shadow: 0 4px 15px rgba(158, 118, 180, 0.08);
+}
+
+/* 更新图标样式 */
+.research-icon {
+    color: var(--primary-color);
+    font-size: 26px;
+    transition: all 0.4s ease;
+}
+
+.research-item:hover .research-icon {
+    transform: scale(1.1) rotate(5deg);
+    color: var(--secondary-color);
+}
+
+/* 添加精致的装饰元素 */
 .research-item::after {
     content: '';
     position: absolute;
-    width: 200px; /* Smaller aura */
-    height: 200px;
-    top: var(--y, 50%); /* Use CSS variables for position */
-    left: var(--x, 50%);
-    transform: translate(-50%, -50%);
-    background: radial-gradient(circle,
-                               rgba(167, 139, 250, 0.15) 0%, /* Soft purple */
-                               transparent 60%);
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary-color), transparent);
     opacity: 0;
-    transition: opacity 0.5s ease;
-    pointer-events: none;
-    border-radius: 50%;
+    transition: all 0.3s ease;
 }
 
 .research-item:hover::after {
-    opacity: 1;
+    opacity: 0.6;
+    width: 80%;
 }
 
-/* --- Header/Motto Styling (If you bring back Typed.js or similar) --- */
-.motto-container { /* Example container */
-    text-align: center;
-    margin: 40px 0;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.1); /* Very subtle background */
-    border-radius: 10px;
+/* 添加更细腻的动画效果 */
+.research-areas,
+.news-section,
+.papers-section,
+h1, h2, h3 {
+    animation: fadeInUp 0.7s ease-out forwards;
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 0;
 }
 
-.typed-motto { /* Style for the typed text */
-    font-style: normal; /* Less italic */
-    font-size: 1.5em; /* Adjust as needed */
-    font-weight: 400;
-    min-height: 2.5em; /* Ensure space */
-    background: linear-gradient(110deg, var(--text-dark), var(--primary-color));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Poppins', sans-serif; /* Consistent font */
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+/* 更多优雅的阴影效果 */
+h1, h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: var(--dark-text);
 }
 
-.typed-cursor {
-    color: var(--primary-color); /* Match accent */
-    font-weight: 300;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    50% { opacity: 0; }
-}
-
-</style>
-
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize Particles.js
-    particlesJS('particles-js', {
-        particles: {
-            number: { value: 60, density: { enable: true, value_area: 800 } },
-            color: { value: ["#7C3AED", "#EC4899", "#10B981"] }, // Array of colors
-            shape: { type: "circle" }, // Simple shape
-            opacity: { value: 0.4, random: true }, // Add randomness
-            size: { value: 3, random: true },
-            line_linked: { enable: true, distance: 130, color: "#A78BFA", opacity: 0.3, width: 1 }, // Softer links
-            move: { enable: true, speed: 1.5, direction: "none", random: true, straight: false, out_mode: "out", bounce: false } // Slower, random movement
+particlesJS('particles-js', {
+    particles: {
+        number: {
+            value: 50,
+            density: {
+                enable: true,
+                value_area: 1000
+            }
         },
-        interactivity: {
-            detect_on: "canvas",
-            events: {
-                onhover: { enable: true, mode: "bubble" }, // Bubble effect instead of repulse
-                onclick: { enable: true, mode: "push" },
-                resize: true
+        color: {
+            value: ['#9b59b6', '#8e44ad', '#c39bd3', '#af7ac5']
+        },
+        opacity: {
+            value: 0.3,
+            random: true,
+            anim: {
+                enable: true,
+                speed: 1,
+                opacity_min: 0.1,
+                sync: false
+            }
+        },
+        size: {
+            value: 3,
+            random: true,
+            anim: {
+                enable: true,
+                speed: 2,
+                size_min: 0.3,
+                sync: false
+            }
+        },
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: '#8e44ad',
+            opacity: 0.2,
+            width: 1
+        },
+        move: {
+            enable: true,
+            speed: 1.2,
+            direction: 'none',
+            random: true,
+            straight: false,
+            out_mode: 'out',
+            bounce: false
+        }
+    },
+    interactivity: {
+        detect_on: 'canvas',
+        events: {
+            onhover: {
+                enable: true,
+                mode: 'bubble'
             },
-             modes: { // Configure bubble effect
-                bubble: {
-                  distance: 150,
-                  size: 5,
-                  duration: 2,
-                  opacity: 0.6,
-                  speed: 3
-                }
-              }
+            onclick: {
+                enable: true,
+                mode: 'push'
+            },
+            resize: true
         },
-        retina_detect: true
-    });
-
-    // Add item index for staggered animation (if items are dynamically added, do this differently)
-    const researchItems = document.querySelectorAll('.research-item');
-    researchItems.forEach((item, index) => {
-        item.style.setProperty('--item-index', index);
-    });
-
-
-    // Add mouse position tracking for the aura effect
-    const itemsWithAura = document.querySelectorAll('.research-item');
-    itemsWithAura.forEach(item => {
-        item.addEventListener('mousemove', (e) => {
-            const rect = item.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            item.style.setProperty('--x', `${x}px`);
-            item.style.setProperty('--y', `${y}px`);
-        });
-    });
+        modes: {
+            bubble: {
+                distance: 150,
+                size: 6,
+                duration: 2,
+                opacity: 0.6,
+                speed: 3
+            },
+            push: {
+                particles_nb: 3
+            }
+        }
+    }
 });
-</script>
-
-
