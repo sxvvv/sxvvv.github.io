@@ -8,8 +8,12 @@ redirect_from:
   - /about.html
 ---
 ## 👋 About Me
-I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be supervised by [Dr. Zhuoran Zheng](https://scholar.google.com/citations?user=pXzPL-sAAAAJ&hl=zh-CN&oi=ao).
+Welcome to my academic homepage. I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be supervised by [Dr. Zhuoran Zheng](https://scholar.google.com/citations?user=pXzPL-sAAAAJ&hl=zh-CN&oi=ao).
 
+- <span style="color: #008B8B">**Inverse Problems**</span>: Complex image degradation restoration, ultra-high-definition (UHD) image enhancement 
+- <span style="color: #87CEEB">**AI Agents**</span>: Planning and Decision-Making, Reinforcement learning
+
+I am seeking 26 fall PhD positions and open to collaborations. If you are interested in working together or have potential PhD opportunities, please feel free to reach out to me.
 <div id="motto" class="epic-motto">
     <div class="motto-bg"></div>
     <div class="motto-container">
@@ -374,6 +378,20 @@ I am Xin Su, a Master's student at Fuzhou University. I am fortunate to be super
         <div class="award-content">
             <h3>National Third Prize</h3>
             <p>Team Leader: Mathorcup Mathematical Contest in Modeling, 2021</p>
+        </div>
+    </div>
+    <div class="award-item">
+        <div class="award-icon">🥈</div>
+        <div class="award-content">
+            <h3>Second Prize</h3>
+            <p>Asia-Pacific Mathematical Contest in Modeling, 2020</p>
+        </div>
+    </div>
+    <div class="award-item">
+        <div class="award-icon">🌟</div>
+        <div class="award-content">
+            <h3>Honorable Mention</h3>
+            <p>Mathematical Contest in Modeling (MCM/ICM), Problem H, 2021</p>
         </div>
     </div>
     <div class="award-item">
